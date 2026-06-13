@@ -37,16 +37,16 @@ Para ejecutar este proyecto, necesitas configurar tu entorno local:
 Para iniciar el servidor, abre una terminal en la carpeta del backend y sigue estos pasos:
 
 1. Dar permisos de ejecución al script (solo la primera vez):
-   `chmod +x start-backend.sh`
+   - Git bash: `chmod +x start-backend.sh`
 
-2: Iniciar el servidor (Elige tu método)
+2. Iniciar el servidor (Elige tu método)
 
-Opción A: Usando Maven (Si lo tienes instalado globalmente)
+   Opción A: Usando Maven (Si lo tienes instalado globalmente)
    - Git Bash: `./start-backend.sh`
    - CMD / PowerShell: `mvn spring-boot:run`
 
-Opción B: Usando Maven Wrapper (No requiere instalación de Maven)
-Si no quieres configurar variables de entorno, puedes usar el script incluido que descarga la versión necesaria automáticamente:
+   Opción B: Usando Maven Wrapper (No requiere instalación de Maven)
+   Si no quieres configurar variables de entorno, puedes usar el script incluido que descarga la versión necesaria automáticamente:
    - Git Bash: `./mvnw spring-boot:run`
    - CMD / PowerShell: `mvnw.cmd spring-boot:run`
 
