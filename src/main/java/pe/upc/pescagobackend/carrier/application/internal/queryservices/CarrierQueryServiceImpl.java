@@ -20,9 +20,8 @@ public class CarrierQueryServiceImpl implements CarrierQueryService {
 
     @Override
     public Optional<Carrier> handle(GetCarrierByIdQuery query){
-        return carrierRepository.findByUserId(query.userId());
+        return carrierRepository.findById(query.id());  // ← Busca por carrier ID, no por user_id
     }
-
     @Override
     public Optional<List<Carrier>> handle(GetCarriersQuery query) {
         return Optional.of(carrierRepository.findAll());

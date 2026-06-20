@@ -1,6 +1,7 @@
 package pe.upc.pescagobackend.carrier.interfaces.rest;
 
 import io.swagger.v3.oas.annotations.Operation;
+import org.springframework.web.bind.annotation.RequestMethod;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -29,6 +30,7 @@ import java.util.stream.Collectors;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
+@CrossOrigin(origins = "http://localhost:4200", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 @RestController
 @RequestMapping(value = "/api/v1/carriers", produces = APPLICATION_JSON_VALUE)
 @Tag(name = "Carrier", description = "Available Carrier Endpoints")
@@ -54,23 +56,11 @@ public class CarrierController {
         }
     }
 
-    @DeleteMapping("{userId}")
+    @DeleteMapping("{id}")
     @Operation(summary = "Delete a Carrier", description = "Delete a Carrier by id")
-    public void deleteUser(@PathVariable Long userId) {
-        var deleteCarrierCommand = new DeleteCarrierCommand(userId);
+    public void deleteCarrier(@PathVariable Long id) {
+        var deleteCarrierCommand = new DeleteCarrierCommand(id);
         carrierCommandService.handle(deleteCarrierCommand);
-    }
-
-    @GetMapping("{userId}")
-    @Operation(summary = "Get Carrier by id", description = "Get Carrier by id")
-    public ResponseEntity<CarrierResource> getUser(@PathVariable Long userId) {
-        var query = new GetCarrierByIdQuery(userId);
-        var carrierOptional = carrierQueryService.handle(query);
-        if (carrierOptional.isEmpty()) {
-            return ResponseEntity.notFound().build();
-        }
-        var carrierResource = CarrierResourceFromEntityAssembler.toResourceFromEntity(carrierOptional.get());
-        return ResponseEntity.ok(carrierResource);
     }
 
     @GetMapping
@@ -87,4 +77,15 @@ public class CarrierController {
         return ResponseEntity.ok(carrierResources);
     }
 
+    @GetMapping("{id}")
+    @Operation(summary = "Get Carrier by id", description = "Get Carrier by id")
+    public ResponseEntity<CarrierResource> getCarrierById(@PathVariable Long id) {
+        var query = new GetCarrierByIdQuery(id);
+        var carrierOptional = carrierQueryService.handle(query);
+        if (carrierOptional.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+        var carrierResource = CarrierResourceFromEntityAssembler.toResourceFromEntity(carrierOptional.get());
+        return ResponseEntity.ok(carrierResource);
+    }
 }

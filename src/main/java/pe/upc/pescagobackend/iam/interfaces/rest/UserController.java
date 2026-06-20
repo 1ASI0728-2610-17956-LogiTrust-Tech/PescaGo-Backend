@@ -19,7 +19,7 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 
 @RestController
 @RequestMapping(value = "/api/v1/users", produces = APPLICATION_JSON_VALUE)
-@Tag(name = "User", description = "Available User Endpoints")
+@CrossOrigin(originPatterns = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE, RequestMethod.OPTIONS})@Tag(name = "User", description = "Available User Endpoints")
 public class UserController {
     private final UserCommandService userCommandService;
     private final UserQueryService userQueryService;
