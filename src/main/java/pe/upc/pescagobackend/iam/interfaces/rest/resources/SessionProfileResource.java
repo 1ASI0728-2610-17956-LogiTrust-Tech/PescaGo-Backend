@@ -1,14 +1,15 @@
 package pe.upc.pescagobackend.iam.interfaces.rest.resources;
 
-public record UserResource(
-    Long id,
-    String username,
-    String email,
-    String role
+public record SessionProfileResource(
+        Long userId,
+        String username,
+        String email,
+        String role,
+        BusinessProfileResource profile
 ) {
-    public UserResource {
-        if (id == null || id <= 0) {
-            throw new IllegalArgumentException("ID must be a positive number");
+    public SessionProfileResource {
+        if (userId == null || userId <= 0) {
+            throw new IllegalArgumentException("User ID must be a positive number.");
         }
         if (username == null || username.isBlank()) {
             throw new IllegalArgumentException("Username cannot be null or blank.");

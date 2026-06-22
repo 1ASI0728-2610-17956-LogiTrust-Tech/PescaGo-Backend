@@ -1,5 +1,6 @@
 package pe.upc.pescagobackend.iam.application.internal.commandservices;
 
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import pe.upc.pescagobackend.iam.domain.model.aggregates.User;
 import pe.upc.pescagobackend.iam.domain.model.commands.CreateUserCommand;
@@ -12,14 +13,17 @@ import java.util.Optional;
 @Service
 public class UserCommandServiceImpl implements UserCommandService {
     private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
 
-    public UserCommandServiceImpl(UserRepository userRepository) {
+    public UserCommandServiceImpl(UserRepository userRepository, PasswordEncoder passwordEncoder) {
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Override
     public Optional<User> handle(CreateUserCommand command) {
         var user = new User(command);
+        user.setPassword(passwordEncoder.encode(command.password()));
         try {
             userRepository.save(user);
             return Optional.of(user);

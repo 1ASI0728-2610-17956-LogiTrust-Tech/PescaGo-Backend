@@ -15,8 +15,8 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/carrier/application/internal/queryservices/CarrierQueryServiceImpl.java": {
-    "mtime": 1782089879.8345752,
-    "ast_hash": "bb98896908a77effcce9e58cd97d38bc",
+    "mtime": 1782099306.9556623,
+    "ast_hash": "6bdec87d9ca735b9157da34430cba12a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/carrier/domain/model/aggregates/Carrier.java": {
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/carrier/domain/services/CarrierQueryService.java": {
-    "mtime": 1781331700.9307785,
-    "ast_hash": "899077a07c5880c140162a5331ba0ea5",
+    "mtime": 1782099302.6695788,
+    "ast_hash": "535a33bc729d5f1bb9c37c5f05bebda0",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/carrier/infrastructure/persistence/jpa/repositories/CarrierRepository.java": {
@@ -255,13 +255,13 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/application/internal/commandservices/UserCommandServiceImpl.java": {
-    "mtime": 1781331700.967474,
-    "ast_hash": "501795fdf5224c283e2619f20ac7f240",
+    "mtime": 1782099387.315734,
+    "ast_hash": "d65dc550372a6db6e768b95285800501",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/application/internal/queryservices/UserQueryServiceImpl.java": {
-    "mtime": 1781331700.967474,
-    "ast_hash": "b3dca9a3e2ee2f931c887bbbd623a225",
+    "mtime": 1782099396.063489,
+    "ast_hash": "dc87ee4479c19c87ed2accdf840a0f1d",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/domain/model/aggregates/User.java": {
@@ -300,13 +300,13 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/infrastructure/persistence/jpa/repositories/UserRepository.java": {
-    "mtime": 1781331700.9753587,
-    "ast_hash": "c22a43dfc1eb83319221935d4e83837a",
+    "mtime": 1782099380.6057863,
+    "ast_hash": "89e95663d013a5565bb012d9e943827a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/UserController.java": {
-    "mtime": 1782089879.8553424,
-    "ast_hash": "6d0326f2c4703245eb40289411496d6a",
+    "mtime": 1782099423.8617592,
+    "ast_hash": "ddf8eeffbc355765532acd4e536a3a45",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/CreateUserResource.java": {
@@ -315,8 +315,8 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/UserResource.java": {
-    "mtime": 1781331700.9771523,
-    "ast_hash": "e506e24192c65759f3959f53071a8868",
+    "mtime": 1782099399.0591352,
+    "ast_hash": "d0aaf80a15a93625a5b3b8c0b9be0742",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/transform/CreateUserCommandFromResourceAssembler.java": {
@@ -325,8 +325,8 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/transform/UserResourceFromEntityAssembler.java": {
-    "mtime": 1781331700.9787145,
-    "ast_hash": "e3adad9002bbfe6f31545f455bc2df50",
+    "mtime": 1782099400.8658192,
+    "ast_hash": "91ced414e734dcb86272db9ed85f025c",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImpl.java": {
@@ -530,8 +530,8 @@
     "semantic_hash": ""
   },
   "pom.xml": {
-    "mtime": 1781331700.9200525,
-    "ast_hash": "611332fe083cb79ddf9c39cb4e94fdc4",
+    "mtime": 1782099212.110349,
+    "ast_hash": "922e1dab517a46b390f83ce8f22d6a7d",
     "semantic_hash": ""
   },
   "start-backend.sh": {
@@ -540,8 +540,113 @@
     "semantic_hash": ""
   },
   "docs/architecture/PESCAGO_V2_BACKEND_IMPLEMENTATION_PLAN.md": {
-    "mtime": 1782097991.6544037,
-    "ast_hash": "4f960a31a00c9332a1d824beba81820d",
+    "mtime": 1782098834.2966104,
+    "ast_hash": "e4474eb85577efcf6d9b29ee37332081",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/model/queries/GetCarrierByUserIdQuery.java": {
+    "mtime": 1782099299.1607816,
+    "ast_hash": "10d5b2042828e5934304d2440457d995",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java": {
+    "mtime": 1782099275.3280258,
+    "ast_hash": "8693d220988520a000a62fb52c744004",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/application/internal/queryservices/UserProfileQueryService.java": {
+    "mtime": 1782099332.5808678,
+    "ast_hash": "3981a3aadcf36c061d64c60cbef333cf",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/AuthController.java": {
+    "mtime": 1782099379.2722008,
+    "ast_hash": "48d85ecfb5ccbbf55379d07a8fa14d7e",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/ProfileController.java": {
+    "mtime": 1782099357.3468497,
+    "ast_hash": "9c65989b59028b39edcd586dc45753ba",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/BusinessProfileResource.java": {
+    "mtime": 1782099341.0869396,
+    "ast_hash": "521fb25c15bde99fe1fc59eb0524384e",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/LoginProfileResource.java": {
+    "mtime": 1782099336.1060278,
+    "ast_hash": "e6ac61eaf2ee2c4751d6e7d9c52199a3",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/LoginRequest.java": {
+    "mtime": 1782099333.8990543,
+    "ast_hash": "08fade81254e31780a9817d33fe6e6a9",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/LoginResponse.java": {
+    "mtime": 1782099338.3428342,
+    "ast_hash": "6ef71ca09a89a07cbbb6372f9af1bb10",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/SessionProfileResource.java": {
+    "mtime": 1782099343.9328358,
+    "ast_hash": "1aa04880a3f81ed3c8215b72ed52452b",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/application/RoleCompatibilityMapper.java": {
+    "mtime": 1782099226.9176528,
+    "ast_hash": "199beeb63959c31ea022f7a30381fb6a",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/domain/model/enums/Role.java": {
+    "mtime": 1782099225.5505488,
+    "ast_hash": "904c92bf64990f1915073bea4169d6e2",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/AuthenticatedUser.java": {
+    "mtime": 1782099232.7658842,
+    "ast_hash": "42d8b16c623fc861f63826cae0c942d9",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/JwtAuthenticationFilter.java": {
+    "mtime": 1782099264.6916628,
+    "ast_hash": "f418896e809a688292a46dc0235fbe45",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/JwtProperties.java": {
+    "mtime": 1782099227.9262168,
+    "ast_hash": "c08cdff125963cd785cbc0d7388dd6e1",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/JwtService.java": {
+    "mtime": 1782099242.1886892,
+    "ast_hash": "73bb1098cfe143dd9a6368c2e8d21a46",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/RestAccessDeniedHandler.java": {
+    "mtime": 1782100061.7272806,
+    "ast_hash": "31ed1372558a289074c1cac00da7c85f",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/RestAuthenticationEntryPoint.java": {
+    "mtime": 1782100064.3253224,
+    "ast_hash": "7de33589de0fbd04a8231c1f496cddc1",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/SecurityConfiguration.java": {
+    "mtime": 1782099270.3233943,
+    "ast_hash": "3645c496597c3828e87cd50da5591aa4",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/SecurityUserDetailsService.java": {
+    "mtime": 1782099246.2309763,
+    "ast_hash": "2b1349d3ffea3b25afe6844e829ba3e2",
+    "semantic_hash": ""
+  },
+  "src/test/java/pe/upc/pescagobackend/iam/AuthV2IntegrationTest.java": {
+    "mtime": 1782099448.782422,
+    "ast_hash": "33280132cdc4845713d1b8a881cf0a10",
     "semantic_hash": ""
   }
 }
