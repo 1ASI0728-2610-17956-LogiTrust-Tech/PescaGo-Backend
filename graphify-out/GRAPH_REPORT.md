@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Backend  (2026-06-22)
 
 ## Corpus Check
-- 145 files · ~27,446 words
+- 178 files · ~31,601 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1072 nodes · 1604 edges · 112 communities (56 shown, 56 thin omitted)
-- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.8)
+- 1318 nodes · 2103 edges · 136 communities (74 shown, 62 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 111 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3dd0ec77`
+- Built from commit: `4eddef53`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -124,20 +124,44 @@
 - [[_COMMUNITY_Community 107|Community 107]]
 - [[_COMMUNITY_Community 108|Community 108]]
 - [[_COMMUNITY_Community 111|Community 111]]
+- [[_COMMUNITY_Community 112|Community 112]]
+- [[_COMMUNITY_Community 113|Community 113]]
+- [[_COMMUNITY_Community 114|Community 114]]
+- [[_COMMUNITY_Community 115|Community 115]]
+- [[_COMMUNITY_Community 116|Community 116]]
+- [[_COMMUNITY_Community 117|Community 117]]
+- [[_COMMUNITY_Community 118|Community 118]]
+- [[_COMMUNITY_Community 119|Community 119]]
+- [[_COMMUNITY_Community 120|Community 120]]
+- [[_COMMUNITY_Community 121|Community 121]]
+- [[_COMMUNITY_Community 122|Community 122]]
+- [[_COMMUNITY_Community 123|Community 123]]
+- [[_COMMUNITY_Community 124|Community 124]]
+- [[_COMMUNITY_Community 125|Community 125]]
+- [[_COMMUNITY_Community 126|Community 126]]
+- [[_COMMUNITY_Community 127|Community 127]]
+- [[_COMMUNITY_Community 128|Community 128]]
+- [[_COMMUNITY_Community 129|Community 129]]
+- [[_COMMUNITY_Community 130|Community 130]]
+- [[_COMMUNITY_Community 131|Community 131]]
+- [[_COMMUNITY_Community 132|Community 132]]
+- [[_COMMUNITY_Community 133|Community 133]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `PescaGo — Auditoría de esquema y preparación Flyway (Bloque 0D)` - 14 edges
-2. `LegacyStatusTranslator` - 13 edges
-3. `AuthenticatedUser` - 13 edges
-4. `PescaGo — Runbook de baseline Flyway (PostgreSQL legacy `pescago`)` - 13 edges
-5. `String` - 11 edges
-6. `CarrierByUserV2IntegrationTest` - 10 edges
-7. `AuthV2IntegrationTest` - 10 edges
-8. `RequestV1StatusIntegrationTest` - 10 edges
-9. `SnakeCasePhysicalNamingStrategy` - 9 edges
-10. `HiredServiceV1StatusIntegrationTest` - 9 edges
+1. `IllegalArgumentException` - 22 edges
+2. `FleetVehicleV2IntegrationTest` - 22 edges
+3. `Test` - 16 edges
+4. `FleetVehicleV2Controller` - 14 edges
+5. `PescaGo — Auditoría de esquema y preparación Flyway (Bloque 0D)` - 14 edges
+6. `LegacyStatusTranslator` - 13 edges
+7. `AuthenticatedUser` - 13 edges
+8. `PescaGo — Runbook de baseline Flyway (PostgreSQL legacy `pescago`)` - 13 edges
+9. `FleetVehicleV2RequestValidationIntegrationTest` - 12 edges
+10. `ResponseEntity` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `AuthenticatedUser` --implements--> `UserDetails`  [EXTRACTED]
+  src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/AuthenticatedUser.java → src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/SecurityUserDetailsService.java
 - `CarrierCommandServiceImpl` --implements--> `CarrierCommandService`  [EXTRACTED]
   src/main/java/pe/upc/pescagobackend/carrier/application/internal/commandservices/CarrierCommandServiceImpl.java → src/main/java/pe/upc/pescagobackend/carrier/domain/services/CarrierCommandService.java
 - `CarrierQueryServiceImpl` --implements--> `CarrierQueryService`  [EXTRACTED]
@@ -146,13 +170,11 @@
   src/main/java/pe/upc/pescagobackend/entrepreneur/application/internal/commandservices/EntreprenuerCommandServiceImpl.java → src/main/java/pe/upc/pescagobackend/entrepreneur/domain/services/EntreprenuerCommandService.java
 - `EntreprenuerQueryServiceImpl` --implements--> `EntreprenuerQueryService`  [EXTRACTED]
   src/main/java/pe/upc/pescagobackend/entrepreneur/application/internal/queryservices/EntreprenuerQueryServiceImpl.java → src/main/java/pe/upc/pescagobackend/entrepreneur/domain/services/EntreprenuerQueryService.java
-- `HIredServiceCommandServiceImpl` --implements--> `HiredServiceCommandService`  [EXTRACTED]
-  src/main/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImpl.java → src/main/java/pe/upc/pescagobackend/hiredService/domain/services/HiredServiceCommandService.java
 
 ## Import Cycles
 - None detected.
 
-## Communities (112 total, 56 thin omitted)
+## Communities (136 total, 62 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.09
@@ -234,13 +256,21 @@ Nodes (4): 1. Instalación de dependencias, 2. Configuración del entorno, 3. Ej
 Cohesion: 0.31
 Nodes (7): CorsConfig, CorsRegistry, Bean, CorsConfigurationSource, Override, String, WebMvcConfigurer
 
+### Community 21 - "Community 21"
+Cohesion: 0.12
+Nodes (25): DuplicatePlateException, FleetCarrierContextResolverTest, FleetCarrierContextResolver, PatchMapping, CarrierProfileNotFoundException, FleetVehicleV2Controller, RuntimeException, String (+17 more)
+
 ### Community 24 - "Community 24"
-Cohesion: 0.07
-Nodes (33): AccessDeniedException, AccessDeniedHandler, AuthenticationEntryPoint, AuthenticationException, ExceptionHandler, HttpSecurity, JwtAuthenticationFilter, ProblemDetail (+25 more)
+Cohesion: 0.14
+Nodes (17): AccessDeniedException, AccessDeniedHandler, CarrierV2Controller, RestAccessDeniedHandler, AuthenticatedUser, CarrierQueryService, CarrierResource, ExceptionHandler (+9 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.60
 Nodes (3): CreateCarrierCommand, CreateCarrierResource, CreateCarrierCommandFromResourceAssembler
+
+### Community 26 - "Community 26"
+Cohesion: 0.09
+Nodes (25): VehicleCommandServiceImplIntegrityTest, VehicleQueryServiceImpl, VehicleRepository, VehicleQueryService, GetOwnVehicleByIdQuery, GetOwnVehiclesQuery, List, Optional (+17 more)
 
 ### Community 29 - "Community 29"
 Cohesion: 0.47
@@ -263,20 +293,28 @@ Cohesion: 0.16
 Nodes (17): HiredServiceQueryService, HiredServiceQueryServiceImpl, HiredServiceQueryService, GetHiredServiceByIdQuery, GetHiredServicesByCarrierIdQuery, GetHiredServicesByEntrepreneurIdQuery, HiredService, HiredServiceRepository (+9 more)
 
 ### Community 34 - "Community 34"
-Cohesion: 0.12
-Nodes (13): LegacyStatusTranslator, LegacyStatusTranslatorTest, ExecutionStatus, RequestStatus, HiredService, HiredServiceResource, Request, RequestResource (+5 more)
+Cohesion: 0.05
+Nodes (29): Carrier, Entreprenuer, Receipt, User, Vehicle, LegacyStatusTranslator, LegacyStatusTranslatorTest, ExecutionStatus (+21 more)
+
+### Community 35 - "Community 35"
+Cohesion: 0.27
+Nodes (7): FleetVehicleV2IntegrationTest, Carrier, Long, String, Test, User, Vehicle
 
 ### Community 36 - "Community 36"
-Cohesion: 0.07
-Nodes (27): RoleCompatibilityMapper, Claims, FilterChain, LoginRequest, LoginResponse, OncePerRequestFilter, LoginProfileResource, AuthController (+19 more)
+Cohesion: 0.26
+Nodes (7): Claims, JwtService, JwtProperties, Long, Optional, String, User
 
 ### Community 37 - "Community 37"
 Cohesion: 0.60
 Nodes (3): CreateUserCommand, CreateUserResource, CreateUserCommandFromResourceAssembler
 
 ### Community 38 - "Community 38"
-Cohesion: 0.07
-Nodes (23): Collection, GrantedAuthority, AuthenticatedUser, SecurityUserDetailsService, Carrier, CarrierResource, Entreprenuer, EntreprenuerResource (+15 more)
+Cohesion: 0.21
+Nodes (6): Collection, GrantedAuthority, AuthenticatedUser, Override, Role, String
+
+### Community 39 - "Community 39"
+Cohesion: 0.14
+Nodes (18): VehicleCommandServiceImpl, VehicleCommandService, ActivateVehicleCommand, DeactivateVehicleCommand, Long, Optional, Override, RegisterVehicleCommand (+10 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.47
@@ -300,7 +338,7 @@ Nodes (17): RequestQueryServiceImpl, RequestQueryService, RequestQueryService, G
 
 ### Community 47 - "Community 47"
 Cohesion: 0.12
-Nodes (12): Duration, Environment, HiredServiceV1StatusIntegrationTest, PostConstruct, JwtPropertiesValidator, JwtTtlParser, JwtProperties, String (+4 more)
+Nodes (12): Duration, Environment, PostConstruct, RequestV1StatusIntegrationTest, JwtPropertiesValidator, JwtTtlParser, JwtProperties, String (+4 more)
 
 ### Community 87 - "Community 87"
 Cohesion: 0.08
@@ -332,7 +370,7 @@ Nodes (7): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.4 Restriccio
 
 ### Community 94 - "Community 94"
 Cohesion: 0.19
-Nodes (9): CarrierRepository, RequestV1StatusIntegrationTest, Carrier, List, Long, Optional, Request, String (+1 more)
+Nodes (9): HiredServiceV1StatusIntegrationTest, CarrierRepository, Carrier, List, Long, Optional, HiredService, String (+1 more)
 
 ### Community 95 - "Community 95"
 Cohesion: 0.32
@@ -343,12 +381,12 @@ Cohesion: 0.12
 Nodes (19): BusinessProfileResource, UserProfileQueryService, ProfileController, Carrier, CarrierQueryService, Entreprenuer, EntreprenuerQueryService, Long (+11 more)
 
 ### Community 97 - "Community 97"
-Cohesion: 0.27
-Nodes (5): AuthV2IntegrationTest, Long, String, Test, User
+Cohesion: 0.13
+Nodes (16): AuthenticationEntryPoint, AuthenticationException, HttpSecurity, JwtAuthenticationFilter, RestAccessDeniedHandler, RestAuthenticationEntryPoint, RestAuthenticationEntryPoint, SecurityConfiguration (+8 more)
 
 ### Community 98 - "Community 98"
-Cohesion: 0.17
-Nodes (12): PasswordAuthenticationService, UserRepository, Optional, PasswordEncoder, String, User, UserRepository, Long (+4 more)
+Cohesion: 0.10
+Nodes (17): PasswordAuthenticationService, AuthV2IntegrationTest, UserRepository, Optional, PasswordEncoder, String, User, UserRepository (+9 more)
 
 ### Community 99 - "Community 99"
 Cohesion: 0.40
@@ -366,25 +404,73 @@ Nodes (38): 1. Contexto de ejecución, 2. Estado de `flyway_schema_history`, 3. 
 Cohesion: 0.50
 Nodes (4): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado
 
+### Community 112 - "Community 112"
+Cohesion: 0.20
+Nodes (8): BeforeEach, FleetVehicleV2RequestValidationIntegrationTest, Carrier, Long, String, Test, User, Vehicle
+
+### Community 113 - "Community 113"
+Cohesion: 0.27
+Nodes (5): FleetPersistenceConstraintClassifierTest, FleetPersistenceConstraintClassifier, DataIntegrityViolationException, String, Test
+
+### Community 114 - "Community 114"
+Cohesion: 0.24
+Nodes (9): LoginRequest, LoginResponse, LoginProfileResource, AuthController, JwtService, Operation, PasswordAuthenticationService, PostMapping (+1 more)
+
+### Community 115 - "Community 115"
+Cohesion: 0.23
+Nodes (7): Carrier, CarrierResource, Entreprenuer, EntreprenuerResource, Long, CarrierResourceFromEntityAssembler, EntreprenuerResourceFromEntityAssembler
+
+### Community 116 - "Community 116"
+Cohesion: 0.25
+Nodes (8): FilterChain, OncePerRequestFilter, JwtAuthenticationFilter, SecurityUserDetailsService, HttpServletRequest, HttpServletResponse, JwtService, Override
+
+### Community 117 - "Community 117"
+Cohesion: 0.25
+Nodes (7): SecurityUserDetailsService, Long, Override, String, UserDetails, UserRepository, UserDetailsService
+
+### Community 118 - "Community 118"
+Cohesion: 0.36
+Nodes (5): FleetCarrierContextResolver, AuthenticatedUser, CarrierRepository, Long, Optional
+
+### Community 119 - "Community 119"
+Cohesion: 0.38
+Nodes (4): Long, RegisterVehicleCommand, RegisterVehicleResource, RegisterVehicleCommandFromResourceAssembler
+
+### Community 120 - "Community 120"
+Cohesion: 0.38
+Nodes (4): Long, UpdateVehicleCommand, UpdateVehicleResource, UpdateVehicleCommandFromResourceAssembler
+
+### Community 121 - "Community 121"
+Cohesion: 0.40
+Nodes (3): RoleCompatibilityMapper, Role, String
+
+### Community 123 - "Community 123"
+Cohesion: 0.47
+Nodes (3): Vehicle, VehicleResource, VehicleResourceFromEntityAssembler
+
+### Community 124 - "Community 124"
+Cohesion: 0.60
+Nodes (3): User, UserResource, UserResourceFromEntityAssembler
+
 ## Knowledge Gaps
-- **234 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+229 more)
+- **253 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+248 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **62 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Dimensions` connect `Community 4` to `Community 94`?**
-  _High betweenness centrality (0.090) - this node is a cross-community bridge._
-- **Why does `CarrierData` connect `Community 2` to `Community 47`?**
-  _High betweenness centrality (0.074) - this node is a cross-community bridge._
+- **Why does `IllegalArgumentException` connect `Community 34` to `Community 32`, `Community 0`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 45`, `Community 14`, `Community 13`, `Community 47`, `Community 17`, `Community 21`?**
+  _High betweenness centrality (0.304) - this node is a cross-community bridge._
+- **Are the 21 inferred relationships involving `IllegalArgumentException` (e.g. with `.Carrier()` and `.Entreprenuer()`) actually correct?**
+  _`IllegalArgumentException` has 21 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _234 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _253 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.09388335704125178 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.12648221343873517 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.1225296442687747 - nodes in this community are weakly interconnected._
-- **Should `Community 24` be split into smaller, more focused modules?**
-  _Cohesion score 0.06914893617021277 - nodes in this community are weakly interconnected._
+- **Should `Community 21` be split into smaller, more focused modules?**
+  _Cohesion score 0.11733615221987315 - nodes in this community are weakly interconnected._
