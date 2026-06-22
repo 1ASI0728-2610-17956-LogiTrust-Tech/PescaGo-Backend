@@ -4,7 +4,6 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import pe.upc.pescagobackend.iam.domain.model.aggregates.User;
 import pe.upc.pescagobackend.iam.domain.model.commands.DeleteUserCommand;
 import pe.upc.pescagobackend.iam.domain.model.queries.GetUserByAuthenticationQuery;
 import pe.upc.pescagobackend.iam.domain.model.queries.GetUserByIdQuery;
@@ -31,12 +30,13 @@ public class UserController {
 
     @PostMapping
     @Operation(summary = "Create a User", description = "Create a User")
-    public ResponseEntity<User> createUser(@RequestBody CreateUserResource resource) {
+    public ResponseEntity<UserResource> createUser(@RequestBody CreateUserResource resource) {
         try {
             var createUserCommand = CreateUserCommandFromResourceAssembler.toCommandFromResource(resource);
             var createdUser = userCommandService.handle(createUserCommand)
                     .orElseThrow(() -> new IllegalArgumentException("Error creating user"));
-            return ResponseEntity.status(201).body(createdUser);
+            var userResource = UserResourceFromEntityAssembler.toResourceFromEntity(createdUser);
+            return ResponseEntity.status(201).body(userResource);
         } catch (IllegalArgumentException ex) {
             return ResponseEntity.status(400).body(null);
         }

@@ -6,7 +6,7 @@ import pe.upc.pescagobackend.iam.domain.model.aggregates.User;
 import java.util.Optional;
 
 public interface UserRepository extends JpaRepository<User, Long> {
-    Optional<User>findById(Long id);
+    Optional<User> findById(Long id);
 
-    Optional<User> findByEmailAndPassword(String email, String password);
+    Optional<User> findByEmail(String email);
 }
