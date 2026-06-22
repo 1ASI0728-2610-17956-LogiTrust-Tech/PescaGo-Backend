@@ -715,8 +715,13 @@
     "semantic_hash": ""
   },
   "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md": {
-    "mtime": 1782112358.6457047,
-    "ast_hash": "d958bbf11d89b11e4db86c86a6f331e2",
+    "mtime": 1782116607.3076804,
+    "ast_hash": "330f722d77af1420285fda374b464389",
+    "semantic_hash": ""
+  },
+  "docs/architecture/PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md": {
+    "mtime": 1782116580.9036849,
+    "ast_hash": "b5f46bb99a8691ef80b17ac232b9fccf",
     "semantic_hash": ""
   }
 }

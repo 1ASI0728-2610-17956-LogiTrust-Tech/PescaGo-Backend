@@ -1,13 +1,28 @@
 # PescaGo — Runbook de baseline Flyway (PostgreSQL legacy `pescago`)
 
-**Rama de trabajo:** `feature/pescago-v2-flyway-baseline-readiness`
+**Rama de trabajo:** `feature/pescago-v2-flyway-baseline-record`
 **Fecha de preparación:** 2026-06-22
-**Base de referencia:** `main` @ `00b44b9` (merge PR #6 — `feat: add guarded Flyway initial schema`)
+**Última actualización:** 2026-06-22 (post-baseline real)
+**Base de referencia:** `main` @ `3dd0ec7` (merge PR #7 — `docs: add Flyway baseline runbook`)
 **Migración de referencia:** `src/main/resources/db/migration/V1__initial_schema.sql`
 **Flyway objetivo:** 11.20.0 (alineado con `pom.xml`)
 
-> **Alcance de este documento:** evidencia de readiness, ensayo aislado de baseline y procedimiento operativo.
-> **No se ha ejecutado baseline, migrate ni ninguna mutación sobre la base real `pescago`.**
+> **Alcance de este documento:** evidencia de readiness, ensayo aislado, procedimiento operativo histórico y estado post-baseline.
+> **El baseline real sobre `pescago` fue ejecutado con éxito** (`BASELINE_SUCCESS`, registro `20260622_032020`). Ver [PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md](./PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md).
+
+---
+
+## Estado actual (post-baseline real)
+
+| Aspecto | Estado vigente |
+|---------|----------------|
+| `public.flyway_schema_history` | **Existe** — un registro `BASELINE` v1 exitoso |
+| Versión Flyway efectiva | **`1`** (marcador baseline; `V1` no ejecutado) |
+| Próximo paso operativo | **Migración evolutiva `V2__...`** — no volver a ejecutar `baseline()` |
+| `V1__initial_schema.sql` | Referencia greenfield; **no modificar ni renombrar** |
+| `FLYWAY_ENABLED` | No definido / `false` — **mantener temporalmente** |
+| `ddl-auto` | **`update`** — transición a `validate` **pendiente** de `V2__...` validada |
+| `Flyway.migrate()` en producción | **No ejecutado** aún |
 
 ---
 
@@ -41,11 +56,21 @@ Auditoría JDBC read-only ejecutada el 2026-06-22 con las siguientes salvaguarda
 
 ## 2. Estado de `flyway_schema_history` en `pescago`
 
+### Estado vigente (tras baseline real `20260622_032020`)
+
 | Aspecto | Estado |
 |---------|--------|
-| Tabla `public.flyway_schema_history` | **No existe** |
-| Versión Flyway registrada | N/A |
-| Implicación | La base legacy nunca ha sido gestionada por Flyway; el primer paso operativo será `baseline` en versión `1`, no `migrate` de `V1` |
+| Tabla `public.flyway_schema_history` | **Existe** |
+| Versión Flyway registrada | **`1`** (`type = BASELINE`, `success = true`) |
+| Fila `type = SQL` versión `1` | **No existe** — `V1__initial_schema.sql` no fue ejecutado |
+| Implicación | El esquema está bajo gobierno Flyway en versión baseline; el siguiente paso es **`V2__...`**, no `baseline()` ni re-ejecución de `V1` |
+
+### Snapshot pre-baseline (auditoría de readiness, 2026-06-22)
+
+| Aspecto | Estado en readiness |
+|---------|---------------------|
+| Tabla `public.flyway_schema_history` | No existía |
+| Implicación entonces | Primer paso operativo planificado: `baseline` en versión `1` |
 
 ---
 
@@ -122,9 +147,9 @@ No proceder hasta cumplir **todas** las condiciones siguientes:
 
 ---
 
-## 6. Procedimiento exacto de ejecución real — **NO EJECUTADO**
+## 6. Procedimiento exacto de ejecución real — **EJECUTADO**
 
-> **Estado:** pendiente de ventana operativa. Los pasos siguientes son la referencia acordada; **no se han aplicado sobre `pescago`.**
+> **Estado:** **completado** (`BASELINE_SUCCESS`, `20260622_032020`). Los pasos siguientes se conservan como referencia histórica del procedimiento acordado. Detalle sanitizado en [PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md](./PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md).
 
 ### Pre-vuelo
 
@@ -171,15 +196,15 @@ No proceder hasta cumplir **todas** las condiciones siguientes:
 
 ### Post-ejecución inmediata (antes de habilitar migraciones automáticas)
 
-1. Ejecutar `Flyway.validate()` — debe reportar éxito.
-2. Ejecutar `Flyway.migrate()` — debe reportar **0 migraciones aplicadas** (esquema ya en versión `1`).
-3. Mantener `FLYWAY_ENABLED=false` hasta completar la verificación de la sección 7.
+1. Ejecutar `Flyway.validate()` — debe reportar éxito. **Cumplido** en la ejecución real.
+2. ~~Ejecutar `Flyway.migrate()`~~ — **no ejecutado** en la ventana de baseline (correcto: esquema ya en versión `1` sin scripts pendientes hasta existir `V2__...`).
+3. Mantener `FLYWAY_ENABLED=false` hasta completar la verificación de la sección 7 y hasta que el equipo apruebe migraciones automáticas.
 
 ---
 
 ## 7. Procedimiento de verificación posterior
 
-Tras el baseline real en `pescago`, verificar en modo read-only o con transacción de solo lectura:
+Tras el baseline real en `pescago` (**verificado en ejecución `20260622_032020`**), comprobar en modo read-only o con transacción de solo lectura:
 
 | # | Comprobación | Criterio de éxito |
 |---|--------------|-------------------|
@@ -198,12 +223,14 @@ Documentar resultados en ticket/incidente de cambio con timestamp y responsable.
 
 ## 8. Criterios de rollback y contingencia
 
-### Cuándo abortar antes de baseline
+### Cuándo abortar antes de baseline *(histórico — baseline ya completado)*
 
 - Aparecen tablas inesperadas o faltan tablas legacy.
 - Existe ya `flyway_schema_history` con historial incompatible.
 - No hay backup verificable.
 - Hay conexiones de escritura activas (aplicación u otros clientes).
+
+> **Nota:** `flyway_schema_history` ya existe con baseline v1 válido. No reintentar `baseline()`.
 
 ### Si el baseline falla a mitad de ejecución
 
@@ -226,11 +253,12 @@ Documentar resultados en ticket/incidente de cambio con timestamp y responsable.
 
 ## 9. Primera migración evolutiva tras baseline real
 
-Después del baseline exitoso en `pescago`:
+El baseline exitoso en `pescago` **ya está completado**. Estado y reglas vigentes:
 
-- La versión efectiva del esquema quedará en **`1`** (marcador baseline, no ejecución de `V1__initial_schema.sql`).
-- La **primera migración evolutiva** que Flyway aplicará debe ser **`V2__...`** (nuevo archivo en `db/migration`).
-- **No** renombrar ni reutilizar `V1__initial_schema.sql` para cambios incrementales; su checksum ya está fijado (`169D02583FD4057F2A8399CABA5FB064193BBF8D470C681E3B564111D0749F15`).
+- La versión efectiva del esquema es **`1`** (marcador baseline; `V1__initial_schema.sql` no se ejecutó).
+- El **próximo paso operativo** es crear y aplicar **`V2__...`** (nuevo archivo en `db/migration`).
+- **No** renombrar, editar ni reutilizar `V1__initial_schema.sql`; permanece como referencia greenfield. Checksum fijado: `169D02583FD4057F2A8399CABA5FB064193BBF8D470C681E3B564111D0749F15`.
+- **No** volver a ejecutar `Flyway.baseline()` sobre `pescago`.
 
 ---
 
@@ -241,8 +269,8 @@ Estado actual (`application.properties`): `spring.jpa.hibernate.ddl-auto=update`
 | Fase | Configuración recomendada | Motivo |
 |------|---------------------------|--------|
 | **Antes del baseline** | `update` (sin cambio) + `FLYWAY_ENABLED=false` | Evitar doble fuente de verdad mientras Flyway no gobierna el esquema |
-| **Inmediatamente después del baseline verificado** | Mantener `update` temporalmente + `FLYWAY_ENABLED=false` | Permite arranques sin sorpresas mientras se valida paridad JPA ↔ BD |
-| **Tras primera migración `V2__...` exitosa en entorno de staging** | Cambiar a `spring.jpa.hibernate.ddl-auto=validate` | Hibernate deja de mutar el esquema; Flyway es la única vía de evolución DDL |
+| **Ahora (post-baseline `20260622_032020`)** | Mantener `update` + `FLYWAY_ENABLED` no definido/`false` | Estado vigente; evita doble fuente de verdad hasta validar `V2__...` |
+| **Tras primera migración `V2__...` exitosa en entorno de staging** | Cambiar a `spring.jpa.hibernate.ddl-auto=validate` | **Pendiente** — Hibernate dejará de mutar el esquema; Flyway será la única vía DDL |
 | **Producción** | `validate` + `FLYWAY_ENABLED=true` (cuando el pipeline operativo lo apruebe) | Alineación con estrategia v2: migraciones versionadas, sin drift Hibernate |
 
 **Señales para hacer el cambio a `validate`:**
@@ -253,11 +281,23 @@ Estado actual (`application.properties`): `spring.jpa.hibernate.ddl-auto=update`
 
 ---
 
-## Anexo — Confirmaciones de esta preparación
+## Anexo — Confirmaciones
+
+### Preparación (readiness, 2026-06-22)
 
 | Afirmación | Estado |
 |------------|--------|
-| Base real `pescago` modificada (DDL/DML/Flyway) | **No** — solo lectura |
-| Baseline ejecutado en `pescago` | **No** |
+| Auditoría read-only de readiness | **Sí** |
 | Ensayo baseline en BD temporal | **Sí** — eliminada al finalizar |
-| Documento generado | `docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md` |
+| Backup verificable pre-baseline | **Sí** — SHA `81BB278B0174D1610A43E9FE3EE1662FD1E736F75ED9EEB036C684021C2B018E` |
+
+### Ejecución real (2026-06-22)
+
+| Afirmación | Estado |
+|------------|--------|
+| Baseline ejecutado en `pescago` | **Sí** — `BASELINE_SUCCESS` |
+| `flyway_schema_history` creada | **Sí** — un registro `BASELINE` v1 |
+| `V1__initial_schema.sql` ejecutado | **No** |
+| `Flyway.migrate()` ejecutado | **No** |
+| Tablas legacy y conteos intactos | **Sí** |
+| Registro de ejecución | [PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md](./PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md) |

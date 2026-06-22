@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Backend  (2026-06-22)
 
 ## Corpus Check
-- 144 files · ~26,766 words
+- 145 files · ~27,446 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1055 nodes · 1586 edges · 112 communities (56 shown, 56 thin omitted)
+- 1072 nodes · 1604 edges · 112 communities (56 shown, 56 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `00b44b96`
+- Built from commit: `3dd0ec77`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -129,7 +129,7 @@
 1. `PescaGo — Auditoría de esquema y preparación Flyway (Bloque 0D)` - 14 edges
 2. `LegacyStatusTranslator` - 13 edges
 3. `AuthenticatedUser` - 13 edges
-4. `PescaGo — Runbook de baseline Flyway (PostgreSQL legacy `pescago`)` - 12 edges
+4. `PescaGo — Runbook de baseline Flyway (PostgreSQL legacy `pescago`)` - 13 edges
 5. `String` - 11 edges
 6. `CarrierByUserV2IntegrationTest` - 10 edges
 7. `AuthV2IntegrationTest` - 10 edges
@@ -267,16 +267,16 @@ Cohesion: 0.12
 Nodes (13): LegacyStatusTranslator, LegacyStatusTranslatorTest, ExecutionStatus, RequestStatus, HiredService, HiredServiceResource, Request, RequestResource (+5 more)
 
 ### Community 36 - "Community 36"
-Cohesion: 0.13
-Nodes (15): Claims, FilterChain, OncePerRequestFilter, JwtAuthenticationFilter, JwtService, SecurityUserDetailsService, HttpServletRequest, HttpServletResponse (+7 more)
+Cohesion: 0.07
+Nodes (27): RoleCompatibilityMapper, Claims, FilterChain, LoginRequest, LoginResponse, OncePerRequestFilter, LoginProfileResource, AuthController (+19 more)
 
 ### Community 37 - "Community 37"
 Cohesion: 0.60
 Nodes (3): CreateUserCommand, CreateUserResource, CreateUserCommandFromResourceAssembler
 
 ### Community 38 - "Community 38"
-Cohesion: 0.06
-Nodes (26): RoleCompatibilityMapper, Collection, GrantedAuthority, AuthenticatedUser, SecurityUserDetailsService, Carrier, CarrierResource, Entreprenuer (+18 more)
+Cohesion: 0.07
+Nodes (23): Collection, GrantedAuthority, AuthenticatedUser, SecurityUserDetailsService, Carrier, CarrierResource, Entreprenuer, EntreprenuerResource (+15 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.47
@@ -347,8 +347,8 @@ Cohesion: 0.27
 Nodes (5): AuthV2IntegrationTest, Long, String, Test, User
 
 ### Community 98 - "Community 98"
-Cohesion: 0.10
-Nodes (21): PasswordAuthenticationService, LoginRequest, LoginResponse, UserRepository, LoginProfileResource, AuthController, Optional, PasswordEncoder (+13 more)
+Cohesion: 0.17
+Nodes (12): PasswordAuthenticationService, UserRepository, Optional, PasswordEncoder, String, User, UserRepository, Long (+4 more)
 
 ### Community 99 - "Community 99"
 Cohesion: 0.40
@@ -359,15 +359,15 @@ Cohesion: 0.47
 Nodes (3): JwtPropertiesValidatorTest, TestConfiguration, Test
 
 ### Community 108 - "Community 108"
-Cohesion: 0.08
-Nodes (22): 10. Recomendación: transición de `ddl-auto=update` a `validate`, 1. Evidencia de readiness de la base real `pescago`, 2. Estado de `flyway_schema_history` en `pescago`, 3. Conteos de tablas y distribución de estados, 4. Resultado del ensayo temporal de baseline, 5. Condiciones obligatorias antes de ejecutar baseline en `pescago`, 6. Procedimiento exacto de ejecución real — **NO EJECUTADO**, 7. Procedimiento de verificación posterior (+14 more)
+Cohesion: 0.05
+Nodes (38): 1. Contexto de ejecución, 2. Estado de `flyway_schema_history`, 3. Integridad de tablas legacy, 4. Artefactos de referencia verificados, 5. Configuración vigente tras el baseline, 6. Próximo cambio permitido, 7. Documentos relacionados, Confirmaciones adicionales (+30 more)
 
 ### Community 111 - "Community 111"
 Cohesion: 0.50
 Nodes (4): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado
 
 ## Knowledge Gaps
-- **223 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+218 more)
+- **234 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+229 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
@@ -375,11 +375,11 @@ Nodes (4): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con fl
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Dimensions` connect `Community 4` to `Community 94`?**
-  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+  _High betweenness centrality (0.090) - this node is a cross-community bridge._
 - **Why does `CarrierData` connect `Community 2` to `Community 47`?**
-  _High betweenness centrality (0.076) - this node is a cross-community bridge._
+  _High betweenness centrality (0.074) - this node is a cross-community bridge._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _223 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _234 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.09388335704125178 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
