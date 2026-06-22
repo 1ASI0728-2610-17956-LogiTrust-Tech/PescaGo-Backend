@@ -9045,13 +9045,243 @@
       "norm_label": "3. ejecucion"
     },
     {
+      "label": "PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook",
+      "community": 108,
+      "norm_label": "pescago_flyway_baseline_runbook.md"
+    },
+    {
+      "label": "PescaGo \u2014 Runbook de baseline Flyway (PostgreSQL legacy `pescago`)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "community": 108,
+      "norm_label": "pescago \u2014 runbook de baseline flyway (postgresql legacy `pescago`)"
+    },
+    {
+      "label": "1. Evidencia de readiness de la base real `pescago`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_1_evidencia_de_readiness_de_la_base_real_pescago",
+      "community": 108,
+      "norm_label": "1. evidencia de readiness de la base real `pescago`"
+    },
+    {
+      "label": "Tablas de negocio confirmadas",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_tablas_de_negocio_confirmadas",
+      "community": 108,
+      "norm_label": "tablas de negocio confirmadas"
+    },
+    {
+      "label": "2. Estado de `flyway_schema_history` en `pescago`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_2_estado_de_flyway_schema_history_en_pescago",
+      "community": 108,
+      "norm_label": "2. estado de `flyway_schema_history` en `pescago`"
+    },
+    {
+      "label": "3. Conteos de tablas y distribuci\u00f3n de estados",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_3_conteos_de_tablas_y_distribuci\u00f3n_de_estados",
+      "community": 108,
+      "norm_label": "3. conteos de tablas y distribucion de estados"
+    },
+    {
+      "label": "Conteo de filas por tabla (sin exposici\u00f3n de registros)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L54",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_conteo_de_filas_por_tabla_sin_exposici\u00f3n_de_registros",
+      "community": 108,
+      "norm_label": "conteo de filas por tabla (sin exposicion de registros)"
+    },
+    {
+      "label": "Distribuci\u00f3n agrupada de `status`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L65",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_distribuci\u00f3n_agrupada_de_status",
+      "community": 108,
+      "norm_label": "distribucion agrupada de `status`"
+    },
+    {
+      "label": "4. Resultado del ensayo temporal de baseline",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_4_resultado_del_ensayo_temporal_de_baseline",
+      "community": 108,
+      "norm_label": "4. resultado del ensayo temporal de baseline"
+    },
+    {
+      "label": "5. Condiciones obligatorias antes de ejecutar baseline en `pescago`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L98",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_5_condiciones_obligatorias_antes_de_ejecutar_baseline_en_pescago",
+      "community": 108,
+      "norm_label": "5. condiciones obligatorias antes de ejecutar baseline en `pescago`"
+    },
+    {
+      "label": "6. Procedimiento exacto de ejecuci\u00f3n real \u2014 **NO EJECUTADO**",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L125",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_6_procedimiento_exacto_de_ejecuci\u00f3n_real_no_ejecutado",
+      "community": 108,
+      "norm_label": "6. procedimiento exacto de ejecucion real \u2014 **no ejecutado**"
+    },
+    {
+      "label": "Pre-vuelo",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L129",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_pre_vuelo",
+      "community": 108,
+      "norm_label": "pre-vuelo"
+    },
+    {
+      "label": "Ejecuci\u00f3n de baseline (manual o script operativo dedicado)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_ejecuci\u00f3n_de_baseline_manual_o_script_operativo_dedicado",
+      "community": 108,
+      "norm_label": "ejecucion de baseline (manual o script operativo dedicado)"
+    },
+    {
+      "label": "Post-ejecuci\u00f3n inmediata (antes de habilitar migraciones autom\u00e1ticas)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L172",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_post_ejecuci\u00f3n_inmediata_antes_de_habilitar_migraciones_autom\u00e1ticas",
+      "community": 108,
+      "norm_label": "post-ejecucion inmediata (antes de habilitar migraciones automaticas)"
+    },
+    {
+      "label": "7. Procedimiento de verificaci\u00f3n posterior",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L180",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_7_procedimiento_de_verificaci\u00f3n_posterior",
+      "community": 108,
+      "norm_label": "7. procedimiento de verificacion posterior"
+    },
+    {
+      "label": "8. Criterios de rollback y contingencia",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L199",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_8_criterios_de_rollback_y_contingencia",
+      "community": 108,
+      "norm_label": "8. criterios de rollback y contingencia"
+    },
+    {
+      "label": "Cu\u00e1ndo abortar antes de baseline",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L201",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_cu\u00e1ndo_abortar_antes_de_baseline",
+      "community": 108,
+      "norm_label": "cuando abortar antes de baseline"
+    },
+    {
+      "label": "Si el baseline falla a mitad de ejecuci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L208",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_si_el_baseline_falla_a_mitad_de_ejecuci\u00f3n",
+      "community": 108,
+      "norm_label": "si el baseline falla a mitad de ejecucion"
+    },
+    {
+      "label": "Rollback completo",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L215",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_rollback_completo",
+      "community": 108,
+      "norm_label": "rollback completo"
+    },
+    {
+      "label": "Contingencia operativa",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L221",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_contingencia_operativa",
+      "community": 108,
+      "norm_label": "contingencia operativa"
+    },
+    {
+      "label": "9. Primera migraci\u00f3n evolutiva tras baseline real",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L227",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_9_primera_migraci\u00f3n_evolutiva_tras_baseline_real",
+      "community": 108,
+      "norm_label": "9. primera migracion evolutiva tras baseline real"
+    },
+    {
+      "label": "10. Recomendaci\u00f3n: transici\u00f3n de `ddl-auto=update` a `validate`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L237",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_10_recomendaci\u00f3n_transici\u00f3n_de_ddl_auto_update_a_validate",
+      "community": 108,
+      "norm_label": "10. recomendacion: transicion de `ddl-auto=update` a `validate`"
+    },
+    {
+      "label": "Anexo \u2014 Confirmaciones de esta preparaci\u00f3n",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L256",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_baseline_runbook_anexo_confirmaciones_de_esta_preparaci\u00f3n",
+      "community": 108,
+      "norm_label": "anexo \u2014 confirmaciones de esta preparacion"
+    },
+    {
       "label": "PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "file_type": "document",
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L1",
       "_origin": "ast",
       "id": "architecture_pescago_flyway_schema_audit",
-      "community": 88,
+      "community": 108,
       "norm_label": "pescago_flyway_schema_audit.md"
     },
     {
@@ -9831,7 +10061,7 @@
       "source_location": "L521",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_dise\u00f1o_del_flujo_automatizado",
-      "community": 88,
+      "community": 111,
       "norm_label": "4. diseno del flujo automatizado"
     },
     {
@@ -9841,7 +10071,7 @@
       "source_location": "L523",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_1_flujo_objetivo_coexistiendo_con_manual",
-      "community": 88,
+      "community": 111,
       "norm_label": "4.1 flujo objetivo (coexistiendo con manual)"
     },
     {
@@ -9851,7 +10081,7 @@
       "source_location": "L552",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_2_coexistencia_con_flujo_manual",
-      "community": 88,
+      "community": 111,
       "norm_label": "4.2 coexistencia con flujo manual"
     },
     {
@@ -9861,7 +10091,7 @@
       "source_location": "L565",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_3_bloqueo_de_otras_opciones_y_concurrencia",
-      "community": 88,
+      "community": 111,
       "norm_label": "4.3 bloqueo de otras opciones y concurrencia"
     },
     {
@@ -25845,12 +26075,242 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook",
+      "target": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook",
+      "target": "architecture_pescago_flyway_schema_audit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L237",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_10_recomendaci\u00f3n_transici\u00f3n_de_ddl_auto_update_a_validate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_1_evidencia_de_readiness_de_la_base_real_pescago",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_2_estado_de_flyway_schema_history_en_pescago",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_3_conteos_de_tablas_y_distribuci\u00f3n_de_estados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_4_resultado_del_ensayo_temporal_de_baseline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_5_condiciones_obligatorias_antes_de_ejecutar_baseline_en_pescago",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_6_procedimiento_exacto_de_ejecuci\u00f3n_real_no_ejecutado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_7_procedimiento_de_verificaci\u00f3n_posterior",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_8_criterios_de_rollback_y_contingencia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_9_primera_migraci\u00f3n_evolutiva_tras_baseline_real",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L256",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_pescago_runbook_de_baseline_flyway_postgresql_legacy_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_anexo_confirmaciones_de_esta_preparaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_1_evidencia_de_readiness_de_la_base_real_pescago",
+      "target": "architecture_pescago_flyway_baseline_runbook_tablas_de_negocio_confirmadas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_3_conteos_de_tablas_y_distribuci\u00f3n_de_estados",
+      "target": "architecture_pescago_flyway_baseline_runbook_conteo_de_filas_por_tabla_sin_exposici\u00f3n_de_registros",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_3_conteos_de_tablas_y_distribuci\u00f3n_de_estados",
+      "target": "architecture_pescago_flyway_baseline_runbook_distribuci\u00f3n_agrupada_de_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_6_procedimiento_exacto_de_ejecuci\u00f3n_real_no_ejecutado",
+      "target": "architecture_pescago_flyway_baseline_runbook_ejecuci\u00f3n_de_baseline_manual_o_script_operativo_dedicado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L172",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_6_procedimiento_exacto_de_ejecuci\u00f3n_real_no_ejecutado",
+      "target": "architecture_pescago_flyway_baseline_runbook_post_ejecuci\u00f3n_inmediata_antes_de_habilitar_migraciones_autom\u00e1ticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_6_procedimiento_exacto_de_ejecuci\u00f3n_real_no_ejecutado",
+      "target": "architecture_pescago_flyway_baseline_runbook_pre_vuelo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L221",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_8_criterios_de_rollback_y_contingencia",
+      "target": "architecture_pescago_flyway_baseline_runbook_contingencia_operativa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L201",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_8_criterios_de_rollback_y_contingencia",
+      "target": "architecture_pescago_flyway_baseline_runbook_cu\u00e1ndo_abortar_antes_de_baseline",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_8_criterios_de_rollback_y_contingencia",
+      "target": "architecture_pescago_flyway_baseline_runbook_rollback_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_baseline_runbook_8_criterios_de_rollback_y_contingencia",
+      "target": "architecture_pescago_flyway_baseline_runbook_si_el_baseline_falla_a_mitad_de_ejecuci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit",
-      "target": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d"
     },
     {
       "relation": "references",
@@ -25858,9 +26318,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit",
-      "target": "architecture_pescago_v2_backend_implementation_plan",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_v2_backend_implementation_plan"
     },
     {
       "relation": "contains",
@@ -25868,9 +26328,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L307",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_10_criterios_previos_obligatorios_antes_de_crear_v1_initial_schema_sql_ejecutable",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_10_criterios_previos_obligatorios_antes_de_crear_v1_initial_schema_sql_ejecutable"
     },
     {
       "relation": "contains",
@@ -25878,9 +26338,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L322",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_11_decisi\u00f3n_recomendada_h2_vs_postgresql_vs_testcontainers",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_11_decisi\u00f3n_recomendada_h2_vs_postgresql_vs_testcontainers"
     },
     {
       "relation": "contains",
@@ -25888,9 +26348,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L441",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_12_resumen_ejecutivo",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_12_resumen_ejecutivo"
     },
     {
       "relation": "contains",
@@ -25898,9 +26358,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia"
     },
     {
       "relation": "contains",
@@ -25908,9 +26368,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido"
     },
     {
       "relation": "contains",
@@ -25918,9 +26378,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_3_relaciones_l\u00f3gicas_sin_fk_f\u00edsica",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_3_relaciones_l\u00f3gicas_sin_fk_f\u00edsica"
     },
     {
       "relation": "contains",
@@ -25928,9 +26388,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L199",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_4_hallazgos_de_discrepancias_o_incertidumbres",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_4_hallazgos_de_discrepancias_o_incertidumbres"
     },
     {
       "relation": "contains",
@@ -25938,9 +26398,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L218",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_5_inspecci\u00f3n_de_postgresql_real_estado_previo",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_5_inspecci\u00f3n_de_postgresql_real_estado_previo"
     },
     {
       "relation": "contains",
@@ -25948,9 +26408,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_6_riesgos_espec\u00edficos_de_migrar_desde_ddl_auto_update",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_6_riesgos_espec\u00edficos_de_migrar_desde_ddl_auto_update"
     },
     {
       "relation": "contains",
@@ -25958,9 +26418,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L236",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario"
     },
     {
       "relation": "contains",
@@ -25968,9 +26428,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L271",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_8_orden_recomendado_de_adopci\u00f3n_flyway",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_8_orden_recomendado_de_adopci\u00f3n_flyway"
     },
     {
       "relation": "contains",
@@ -25978,9 +26438,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L286",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_9_archivos_que_se_modificar\u00edan_en_la_siguiente_etapa_implementaci\u00f3n",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_9_archivos_que_se_modificar\u00edan_en_la_siguiente_etapa_implementaci\u00f3n"
     },
     {
       "relation": "contains",
@@ -25988,9 +26448,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L335",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
-      "target": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real"
     },
     {
       "relation": "contains",
@@ -25998,9 +26458,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
-      "target": "architecture_pescago_flyway_schema_audit_configuraci\u00f3n_hibernate_detallada",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_configuraci\u00f3n_hibernate_detallada"
     },
     {
       "relation": "contains",
@@ -26008,9 +26468,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
-      "target": "architecture_pescago_flyway_schema_audit_dependencias_relacionadas_pom_xml",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_dependencias_relacionadas_pom_xml"
     },
     {
       "relation": "contains",
@@ -26018,9 +26478,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_convenciones_globales",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_convenciones_globales"
     },
     {
       "relation": "contains",
@@ -26028,9 +26488,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_carriers",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_carriers"
     },
     {
       "relation": "contains",
@@ -26038,9 +26498,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_entreprenuers",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_entreprenuers"
     },
     {
       "relation": "contains",
@@ -26048,9 +26508,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L138",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_hired_services",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_hired_services"
     },
     {
       "relation": "contains",
@@ -26058,9 +26518,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_receipts",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_receipts"
     },
     {
       "relation": "contains",
@@ -26068,9 +26528,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L111",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_requests",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_requests"
     },
     {
       "relation": "contains",
@@ -26078,9 +26538,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
-      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_users",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_users"
     },
     {
       "relation": "contains",
@@ -26088,9 +26548,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L238",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
-      "target": "architecture_pescago_flyway_schema_audit_7_1_base_postgresql_nueva_greenfield_escenario_a_6_1",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_7_1_base_postgresql_nueva_greenfield_escenario_a_6_1"
     },
     {
       "relation": "contains",
@@ -26098,9 +26558,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L245",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
-      "target": "architecture_pescago_flyway_schema_audit_7_2_base_postgresql_existente_escenario_b_6_1",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_7_2_base_postgresql_existente_escenario_b_6_1"
     },
     {
       "relation": "contains",
@@ -26108,9 +26568,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L255",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
-      "target": "architecture_pescago_flyway_schema_audit_7_3_desarrollo_local",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_7_3_desarrollo_local"
     },
     {
       "relation": "contains",
@@ -26118,9 +26578,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L263",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
-      "target": "architecture_pescago_flyway_schema_audit_7_4_pruebas_h2_actuales",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_7_4_pruebas_h2_actuales"
     },
     {
       "relation": "contains",
@@ -26128,9 +26588,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L371",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_columnas_tipos_y_nullabilidad_resumen_por_tabla",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_columnas_tipos_y_nullabilidad_resumen_por_tabla"
     },
     {
       "relation": "contains",
@@ -26138,9 +26598,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L337",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_conexi\u00f3n_y_m\u00e9todo",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_conexi\u00f3n_y_m\u00e9todo"
     },
     {
       "relation": "contains",
@@ -26148,9 +26608,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L393",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_defaults_sql_real_vs_aplicaci\u00f3n_java",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_defaults_sql_real_vs_aplicaci\u00f3n_java"
     },
     {
       "relation": "contains",
@@ -26158,9 +26618,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L415",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_diferencias_confirmadas_bd_real_vs_inventario_jpa_inferido",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_diferencias_confirmadas_bd_real_vs_inventario_jpa_inferido"
     },
     {
       "relation": "contains",
@@ -26168,9 +26628,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L347",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_entorno_inspeccionado",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_entorno_inspeccionado"
     },
     {
       "relation": "contains",
@@ -26178,9 +26638,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L428",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_permite_el_esquema_elaborar_v1_initial_schema_sql",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_permite_el_esquema_elaborar_v1_initial_schema_sql"
     },
     {
       "relation": "contains",
@@ -26188,9 +26648,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L404",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_primary_keys_constraints_\u00edndices_y_secuencias",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_primary_keys_constraints_\u00edndices_y_secuencias"
     },
     {
       "relation": "contains",
@@ -26198,9 +26658,9 @@
       "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
       "source_location": "L355",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
-      "target": "architecture_pescago_flyway_schema_audit_tablas_base_encontradas",
-      "confidence_score": 1.0
+      "target": "architecture_pescago_flyway_schema_audit_tablas_base_encontradas"
     },
     {
       "relation": "contains",
@@ -27004,5 +27464,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "728f06e170453b7cd20486c26cd8f433377154a3"
+  "built_at_commit": "00b44b9645b2a0d8464cd56346a8310d67cecd66"
 }
