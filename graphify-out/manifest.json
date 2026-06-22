@@ -530,8 +530,8 @@
     "semantic_hash": ""
   },
   "pom.xml": {
-    "mtime": 1782102281.198476,
-    "ast_hash": "922e1dab517a46b390f83ce8f22d6a7d",
+    "mtime": 1782110078.6207798,
+    "ast_hash": "ea913c4109ac1f09d82a1efa4c90f1b1",
     "semantic_hash": ""
   },
   "start-backend.sh": {
@@ -705,8 +705,13 @@
     "semantic_hash": ""
   },
   "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md": {
-    "mtime": 1782106704.6651495,
-    "ast_hash": "03e8817f2232a309cdebb88b922904fd",
+    "mtime": 1782106922.8834434,
+    "ast_hash": "b5ad72e71119256088d5360515c4dbb6",
+    "semantic_hash": ""
+  },
+  "src/main/resources/db/migration/V1__initial_schema.sql": {
+    "mtime": 1782107232.1903143,
+    "ast_hash": "6afc0a9c85f4cf1068ccd4c5a1c0ed4e",
     "semantic_hash": ""
   }
 }
