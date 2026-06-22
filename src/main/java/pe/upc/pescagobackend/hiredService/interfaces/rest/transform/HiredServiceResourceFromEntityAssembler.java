@@ -2,6 +2,7 @@ package pe.upc.pescagobackend.hiredService.interfaces.rest.transform;
 
 import pe.upc.pescagobackend.hiredService.domain.model.aggregates.HiredService;
 import pe.upc.pescagobackend.hiredService.interfaces.rest.resources.HiredServiceResource;
+import pe.upc.pescagobackend.shared.application.LegacyStatusTranslator;
 
 public class HiredServiceResourceFromEntityAssembler {
     public static HiredServiceResource toResourceFromEntity(HiredService entity) {
@@ -15,7 +16,7 @@ public class HiredServiceResourceFromEntityAssembler {
             entity.getPackageDescription(),
             entity.getPickupDateTime(),
             entity.getPaymentMethod(),
-            entity.getStatus(),
+            LegacyStatusTranslator.toLegacyExecutionStatus(entity.getStatus()),
             entity.getCarrierData()
         );
     }

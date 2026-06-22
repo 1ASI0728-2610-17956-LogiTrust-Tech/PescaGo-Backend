@@ -1,6 +1,7 @@
 package pe.upc.pescagobackend.request.interfaces.rest.transform;
 
 import pe.upc.pescagobackend.request.interfaces.rest.resources.RequestResource;
+import pe.upc.pescagobackend.shared.application.LegacyStatusTranslator;
 
 public class RequestResourceFromEntityAssembler {
     public static RequestResource toResourceFromEntity(pe.upc.pescagobackend.request.domain.model.aggregates.Request entity) {
@@ -17,7 +18,7 @@ public class RequestResourceFromEntityAssembler {
             entity.getDeliveryLocation(),
             entity.getPickupDateTime(),
             entity.getPrice(),
-            entity.getStatus(),
+            LegacyStatusTranslator.toLegacyRequestStatus(entity.getStatus()),
             entity.getDimensions()
         );
     }
