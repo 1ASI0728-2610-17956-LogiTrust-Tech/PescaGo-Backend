@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Backend  (2026-06-22)
 
 ## Corpus Check
-- 142 files · ~24,863 words
+- 144 files · ~26,766 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1032 nodes · 1563 edges · 110 communities (54 shown, 56 thin omitted)
+- 1055 nodes · 1586 edges · 112 communities (56 shown, 56 thin omitted)
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `728f06e1`
+- Built from commit: `00b44b96`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -122,18 +122,20 @@
 - [[_COMMUNITY_Community 104|Community 104]]
 - [[_COMMUNITY_Community 105|Community 105]]
 - [[_COMMUNITY_Community 107|Community 107]]
+- [[_COMMUNITY_Community 108|Community 108]]
+- [[_COMMUNITY_Community 111|Community 111]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `PescaGo — Auditoría de esquema y preparación Flyway (Bloque 0D)` - 14 edges
 2. `LegacyStatusTranslator` - 13 edges
 3. `AuthenticatedUser` - 13 edges
-4. `String` - 11 edges
-5. `CarrierByUserV2IntegrationTest` - 10 edges
-6. `AuthV2IntegrationTest` - 10 edges
-7. `RequestV1StatusIntegrationTest` - 10 edges
-8. `SnakeCasePhysicalNamingStrategy` - 9 edges
-9. `HiredServiceV1StatusIntegrationTest` - 9 edges
-10. `Verificación read-only del esquema PostgreSQL real` - 9 edges
+4. `PescaGo — Runbook de baseline Flyway (PostgreSQL legacy `pescago`)` - 12 edges
+5. `String` - 11 edges
+6. `CarrierByUserV2IntegrationTest` - 10 edges
+7. `AuthV2IntegrationTest` - 10 edges
+8. `RequestV1StatusIntegrationTest` - 10 edges
+9. `SnakeCasePhysicalNamingStrategy` - 9 edges
+10. `HiredServiceV1StatusIntegrationTest` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `CarrierCommandServiceImpl` --implements--> `CarrierCommandService`  [EXTRACTED]
@@ -150,7 +152,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (110 total, 56 thin omitted)
+## Communities (112 total, 56 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.09
@@ -305,8 +307,8 @@ Cohesion: 0.08
 Nodes (25): 3.1 Fleet, 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.5 Notification, 3.6 Reputation (soporte) (+17 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.17
-Nodes (10): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado, 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma) (+2 more)
+Cohesion: 0.29
+Nodes (6): 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma), PescaGo v2 — Plan de implementación backend, Variables de entorno JWT (documentadas, sin valores)
 
 ### Community 89 - "Community 89"
 Cohesion: 0.20
@@ -356,20 +358,28 @@ Nodes (5): 6.3 Cambios a tablas existentes (migraciones futuras), `hired_service
 Cohesion: 0.47
 Nodes (3): JwtPropertiesValidatorTest, TestConfiguration, Test
 
+### Community 108 - "Community 108"
+Cohesion: 0.08
+Nodes (22): 10. Recomendación: transición de `ddl-auto=update` a `validate`, 1. Evidencia de readiness de la base real `pescago`, 2. Estado de `flyway_schema_history` en `pescago`, 3. Conteos de tablas y distribución de estados, 4. Resultado del ensayo temporal de baseline, 5. Condiciones obligatorias antes de ejecutar baseline en `pescago`, 6. Procedimiento exacto de ejecución real — **NO EJECUTADO**, 7. Procedimiento de verificación posterior (+14 more)
+
+### Community 111 - "Community 111"
+Cohesion: 0.50
+Nodes (4): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado
+
 ## Knowledge Gaps
-- **206 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+201 more)
+- **223 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+218 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `CarrierData` connect `Community 2` to `Community 47`?**
-  _High betweenness centrality (0.103) - this node is a cross-community bridge._
 - **Why does `Dimensions` connect `Community 4` to `Community 94`?**
-  _High betweenness centrality (0.099) - this node is a cross-community bridge._
+  _High betweenness centrality (0.091) - this node is a cross-community bridge._
+- **Why does `CarrierData` connect `Community 2` to `Community 47`?**
+  _High betweenness centrality (0.076) - this node is a cross-community bridge._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _206 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _223 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.09388335704125178 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
