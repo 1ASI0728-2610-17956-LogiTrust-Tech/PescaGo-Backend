@@ -1,0 +1,542 @@
+{
+  "mvnw": {
+    "mtime": 1781331700.9200525,
+    "ast_hash": "2fe09837c0b4dfabab4c4b206bcd0850",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/PescagoBackendApplication.java": {
+    "mtime": 1781331700.9234993,
+    "ast_hash": "609df314a61fc71c12aab20fd808835e",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/application/internal/commandservices/CarrierCommandServiceImpl.java": {
+    "mtime": 1781331700.9245472,
+    "ast_hash": "9baf95422c21426bcb8bf693050afbb0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/application/internal/queryservices/CarrierQueryServiceImpl.java": {
+    "mtime": 1782089879.8345752,
+    "ast_hash": "bb98896908a77effcce9e58cd97d38bc",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/model/aggregates/Carrier.java": {
+    "mtime": 1781331700.9281478,
+    "ast_hash": "2a28e7579633ce0fce6c996a2e2b6672",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/model/commands/CreateCarrierCommand.java": {
+    "mtime": 1781331700.9281478,
+    "ast_hash": "4e7771c2111fd90d92acb586d058ab55",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/model/commands/DeleteCarrierCommand.java": {
+    "mtime": 1781331700.9294732,
+    "ast_hash": "1aa4c92a9444bd21a5897e68b8117587",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/model/queries/GetCarrierByIdQuery.java": {
+    "mtime": 1782089879.8405807,
+    "ast_hash": "ba68a137d801182e4dce6703b352cf5b",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/model/queries/GetCarriersQuery.java": {
+    "mtime": 1781331700.9294732,
+    "ast_hash": "f271339852091f647b706f947df05278",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/services/CarrierCommandService.java": {
+    "mtime": 1781331700.9307785,
+    "ast_hash": "55fc4b41639bb30b81cabd46058ed4d4",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/domain/services/CarrierQueryService.java": {
+    "mtime": 1781331700.9307785,
+    "ast_hash": "899077a07c5880c140162a5331ba0ea5",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/infrastructure/persistence/jpa/repositories/CarrierRepository.java": {
+    "mtime": 1781331700.9332936,
+    "ast_hash": "3a1726279e2e7b96f1f06ea40aa6b8aa",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/interfaces/rest/CarrierController.java": {
+    "mtime": 1782089879.847818,
+    "ast_hash": "0d015332f829d3c3a0115799cd23f427",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/interfaces/rest/resources/CarrierResource.java": {
+    "mtime": 1781331700.9342997,
+    "ast_hash": "d3f887f2af2de9270dd21e18438f7fb6",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/interfaces/rest/resources/CreateCarrierResource.java": {
+    "mtime": 1781331700.9356036,
+    "ast_hash": "aefe3d26e58c44e51c96c7b65ccfc4d0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/interfaces/rest/transform/CarrierResourceFromEntityAssembler.java": {
+    "mtime": 1781331700.9356036,
+    "ast_hash": "46e386dda167ff035a865a69729226e0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/carrier/interfaces/rest/transform/CreateCarrierCommandFromResourceAssembler.java": {
+    "mtime": 1781331700.9356036,
+    "ast_hash": "e25730af46ee42621492c0b154264ac2",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/application/internal/commandservices/EntreprenuerCommandServiceImpl.java": {
+    "mtime": 1781331700.9381053,
+    "ast_hash": "54c12098a3b01d9bb79567f6574a697e",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/application/internal/queryservices/EntreprenuerQueryServiceImpl.java": {
+    "mtime": 1781331700.9381053,
+    "ast_hash": "305b4e717fcd4b8d24cf475052e668fb",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/domain/model/aggregates/Entreprenuer.java": {
+    "mtime": 1781331700.940804,
+    "ast_hash": "837e8d7f485761f2ff6c75c5dfbde2e8",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/domain/model/commands/CreateEntreprenuerCommand.java": {
+    "mtime": 1781331700.941556,
+    "ast_hash": "3f3b4462222368f663a6bc39867d7192",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/domain/model/commands/DeleteEntreprenuerCommand.java": {
+    "mtime": 1781331700.9420266,
+    "ast_hash": "f579e2e5d2c40cf67ee995d3ece467ac",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/domain/model/queries/GetEntreprenuerByIdQuery.java": {
+    "mtime": 1781331700.9428,
+    "ast_hash": "daa37af428846acd547923d8f0cae5bb",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/domain/services/EntreprenuerCommandService.java": {
+    "mtime": 1781331700.943567,
+    "ast_hash": "0257800a22f24c6fb95521ff2ad95b0d",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/domain/services/EntreprenuerQueryService.java": {
+    "mtime": 1781331700.943567,
+    "ast_hash": "d755234cbef7a7411390aa941ef75f20",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/infrastructure/persistence/jpa/repositories/EntreprenuerRepository.java": {
+    "mtime": 1781331700.945588,
+    "ast_hash": "0279b3deb8032dc2301754872efa0dc8",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/interfaces/rest/EntreprenuerController.java": {
+    "mtime": 1781331700.9476464,
+    "ast_hash": "418d50c824cf047b40e60fd0b850ca1d",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/interfaces/rest/resources/CreateEntreprenuerResource.java": {
+    "mtime": 1781331700.9488382,
+    "ast_hash": "f42a78d726db51e6816f7e10bf801291",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/interfaces/rest/resources/EntreprenuerResource.java": {
+    "mtime": 1781331700.9488382,
+    "ast_hash": "2d9422bcbeeced9729694714dcb3acd2",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/interfaces/rest/transform/CreateEntreprenuerCommandFromResourceAssembler.java": {
+    "mtime": 1781331700.9488382,
+    "ast_hash": "70a66e484061df833efbf884e77cb7a6",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/entrepreneur/interfaces/rest/transform/EntreprenuerResourceFromEntityAssembler.java": {
+    "mtime": 1781331700.9506366,
+    "ast_hash": "292da52c9def3b62ecda542a6fc28506",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImpl.java": {
+    "mtime": 1781331700.9522896,
+    "ast_hash": "7894607635563e80051c3943638e4fca",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/application/internal/queryservices/HiredServiceQueryServiceImpl.java": {
+    "mtime": 1781331700.9532974,
+    "ast_hash": "cefc5f54fe2d02b588cd97999d2f7890",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/aggregates/CarrierData.java": {
+    "mtime": 1781331700.9552193,
+    "ast_hash": "dbc9013fe9095e6e01a9445245d5bd2b",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/aggregates/HiredService.java": {
+    "mtime": 1781331700.9557033,
+    "ast_hash": "12fb1c5d8f5b35bc7b62d8c80ba09a71",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/commands/CreateHiredServiceCommand.java": {
+    "mtime": 1781331700.9557033,
+    "ast_hash": "29f2edfa03cebde0ecdae7bd0576b343",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/commands/DeleteHiredServiceCommand.java": {
+    "mtime": 1781331700.9567018,
+    "ast_hash": "36bd2eaa94bfd1275995d2abb57f9652",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/commands/UpdateHiredServiceCommand.java": {
+    "mtime": 1781331700.9567018,
+    "ast_hash": "26b6b0a7e9b55b16284ca14ad34db3b9",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/queries/GetHiredServiceByIdQuery.java": {
+    "mtime": 1781331700.9579806,
+    "ast_hash": "ebe530585b5e4ecd928c174e96be7e12",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/queries/GetHiredServicesByCarrierIdQuery.java": {
+    "mtime": 1781331700.9579806,
+    "ast_hash": "9f827d5160a1fb77bdcea7295d5dc2b5",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/model/queries/GetHiredServicesByEntrepreneurIdQuery.java": {
+    "mtime": 1781331700.9588253,
+    "ast_hash": "4cce6238843d5f124b6c04c51e622ac0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/services/HiredServiceCommandService.java": {
+    "mtime": 1781331700.9595103,
+    "ast_hash": "890bd842e911959ef85745ab7df903d7",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/domain/services/HiredServiceQueryService.java": {
+    "mtime": 1781331700.9595103,
+    "ast_hash": "e8d855e43068b580c269d045c69189b3",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/infrastructure/persistence/jpa/repositories/HiredServiceRepository.java": {
+    "mtime": 1781331700.9611757,
+    "ast_hash": "ac2dec5ebd5e4cc6905422d4b98e0e0d",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/HiredServiceController.java": {
+    "mtime": 1781331700.962681,
+    "ast_hash": "2d0c1026ec565c6f29905d27f3e905d1",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/resources/CreateHiredServiceResource.java": {
+    "mtime": 1781331700.962681,
+    "ast_hash": "350167cb6c368f32fc5c5cd3e5cfda79",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/resources/HiredServiceResource.java": {
+    "mtime": 1781331700.963871,
+    "ast_hash": "9972f7618ca9704362429cfd6684c3e3",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/resources/UpdateHiredServiceResource.java": {
+    "mtime": 1781331700.963871,
+    "ast_hash": "51dd0561f7dac8f4cdeb60b09ed2c5eb",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/CreateHiredServiceCommandFromResourceAssembler.java": {
+    "mtime": 1781331700.9648511,
+    "ast_hash": "3392cd49fa0b3581535e149f93c68ad7",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/HiredServiceResourceFromEntityAssembler.java": {
+    "mtime": 1781331700.9648511,
+    "ast_hash": "84caad1f192532a304c6e7c9489dba33",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/UpdateHiredServiceCommandFromResourceAssembler.java": {
+    "mtime": 1781331700.9660978,
+    "ast_hash": "e27830416d13f2bb284fa9f5f40f760f",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/application/internal/commandservices/UserCommandServiceImpl.java": {
+    "mtime": 1781331700.967474,
+    "ast_hash": "501795fdf5224c283e2619f20ac7f240",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/application/internal/queryservices/UserQueryServiceImpl.java": {
+    "mtime": 1781331700.967474,
+    "ast_hash": "b3dca9a3e2ee2f931c887bbbd623a225",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/model/aggregates/User.java": {
+    "mtime": 1781331700.970259,
+    "ast_hash": "5bda0621b27cec9adc715a1c63f80a8d",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/model/commands/CreateUserCommand.java": {
+    "mtime": 1781331700.970713,
+    "ast_hash": "176511caaa24b703de18325eea62891d",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/model/commands/DeleteUserCommand.java": {
+    "mtime": 1781331700.970713,
+    "ast_hash": "a659eae90a2323a9f5bbd39e439da4ad",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/model/queries/GetUserByAuthenticationQuery.java": {
+    "mtime": 1781331700.9717114,
+    "ast_hash": "53967043321ae60b52159f85fce8cba3",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/model/queries/GetUserByIdQuery.java": {
+    "mtime": 1781331700.9727087,
+    "ast_hash": "1579c8801841d60135d8133d4cf3d2fb",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/services/UserCommandService.java": {
+    "mtime": 1781331700.9732115,
+    "ast_hash": "2697d2b091fcc28e77ec16923e04d005",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/domain/services/UserQueryService.java": {
+    "mtime": 1781331700.9732115,
+    "ast_hash": "d57700a3472d5096b615293d7daee161",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/infrastructure/persistence/jpa/repositories/UserRepository.java": {
+    "mtime": 1781331700.9753587,
+    "ast_hash": "c22a43dfc1eb83319221935d4e83837a",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/UserController.java": {
+    "mtime": 1782089879.8553424,
+    "ast_hash": "6d0326f2c4703245eb40289411496d6a",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/CreateUserResource.java": {
+    "mtime": 1781331700.9771523,
+    "ast_hash": "7fc5b005fceb1e3fd4d2c1f79fc103e9",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/resources/UserResource.java": {
+    "mtime": 1781331700.9771523,
+    "ast_hash": "e506e24192c65759f3959f53071a8868",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/transform/CreateUserCommandFromResourceAssembler.java": {
+    "mtime": 1781331700.978248,
+    "ast_hash": "bfbac88a26e244ac6abaff6230910610",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/iam/interfaces/rest/transform/UserResourceFromEntityAssembler.java": {
+    "mtime": 1781331700.9787145,
+    "ast_hash": "e3adad9002bbfe6f31545f455bc2df50",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImpl.java": {
+    "mtime": 1781331700.980205,
+    "ast_hash": "b8a3aa4c3f291f46ac97d4fdf45831e6",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/application/internal/queryservices/ReceiptQueryServiceImpl.java": {
+    "mtime": 1781331700.980205,
+    "ast_hash": "c2f07332b6b3d41849e259b7a10c1147",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/domain/model/aggregates/Receipt.java": {
+    "mtime": 1781331700.9823074,
+    "ast_hash": "6e2f4cc9439c41c36b6abfe5b821dbcb",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/domain/model/commands/CreateReceiptCommand.java": {
+    "mtime": 1781331700.9835901,
+    "ast_hash": "c303b210eecf1c3fa041d8ce9a7c97ac",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/domain/model/commands/DeleteReceiptCommand.java": {
+    "mtime": 1781331700.9835901,
+    "ast_hash": "56791f8950b3ed48b9e90e620a756944",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/domain/model/queries/GetReceiptByIdQuery.java": {
+    "mtime": 1781331700.9835901,
+    "ast_hash": "d57b6d464c563e0e7387302fe27ff4d0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/domain/services/ReceiptCommandService.java": {
+    "mtime": 1781331700.9835901,
+    "ast_hash": "b5a04101333ccbe175db16c7c0210385",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/domain/services/ReceiptQueryService.java": {
+    "mtime": 1781331700.9854946,
+    "ast_hash": "26631cbf32771c7e349a50d14ad86042",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/infrastructure/persistence/jpa/repositories/ReceiptRepository.java": {
+    "mtime": 1781331700.9865568,
+    "ast_hash": "48ab3b88d1c5a957569ca8304885c31b",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/interfaces/rest/ReceiptController.java": {
+    "mtime": 1781331700.9877155,
+    "ast_hash": "42fe519738724c75a6b46323dd1561d4",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/interfaces/rest/resources/CreateReceiptResource.java": {
+    "mtime": 1781331700.9887204,
+    "ast_hash": "b887b60c8c9d831871309529927a65a8",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/interfaces/rest/resources/ReceiptResource.java": {
+    "mtime": 1781331700.9887204,
+    "ast_hash": "639f16e80956883f0d890996bed585cd",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/interfaces/rest/transform/CreateReceiptCommandFromResourceAssembler.java": {
+    "mtime": 1781331700.9887204,
+    "ast_hash": "e5567ac1bbb26b56b0468033d69c1c27",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/receipt/interfaces/rest/transform/ReceiptResourceFromEntityAssembler.java": {
+    "mtime": 1781331700.9899035,
+    "ast_hash": "3fc4536fcf0c488ec4732a019ef9bf6c",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImpl.java": {
+    "mtime": 1781331700.991129,
+    "ast_hash": "d18af17af00159b60c3f2a797adca0c4",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/application/internal/queryservices/RequestQueryServiceImpl.java": {
+    "mtime": 1781331700.991129,
+    "ast_hash": "3a36c9dc2c9754ea85cee07f6377e15a",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/aggregates/Dimensions.java": {
+    "mtime": 1781331700.9936864,
+    "ast_hash": "c04b8d948cda845a4529d61d64cbd1df",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/aggregates/Request.java": {
+    "mtime": 1781331700.9936864,
+    "ast_hash": "112eaad3e08fb2ea5e39b34e1bc45c5c",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/commands/CreateRequestCommand.java": {
+    "mtime": 1781331700.9936864,
+    "ast_hash": "93bca238ace18cd0722cef7f7a14b991",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/commands/DeleteRequestCommand.java": {
+    "mtime": 1781331700.9951954,
+    "ast_hash": "794eb5b79ee9889390e9023e9012c958",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/commands/UpdateRequestCommand.java": {
+    "mtime": 1781331700.9951954,
+    "ast_hash": "ab3760bd6688bb3766489de225892686",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/queries/GetRequestByIdQuery.java": {
+    "mtime": 1781331700.9961941,
+    "ast_hash": "436475f7876b00e9647c6b11ae5ce20e",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/queries/GetRequestsByCarrierIdQuery.java": {
+    "mtime": 1781331700.9961941,
+    "ast_hash": "f43b9fd556532f7c231c1efcc9937077",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/model/queries/GetRequestsByEntrepreneurIdQuery.java": {
+    "mtime": 1781331700.997192,
+    "ast_hash": "caf0fd82c2dced8168ff63beadbe9628",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/services/RequestCommandService.java": {
+    "mtime": 1781331700.9981887,
+    "ast_hash": "3c9c73b2449417147510853d7aa52e57",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/domain/services/RequestQueryService.java": {
+    "mtime": 1781331700.9981887,
+    "ast_hash": "3474003fc06baf921a5ff6812fc7ce1e",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/infrastructure/persistence/jpa/repositories/RequestRepository.java": {
+    "mtime": 1781331700.9991975,
+    "ast_hash": "119b59ab52fbb2c6dea3a5aa6121ec9a",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java": {
+    "mtime": 1781331701.0007322,
+    "ast_hash": "037b762e6dda418f3387948948378e81",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/CreateRequestResource.java": {
+    "mtime": 1781331701.00231,
+    "ast_hash": "1ab5264a44b8d65a33276af5477b5315",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/RequestResource.java": {
+    "mtime": 1781331701.00231,
+    "ast_hash": "91481a80a7dd9d5d324fd0f2b8b4e6e0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/UpdateRequestResource.java": {
+    "mtime": 1781331701.003361,
+    "ast_hash": "43f03b63e73c22e7da07931cf68345a5",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/CreateRequestCommandFromResourceAssembler.java": {
+    "mtime": 1781331701.003361,
+    "ast_hash": "5165358ab073ef0b4225bfde6306e370",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/RequestResourceFromEntityAssembler.java": {
+    "mtime": 1781331701.0043936,
+    "ast_hash": "caa4209cede4cc1f294b3126003cccc9",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/UpdateRequestCommandFromResourceAssembler.java": {
+    "mtime": 1781331701.0043936,
+    "ast_hash": "d9e40b343a7bd492f221b8bfeae05861",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/domain/model/aggregates/AuditableAbstractAggregateRoot.java": {
+    "mtime": 1781331701.0062537,
+    "ast_hash": "aba16daf8a648144923c3f87e7bef74c",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/domain/model/entities/AuditableModel.java": {
+    "mtime": 1781331701.0062537,
+    "ast_hash": "968dd9c4eb2ed9e219d630bbac2918f0",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/persistance/jpa/strategy/SnakeCasePhysicalNamingStrategy.java": {
+    "mtime": 1781331701.0087054,
+    "ast_hash": "021d4b47d1a5c1182a2e461f924fefb8",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/infrastructure/web/config/CorsConfig.java": {
+    "mtime": 1781331701.0093863,
+    "ast_hash": "8a726848e867feacdd543ce383a8c42d",
+    "semantic_hash": ""
+  },
+  "src/test/java/pe/upc/pescagobackend/PescagoBackendApplicationTests.java": {
+    "mtime": 1781331701.011351,
+    "ast_hash": "8c36080aeb44929d742ccebd7f8fb04a",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1782089879.826555,
+    "ast_hash": "3fe0b59d568ac6e85f71eaeef65169f9",
+    "semantic_hash": ""
+  },
+  "pom.xml": {
+    "mtime": 1781331700.9200525,
+    "ast_hash": "611332fe083cb79ddf9c39cb4e94fdc4",
+    "semantic_hash": ""
+  },
+  "start-backend.sh": {
+    "mtime": 1781336773.828889,
+    "ast_hash": "21719df7cc53e8f15818859d500d1f27",
+    "semantic_hash": ""
+  }
+}

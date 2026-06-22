@@ -36,3 +36,7 @@ build/
 .env
 .env.*
 !.env.example
+
+# Graphify local artifacts
+graphify-out/cache/
+graphify-out/cost.json
