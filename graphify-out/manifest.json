@@ -715,13 +715,18 @@
     "semantic_hash": ""
   },
   "docs/architecture/PESCAGO_FLYWAY_BASELINE_RUNBOOK.md": {
-    "mtime": 1782116607.3076804,
+    "mtime": 1782117153.9352987,
     "ast_hash": "330f722d77af1420285fda374b464389",
     "semantic_hash": ""
   },
   "docs/architecture/PESCAGO_FLYWAY_BASELINE_EXECUTION_RECORD.md": {
-    "mtime": 1782116580.9036849,
-    "ast_hash": "b5f46bb99a8691ef80b17ac232b9fccf",
+    "mtime": 1782117153.9337828,
+    "ast_hash": "77987982b33eee563e2d1b73896cf769",
+    "semantic_hash": ""
+  },
+  "src/main/resources/db/migration/V2__add_fleet_vehicles.sql": {
+    "mtime": 1782118041.4103944,
+    "ast_hash": "b49b47da17ebc1bf37cff41c5ed1cf44",
     "semantic_hash": ""
   }
 }
