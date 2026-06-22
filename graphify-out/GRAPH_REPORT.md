@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Backend  (2026-06-22)
 
 ## Corpus Check
-- 141 files · ~21,037 words
+- 142 files · ~24,863 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 996 nodes · 1527 edges · 111 communities (55 shown, 56 thin omitted)
-- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.8)
+- 1032 nodes · 1563 edges · 110 communities (54 shown, 56 thin omitted)
+- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8dab4a69`
+- Built from commit: `728f06e1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -122,19 +122,18 @@
 - [[_COMMUNITY_Community 104|Community 104]]
 - [[_COMMUNITY_Community 105|Community 105]]
 - [[_COMMUNITY_Community 107|Community 107]]
-- [[_COMMUNITY_Community 108|Community 108]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `LegacyStatusTranslator` - 13 edges
-2. `AuthenticatedUser` - 13 edges
-3. `String` - 11 edges
-4. `CarrierByUserV2IntegrationTest` - 10 edges
-5. `AuthV2IntegrationTest` - 10 edges
-6. `RequestV1StatusIntegrationTest` - 10 edges
-7. `SnakeCasePhysicalNamingStrategy` - 9 edges
-8. `HiredServiceV1StatusIntegrationTest` - 9 edges
-9. `8. Roadmap técnico priorizado` - 9 edges
-10. `HiredServiceController` - 8 edges
+1. `PescaGo — Auditoría de esquema y preparación Flyway (Bloque 0D)` - 14 edges
+2. `LegacyStatusTranslator` - 13 edges
+3. `AuthenticatedUser` - 13 edges
+4. `String` - 11 edges
+5. `CarrierByUserV2IntegrationTest` - 10 edges
+6. `AuthV2IntegrationTest` - 10 edges
+7. `RequestV1StatusIntegrationTest` - 10 edges
+8. `SnakeCasePhysicalNamingStrategy` - 9 edges
+9. `HiredServiceV1StatusIntegrationTest` - 9 edges
+10. `Verificación read-only del esquema PostgreSQL real` - 9 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `CarrierCommandServiceImpl` --implements--> `CarrierCommandService`  [EXTRACTED]
@@ -151,7 +150,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (111 total, 56 thin omitted)
+## Communities (110 total, 56 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.09
@@ -234,8 +233,8 @@ Cohesion: 0.31
 Nodes (7): CorsConfig, CorsRegistry, Bean, CorsConfigurationSource, Override, String, WebMvcConfigurer
 
 ### Community 24 - "Community 24"
-Cohesion: 0.14
-Nodes (17): AccessDeniedException, AccessDeniedHandler, ExceptionHandler, ProblemDetail, CarrierV2Controller, RestAccessDeniedHandler, AuthenticatedUser, CarrierQueryService (+9 more)
+Cohesion: 0.07
+Nodes (33): AccessDeniedException, AccessDeniedHandler, AuthenticationEntryPoint, AuthenticationException, ExceptionHandler, HttpSecurity, JwtAuthenticationFilter, ProblemDetail (+25 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.60
@@ -250,8 +249,8 @@ Cohesion: 0.60
 Nodes (3): CreateEntreprenuerCommand, CreateEntreprenuerResource, CreateEntreprenuerCommandFromResourceAssembler
 
 ### Community 31 - "Community 31"
-Cohesion: 0.13
-Nodes (16): AuthenticationEntryPoint, AuthenticationException, HttpSecurity, JwtAuthenticationFilter, RestAccessDeniedHandler, RestAuthenticationEntryPoint, RestAuthenticationEntryPoint, SecurityConfiguration (+8 more)
+Cohesion: 0.06
+Nodes (35): 10. Criterios previos obligatorios antes de crear `V1__initial_schema.sql` ejecutable, 11. Decisión recomendada: H2 vs PostgreSQL vs Testcontainers, 12. Resumen ejecutivo, 1. Estado actual confirmado de persistencia, 2. Inventario de entidades y esquema inferido, 3. Relaciones lógicas sin FK física, 4. Hallazgos de discrepancias o incertidumbres, 5. Inspección de PostgreSQL real (estado previo) (+27 more)
 
 ### Community 32 - "Community 32"
 Cohesion: 0.17
@@ -299,14 +298,14 @@ Nodes (17): RequestQueryServiceImpl, RequestQueryService, RequestQueryService, G
 
 ### Community 47 - "Community 47"
 Cohesion: 0.12
-Nodes (12): Duration, Environment, PostConstruct, RequestV1StatusIntegrationTest, JwtPropertiesValidator, JwtTtlParser, JwtProperties, String (+4 more)
+Nodes (12): Duration, Environment, HiredServiceV1StatusIntegrationTest, PostConstruct, JwtPropertiesValidator, JwtTtlParser, JwtProperties, String (+4 more)
 
 ### Community 87 - "Community 87"
-Cohesion: 0.13
-Nodes (15): 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.6 Reputation (soporte), 3. Diseño del dominio nuevo, Campos nuevos propuestos (+7 more)
+Cohesion: 0.08
+Nodes (25): 3.1 Fleet, 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.5 Notification, 3.6 Reputation (soporte) (+17 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.18
+Cohesion: 0.17
 Nodes (10): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado, 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma) (+2 more)
 
 ### Community 89 - "Community 89"
@@ -326,12 +325,12 @@ Cohesion: 0.29
 Nodes (7): 1.1 Stack y arquitectura, 1.2 Módulos actuales (bounded contexts de facto), 1.3 Endpoints actuales (26, todos públicos), 1.4 Flujo de negocio implementado hoy, 1.5 Limitaciones que impiden matching automático directo, 1.6 Monolito modular actual vs arquitectura objetivo del curso, 1. Estado actual confirmado
 
 ### Community 93 - "Community 93"
-Cohesion: 0.17
-Nodes (12): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.3 Cambios a tablas existentes (migraciones futuras), 6.4 Restricciones y auditoría, 6. Persistencia PostgreSQL y migraciones, Configuración propuesta (documental), Escenario A — Base PostgreSQL **nueva** (desarrollo greenfield), Escenario B — Base PostgreSQL **existente** (datos reales / dev con historial) (+4 more)
+Cohesion: 0.29
+Nodes (7): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.4 Restricciones y auditoría, 6. Persistencia PostgreSQL y migraciones, Configuración propuesta (documental), Escenario A — Base PostgreSQL **nueva** (desarrollo greenfield), Escenario B — Base PostgreSQL **existente** (datos reales / dev con historial)
 
 ### Community 94 - "Community 94"
 Cohesion: 0.19
-Nodes (9): HiredServiceV1StatusIntegrationTest, CarrierRepository, Carrier, List, Long, Optional, HiredService, String (+1 more)
+Nodes (9): CarrierRepository, RequestV1StatusIntegrationTest, Carrier, List, Long, Optional, Request, String (+1 more)
 
 ### Community 95 - "Community 95"
 Cohesion: 0.32
@@ -350,31 +349,27 @@ Cohesion: 0.10
 Nodes (21): PasswordAuthenticationService, LoginRequest, LoginResponse, UserRepository, LoginProfileResource, AuthController, Optional, PasswordEncoder (+13 more)
 
 ### Community 99 - "Community 99"
-Cohesion: 0.33
-Nodes (6): 3.1 Fleet, Agregados y entidades, CarrierAvailability, CarrierLocation, Eventos de dominio futuros (Fleet), FleetVehicle
+Cohesion: 0.40
+Nodes (5): 6.3 Cambios a tablas existentes (migraciones futuras), `hired_services`, `receipts` (deprecación), `requests`, `users`
 
 ### Community 107 - "Community 107"
 Cohesion: 0.47
 Nodes (3): JwtPropertiesValidatorTest, TestConfiguration, Test
 
-### Community 108 - "Community 108"
-Cohesion: 0.50
-Nodes (4): 3.5 Notification, Eventos, Notification, PushToken
-
 ## Knowledge Gaps
-- **176 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+171 more)
+- **206 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+201 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `CarrierData` connect `Community 2` to `Community 94`?**
-  _High betweenness centrality (0.097) - this node is a cross-community bridge._
-- **Why does `Dimensions` connect `Community 4` to `Community 47`?**
-  _High betweenness centrality (0.096) - this node is a cross-community bridge._
+- **Why does `CarrierData` connect `Community 2` to `Community 47`?**
+  _High betweenness centrality (0.103) - this node is a cross-community bridge._
+- **Why does `Dimensions` connect `Community 4` to `Community 94`?**
+  _High betweenness centrality (0.099) - this node is a cross-community bridge._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _176 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _206 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.09388335704125178 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
@@ -382,4 +377,4 @@ _Questions this graph is uniquely positioned to answer:_
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.1225296442687747 - nodes in this community are weakly interconnected._
 - **Should `Community 24` be split into smaller, more focused modules?**
-  _Cohesion score 0.14333333333333334 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.06914893617021277 - nodes in this community are weakly interconnected._
