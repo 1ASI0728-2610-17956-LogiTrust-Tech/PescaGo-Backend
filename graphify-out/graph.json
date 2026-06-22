@@ -7763,7 +7763,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "security_restauthenticationentrypoint",
-      "community": 31,
+      "community": 24,
       "norm_label": "restauthenticationentrypoint.java"
     },
     {
@@ -7773,7 +7773,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "security_restauthenticationentrypoint_restauthenticationentrypoint",
-      "community": 31,
+      "community": 24,
       "norm_label": "restauthenticationentrypoint"
     },
     {
@@ -7783,7 +7783,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "authenticationentrypoint",
-      "community": 31,
+      "community": 24,
       "norm_label": "authenticationentrypoint"
     },
     {
@@ -7793,7 +7793,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "security_restauthenticationentrypoint_restauthenticationentrypoint_restauthenticationentrypoint",
-      "community": 31,
+      "community": 24,
       "norm_label": ".restauthenticationentrypoint()"
     },
     {
@@ -7803,7 +7803,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restauthenticationentrypoint_java_objectmapper",
-      "community": 31,
+      "community": 24,
       "norm_label": "objectmapper"
     },
     {
@@ -7813,7 +7813,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "security_restauthenticationentrypoint_restauthenticationentrypoint_commence",
-      "community": 31,
+      "community": 24,
       "norm_label": ".commence()"
     },
     {
@@ -7823,7 +7823,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restauthenticationentrypoint_java_httpservletrequest",
-      "community": 31,
+      "community": 24,
       "norm_label": "httpservletrequest"
     },
     {
@@ -7833,7 +7833,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restauthenticationentrypoint_java_httpservletresponse",
-      "community": 31,
+      "community": 24,
       "norm_label": "httpservletresponse"
     },
     {
@@ -7843,7 +7843,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "authenticationexception",
-      "community": 31,
+      "community": 24,
       "norm_label": "authenticationexception"
     },
     {
@@ -7853,7 +7853,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restauthenticationentrypoint_java_override",
-      "community": 31,
+      "community": 24,
       "norm_label": "override"
     },
     {
@@ -7863,7 +7863,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "security_securityconfiguration",
-      "community": 31,
+      "community": 24,
       "norm_label": "securityconfiguration.java"
     },
     {
@@ -7873,7 +7873,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "security_securityconfiguration_securityconfiguration",
-      "community": 31,
+      "community": 24,
       "norm_label": "securityconfiguration"
     },
     {
@@ -7883,7 +7883,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "security_securityconfiguration_securityconfiguration_securityconfiguration",
-      "community": 31,
+      "community": 24,
       "norm_label": ".securityconfiguration()"
     },
     {
@@ -7893,7 +7893,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "jwtauthenticationfilter",
-      "community": 31,
+      "community": 24,
       "norm_label": "jwtauthenticationfilter"
     },
     {
@@ -7903,7 +7903,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "restauthenticationentrypoint",
-      "community": 31,
+      "community": 24,
       "norm_label": "restauthenticationentrypoint"
     },
     {
@@ -7913,7 +7913,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "restaccessdeniedhandler",
-      "community": 31,
+      "community": 24,
       "norm_label": "restaccessdeniedhandler"
     },
     {
@@ -7923,7 +7923,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_securityconfiguration_java_corsconfigurationsource",
-      "community": 31,
+      "community": 24,
       "norm_label": "corsconfigurationsource"
     },
     {
@@ -7933,7 +7933,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "security_securityconfiguration_securityconfiguration_securityfilterchain",
-      "community": 31,
+      "community": 24,
       "norm_label": ".securityfilterchain()"
     },
     {
@@ -7943,7 +7943,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "httpsecurity",
-      "community": 31,
+      "community": 24,
       "norm_label": "httpsecurity"
     },
     {
@@ -7953,7 +7953,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "securityfilterchain",
-      "community": 31,
+      "community": 24,
       "norm_label": "securityfilterchain"
     },
     {
@@ -7963,7 +7963,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_securityconfiguration_java_bean",
-      "community": 31,
+      "community": 24,
       "norm_label": "bean"
     },
     {
@@ -7973,7 +7973,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "security_securityconfiguration_securityconfiguration_passwordencoder",
-      "community": 31,
+      "community": 24,
       "norm_label": ".passwordencoder()"
     },
     {
@@ -7983,7 +7983,7 @@
       "source_location": "L66",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_securityconfiguration_java_passwordencoder",
-      "community": 31,
+      "community": 24,
       "norm_label": "passwordencoder"
     },
     {
@@ -8413,7 +8413,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest",
-      "community": 94,
+      "community": 47,
       "norm_label": "hiredservicev1statusintegrationtest.java"
     },
     {
@@ -8423,7 +8423,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "community": 94,
+      "community": 47,
       "norm_label": "hiredservicev1statusintegrationtest"
     },
     {
@@ -8433,7 +8433,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_postwithpendientepersistspendingconfirmation",
-      "community": 94,
+      "community": 47,
       "norm_label": ".postwithpendientepersistspendingconfirmation()"
     },
     {
@@ -8443,7 +8443,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "community": 94,
+      "community": 47,
       "norm_label": "test"
     },
     {
@@ -8453,7 +8453,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_getwithpendingconfirmationreturnspendiente",
-      "community": 94,
+      "community": 47,
       "norm_label": ".getwithpendingconfirmationreturnspendiente()"
     },
     {
@@ -8463,7 +8463,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed",
-      "community": 94,
+      "community": 47,
       "norm_label": ".putwithconfirmadopersistsconfirmed()"
     },
     {
@@ -8473,7 +8473,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400",
-      "community": 94,
+      "community": 47,
       "norm_label": ".putwithcotizadoreturns400()"
     },
     {
@@ -8483,7 +8483,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_legacypendingrowreturnspendiente",
-      "community": 94,
+      "community": 47,
       "norm_label": ".legacypendingrowreturnspendiente()"
     },
     {
@@ -8493,7 +8493,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "community": 94,
+      "community": 47,
       "norm_label": ".savehiredservicewithstatus()"
     },
     {
@@ -8503,7 +8503,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string",
-      "community": 94,
+      "community": 47,
       "norm_label": "string"
     },
     {
@@ -8513,7 +8513,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice",
-      "community": 94,
+      "community": 47,
       "norm_label": "hiredservice"
     },
     {
@@ -8523,7 +8523,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson",
-      "community": 94,
+      "community": 47,
       "norm_label": ".validcreatehiredservicejson()"
     },
     {
@@ -8533,7 +8533,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "community": 94,
+      "community": 47,
       "norm_label": ".validupdatehiredservicejson()"
     },
     {
@@ -8693,7 +8693,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest",
-      "community": 47,
+      "community": 94,
       "norm_label": "requestv1statusintegrationtest.java"
     },
     {
@@ -8703,7 +8703,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "community": 47,
+      "community": 94,
       "norm_label": "requestv1statusintegrationtest"
     },
     {
@@ -8713,7 +8713,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending",
-      "community": 47,
+      "community": 94,
       "norm_label": ".postwithpendientepersistspending()"
     },
     {
@@ -8723,7 +8723,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "community": 47,
+      "community": 94,
       "norm_label": "test"
     },
     {
@@ -8733,7 +8733,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente",
-      "community": 47,
+      "community": 94,
       "norm_label": ".getrequestwithpendingreturnspendiente()"
     },
     {
@@ -8743,7 +8743,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "community": 47,
+      "community": 94,
       "norm_label": ".putwithcotizadopersistsquoted()"
     },
     {
@@ -8753,7 +8753,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "community": 47,
+      "community": 94,
       "norm_label": ".putwithpagadopersistspaid()"
     },
     {
@@ -8763,7 +8763,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "community": 47,
+      "community": 94,
       "norm_label": ".putwithconfirmadoreturns400()"
     },
     {
@@ -8773,7 +8773,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente",
-      "community": 47,
+      "community": 94,
       "norm_label": ".legacyspanishrowstillreturnspendiente()"
     },
     {
@@ -8783,7 +8783,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "community": 47,
+      "community": 94,
       "norm_label": ".saverequestwithstatus()"
     },
     {
@@ -8793,7 +8793,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string",
-      "community": 47,
+      "community": 94,
       "norm_label": "string"
     },
     {
@@ -8803,7 +8803,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request",
-      "community": 47,
+      "community": 94,
       "norm_label": "request"
     },
     {
@@ -8813,7 +8813,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson",
-      "community": 47,
+      "community": 94,
       "norm_label": ".validcreaterequestjson()"
     },
     {
@@ -8823,7 +8823,7 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "community": 47,
+      "community": 94,
       "norm_label": ".validupdaterequestjson()"
     },
     {
@@ -9045,6 +9045,366 @@
       "norm_label": "3. ejecucion"
     },
     {
+      "label": "PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit",
+      "community": 88,
+      "norm_label": "pescago_flyway_schema_audit.md"
+    },
+    {
+      "label": "PescaGo \u2014 Auditor\u00eda de esquema y preparaci\u00f3n Flyway (Bloque 0D)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "community": 31,
+      "norm_label": "pescago \u2014 auditoria de esquema y preparacion flyway (bloque 0d)"
+    },
+    {
+      "label": "1. Estado actual confirmado de persistencia",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L12",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
+      "community": 31,
+      "norm_label": "1. estado actual confirmado de persistencia"
+    },
+    {
+      "label": "Configuraci\u00f3n Hibernate detallada",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L28",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_configuraci\u00f3n_hibernate_detallada",
+      "community": 31,
+      "norm_label": "configuracion hibernate detallada"
+    },
+    {
+      "label": "Dependencias relacionadas (pom.xml)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_dependencias_relacionadas_pom_xml",
+      "community": 31,
+      "norm_label": "dependencias relacionadas (pom.xml)"
+    },
+    {
+      "label": "2. Inventario de entidades y esquema inferido",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "community": 31,
+      "norm_label": "2. inventario de entidades y esquema inferido"
+    },
+    {
+      "label": "Convenciones globales",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_convenciones_globales",
+      "community": 31,
+      "norm_label": "convenciones globales"
+    },
+    {
+      "label": "Tabla inferida: `users`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L69",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tabla_inferida_users",
+      "community": 31,
+      "norm_label": "tabla inferida: `users`"
+    },
+    {
+      "label": "Tabla inferida: `carriers`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L84",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tabla_inferida_carriers",
+      "community": 31,
+      "norm_label": "tabla inferida: `carriers`"
+    },
+    {
+      "label": "Tabla inferida: `entreprenuers`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tabla_inferida_entreprenuers",
+      "community": 31,
+      "norm_label": "tabla inferida: `entreprenuers`"
+    },
+    {
+      "label": "Tabla inferida: `requests`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L111",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tabla_inferida_requests",
+      "community": 31,
+      "norm_label": "tabla inferida: `requests`"
+    },
+    {
+      "label": "Tabla inferida: `hired_services`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L138",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tabla_inferida_hired_services",
+      "community": 31,
+      "norm_label": "tabla inferida: `hired_services`"
+    },
+    {
+      "label": "Tabla inferida: `receipts`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L164",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tabla_inferida_receipts",
+      "community": 31,
+      "norm_label": "tabla inferida: `receipts`"
+    },
+    {
+      "label": "3. Relaciones l\u00f3gicas sin FK f\u00edsica",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L182",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_3_relaciones_l\u00f3gicas_sin_fk_f\u00edsica",
+      "community": 31,
+      "norm_label": "3. relaciones logicas sin fk fisica"
+    },
+    {
+      "label": "4. Hallazgos de discrepancias o incertidumbres",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L199",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_4_hallazgos_de_discrepancias_o_incertidumbres",
+      "community": 31,
+      "norm_label": "4. hallazgos de discrepancias o incertidumbres"
+    },
+    {
+      "label": "5. Inspecci\u00f3n de PostgreSQL real (estado previo)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L218",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_5_inspecci\u00f3n_de_postgresql_real_estado_previo",
+      "community": 31,
+      "norm_label": "5. inspeccion de postgresql real (estado previo)"
+    },
+    {
+      "label": "6. Riesgos espec\u00edficos de migrar desde `ddl-auto=update`",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L224",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_6_riesgos_espec\u00edficos_de_migrar_desde_ddl_auto_update",
+      "community": 31,
+      "norm_label": "6. riesgos especificos de migrar desde `ddl-auto=update`"
+    },
+    {
+      "label": "7. Estrategia propuesta por escenario",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L236",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
+      "community": 31,
+      "norm_label": "7. estrategia propuesta por escenario"
+    },
+    {
+      "label": "7.1 Base PostgreSQL nueva (greenfield \u2014 Escenario A \u00a76.1)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L238",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_7_1_base_postgresql_nueva_greenfield_escenario_a_6_1",
+      "community": 31,
+      "norm_label": "7.1 base postgresql nueva (greenfield \u2014 escenario a \u00a76.1)"
+    },
+    {
+      "label": "7.2 Base PostgreSQL existente (Escenario B \u00a76.1)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L245",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_7_2_base_postgresql_existente_escenario_b_6_1",
+      "community": 31,
+      "norm_label": "7.2 base postgresql existente (escenario b \u00a76.1)"
+    },
+    {
+      "label": "7.3 Desarrollo local",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L255",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_7_3_desarrollo_local",
+      "community": 31,
+      "norm_label": "7.3 desarrollo local"
+    },
+    {
+      "label": "7.4 Pruebas H2 actuales",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L263",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_7_4_pruebas_h2_actuales",
+      "community": 31,
+      "norm_label": "7.4 pruebas h2 actuales"
+    },
+    {
+      "label": "8. Orden recomendado de adopci\u00f3n Flyway",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L271",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_8_orden_recomendado_de_adopci\u00f3n_flyway",
+      "community": 31,
+      "norm_label": "8. orden recomendado de adopcion flyway"
+    },
+    {
+      "label": "9. Archivos que se modificar\u00edan en la siguiente etapa (implementaci\u00f3n)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L286",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_9_archivos_que_se_modificar\u00edan_en_la_siguiente_etapa_implementaci\u00f3n",
+      "community": 31,
+      "norm_label": "9. archivos que se modificarian en la siguiente etapa (implementacion)"
+    },
+    {
+      "label": "10. Criterios previos obligatorios antes de crear `V1__initial_schema.sql` ejecutable",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L307",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_10_criterios_previos_obligatorios_antes_de_crear_v1_initial_schema_sql_ejecutable",
+      "community": 31,
+      "norm_label": "10. criterios previos obligatorios antes de crear `v1__initial_schema.sql` ejecutable"
+    },
+    {
+      "label": "11. Decisi\u00f3n recomendada: H2 vs PostgreSQL vs Testcontainers",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L322",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_11_decisi\u00f3n_recomendada_h2_vs_postgresql_vs_testcontainers",
+      "community": 31,
+      "norm_label": "11. decision recomendada: h2 vs postgresql vs testcontainers"
+    },
+    {
+      "label": "Verificaci\u00f3n read-only del esquema PostgreSQL real",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L335",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "community": 31,
+      "norm_label": "verificacion read-only del esquema postgresql real"
+    },
+    {
+      "label": "Conexi\u00f3n y m\u00e9todo",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L337",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_conexi\u00f3n_y_m\u00e9todo",
+      "community": 31,
+      "norm_label": "conexion y metodo"
+    },
+    {
+      "label": "Entorno inspeccionado",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L347",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_entorno_inspeccionado",
+      "community": 31,
+      "norm_label": "entorno inspeccionado"
+    },
+    {
+      "label": "Tablas base encontradas",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L355",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_tablas_base_encontradas",
+      "community": 31,
+      "norm_label": "tablas base encontradas"
+    },
+    {
+      "label": "Columnas, tipos y nullabilidad (resumen por tabla)",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L371",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_columnas_tipos_y_nullabilidad_resumen_por_tabla",
+      "community": 31,
+      "norm_label": "columnas, tipos y nullabilidad (resumen por tabla)"
+    },
+    {
+      "label": "Defaults: SQL real vs aplicaci\u00f3n Java",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L393",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_defaults_sql_real_vs_aplicaci\u00f3n_java",
+      "community": 31,
+      "norm_label": "defaults: sql real vs aplicacion java"
+    },
+    {
+      "label": "Primary keys, constraints, \u00edndices y secuencias",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L404",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_primary_keys_constraints_\u00edndices_y_secuencias",
+      "community": 31,
+      "norm_label": "primary keys, constraints, indices y secuencias"
+    },
+    {
+      "label": "Diferencias confirmadas: BD real vs inventario JPA inferido",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L415",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_diferencias_confirmadas_bd_real_vs_inventario_jpa_inferido",
+      "community": 31,
+      "norm_label": "diferencias confirmadas: bd real vs inventario jpa inferido"
+    },
+    {
+      "label": "\u00bfPermite el esquema elaborar `V1__initial_schema.sql`?",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L428",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_permite_el_esquema_elaborar_v1_initial_schema_sql",
+      "community": 31,
+      "norm_label": "\u00bfpermite el esquema elaborar `v1__initial_schema.sql`?"
+    },
+    {
+      "label": "12. Resumen ejecutivo",
+      "file_type": "document",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L441",
+      "_origin": "ast",
+      "id": "architecture_pescago_flyway_schema_audit_12_resumen_ejecutivo",
+      "community": 31,
+      "norm_label": "12. resumen ejecutivo"
+    },
+    {
       "label": "PESCAGO_V2_BACKEND_IMPLEMENTATION_PLAN.md",
       "file_type": "document",
       "source_file": "docs/architecture/PESCAGO_V2_BACKEND_IMPLEMENTATION_PLAN.md",
@@ -9231,7 +9591,7 @@
       "source_location": "L210",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_3_1_fleet",
-      "community": 99,
+      "community": 87,
       "norm_label": "3.1 fleet"
     },
     {
@@ -9241,7 +9601,7 @@
       "source_location": "L212",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_agregados_y_entidades",
-      "community": 99,
+      "community": 87,
       "norm_label": "agregados y entidades"
     },
     {
@@ -9251,7 +9611,7 @@
       "source_location": "L220",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_fleetvehicle",
-      "community": 99,
+      "community": 87,
       "norm_label": "fleetvehicle"
     },
     {
@@ -9261,7 +9621,7 @@
       "source_location": "L240",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_carrieravailability",
-      "community": 99,
+      "community": 87,
       "norm_label": "carrieravailability"
     },
     {
@@ -9271,7 +9631,7 @@
       "source_location": "L258",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_carrierlocation",
-      "community": 99,
+      "community": 87,
       "norm_label": "carrierlocation"
     },
     {
@@ -9281,7 +9641,7 @@
       "source_location": "L278",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_eventos_de_dominio_futuros_fleet",
-      "community": 99,
+      "community": 87,
       "norm_label": "eventos de dominio futuros (fleet)"
     },
     {
@@ -9411,7 +9771,7 @@
       "source_location": "L466",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_3_5_notification",
-      "community": 108,
+      "community": 87,
       "norm_label": "3.5 notification"
     },
     {
@@ -9421,7 +9781,7 @@
       "source_location": "L468",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_pushtoken",
-      "community": 108,
+      "community": 87,
       "norm_label": "pushtoken"
     },
     {
@@ -9431,7 +9791,7 @@
       "source_location": "L479",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_notification",
-      "community": 108,
+      "community": 87,
       "norm_label": "notification"
     },
     {
@@ -9441,7 +9801,7 @@
       "source_location": "L494",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_eventos",
-      "community": 108,
+      "community": 87,
       "norm_label": "eventos"
     },
     {
@@ -9601,7 +9961,7 @@
       "source_location": "L685",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_6_3_cambios_a_tablas_existentes_migraciones_futuras",
-      "community": 93,
+      "community": 99,
       "norm_label": "6.3 cambios a tablas existentes (migraciones futuras)"
     },
     {
@@ -9611,7 +9971,7 @@
       "source_location": "L687",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_requests",
-      "community": 93,
+      "community": 99,
       "norm_label": "`requests`"
     },
     {
@@ -9621,7 +9981,7 @@
       "source_location": "L705",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_hired_services",
-      "community": 93,
+      "community": 99,
       "norm_label": "`hired_services`"
     },
     {
@@ -9631,7 +9991,7 @@
       "source_location": "L715",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_users",
-      "community": 93,
+      "community": 99,
       "norm_label": "`users`"
     },
     {
@@ -9641,7 +10001,7 @@
       "source_location": "L726",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_receipts_deprecaci\u00f3n",
-      "community": 93,
+      "community": 99,
       "norm_label": "`receipts` (deprecacion)"
     },
     {
@@ -14827,9 +15187,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/CreateHiredServiceCommandFromResourceAssembler.java",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler",
-      "target": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "confidence_score": 1.0
+      "target": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_canonicalizeexecutionstatus"
     },
     {
       "relation": "method",
@@ -14870,9 +15230,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/CreateHiredServiceCommandFromResourceAssembler.java",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_tocommandfromresource",
-      "target": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "confidence_score": 1.0
+      "target": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_canonicalizeexecutionstatus"
     },
     {
       "relation": "calls",
@@ -14892,9 +15252,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_createhiredservicecommandfromresourceassembler_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_createhiredservicecommandfromresourceassembler_java_string"
     },
     {
       "relation": "imports",
@@ -15009,9 +15369,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/UpdateHiredServiceCommandFromResourceAssembler.java",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler",
-      "target": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "confidence_score": 1.0
+      "target": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_canonicalizeexecutionstatus"
     },
     {
       "relation": "method",
@@ -15063,9 +15423,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/UpdateHiredServiceCommandFromResourceAssembler.java",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_tocommandfromresource",
-      "target": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "confidence_score": 1.0
+      "target": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_canonicalizeexecutionstatus"
     },
     {
       "relation": "calls",
@@ -15085,9 +15445,9 @@
       "source_location": "L26",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_updatehiredservicecommandfromresourceassembler_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_updatehiredservicecommandfromresourceassembler_java_string"
     },
     {
       "relation": "contains",
@@ -20573,9 +20933,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/CreateRequestCommandFromResourceAssembler.java",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler",
-      "target": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "confidence_score": 1.0
+      "target": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus"
     },
     {
       "relation": "method",
@@ -20616,9 +20976,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/CreateRequestCommandFromResourceAssembler.java",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_tocommandfromresource",
-      "target": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "confidence_score": 1.0
+      "target": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus"
     },
     {
       "relation": "calls",
@@ -20638,9 +20998,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_string"
     },
     {
       "relation": "imports",
@@ -20744,9 +21104,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/UpdateRequestCommandFromResourceAssembler.java",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler",
-      "target": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "confidence_score": 1.0
+      "target": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus"
     },
     {
       "relation": "method",
@@ -20798,9 +21158,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/UpdateRequestCommandFromResourceAssembler.java",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_tocommandfromresource",
-      "target": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "confidence_score": 1.0
+      "target": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus"
     },
     {
       "relation": "calls",
@@ -20820,9 +21180,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_string"
     },
     {
       "relation": "contains",
@@ -20830,9 +21190,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator"
     },
     {
       "relation": "imports",
@@ -20841,9 +21201,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator",
-      "target": "executionstatus",
-      "confidence_score": 1.0
+      "target": "executionstatus"
     },
     {
       "relation": "imports",
@@ -20852,9 +21212,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator",
-      "target": "requeststatus",
-      "confidence_score": 1.0
+      "target": "requeststatus"
     },
     {
       "relation": "imports",
@@ -20863,9 +21223,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_optional",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_optional"
     },
     {
       "relation": "method",
@@ -20873,9 +21233,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_canonicalizeexecutionstatusforpersistence",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_canonicalizeexecutionstatusforpersistence"
     },
     {
       "relation": "method",
@@ -20883,9 +21243,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_canonicalizerequeststatusforpersistence",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_canonicalizerequeststatusforpersistence"
     },
     {
       "relation": "method",
@@ -20893,9 +21253,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_legacystatustranslator",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_legacystatustranslator"
     },
     {
       "relation": "method",
@@ -20903,9 +21263,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L96",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_normalize",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_normalize"
     },
     {
       "relation": "method",
@@ -20913,9 +21273,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite"
     },
     {
       "relation": "method",
@@ -20923,9 +21283,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite"
     },
     {
       "relation": "method",
@@ -20933,9 +21293,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus"
     },
     {
       "relation": "method",
@@ -20943,9 +21303,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus"
     },
     {
       "relation": "method",
@@ -20953,9 +21313,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionlabel",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionlabel"
     },
     {
       "relation": "method",
@@ -20963,9 +21323,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionstatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionstatus"
     },
     {
       "relation": "method",
@@ -20973,9 +21333,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyrequestlabel",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyrequestlabel"
     },
     {
       "relation": "method",
@@ -20983,9 +21343,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator",
-      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyrequeststatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyrequeststatus"
     },
     {
       "relation": "calls",
@@ -20994,9 +21354,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_canonicalizerequeststatusforpersistence",
-      "target": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite"
     },
     {
       "relation": "references",
@@ -21005,9 +21365,9 @@
       "source_location": "L14",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_canonicalizerequeststatusforpersistence",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "calls",
@@ -21027,9 +21387,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_canonicalizeexecutionstatusforpersistence",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21038,9 +21398,9 @@
       "source_location": "L96",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_normalize",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21049,9 +21409,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21060,9 +21420,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21071,9 +21431,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21082,9 +21442,9 @@
       "source_location": "L64",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21093,9 +21453,9 @@
       "source_location": "L89",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionlabel",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21104,9 +21464,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21115,9 +21475,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyrequestlabel",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "references",
@@ -21126,9 +21486,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyrequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_string"
     },
     {
       "relation": "calls",
@@ -21137,9 +21497,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_canonicalizeexecutionstatusforpersistence",
-      "target": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite"
     },
     {
       "relation": "calls",
@@ -21159,9 +21519,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyrequeststatus",
-      "target": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus"
     },
     {
       "relation": "calls",
@@ -21192,9 +21552,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionstatus",
-      "target": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus"
     },
     {
       "relation": "calls",
@@ -21225,9 +21585,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite",
-      "target": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus"
     },
     {
       "relation": "references",
@@ -21236,9 +21596,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite",
-      "target": "requeststatus",
-      "confidence_score": 1.0
+      "target": "requeststatus"
     },
     {
       "relation": "calls",
@@ -21258,9 +21618,9 @@
       "source_location": "L64",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "target": "requeststatus",
-      "confidence_score": 1.0
+      "target": "requeststatus"
     },
     {
       "relation": "references",
@@ -21269,9 +21629,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyrequestlabel",
-      "target": "requeststatus",
-      "confidence_score": 1.0
+      "target": "requeststatus"
     },
     {
       "relation": "imports",
@@ -21280,9 +21640,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest",
-      "target": "requeststatus",
-      "confidence_score": 1.0
+      "target": "requeststatus"
     },
     {
       "relation": "calls",
@@ -21291,9 +21651,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite",
-      "target": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus"
     },
     {
       "relation": "references",
@@ -21302,9 +21662,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite",
-      "target": "executionstatus",
-      "confidence_score": 1.0
+      "target": "executionstatus"
     },
     {
       "relation": "calls",
@@ -21324,9 +21684,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "target": "executionstatus",
-      "confidence_score": 1.0
+      "target": "executionstatus"
     },
     {
       "relation": "references",
@@ -21335,9 +21695,9 @@
       "source_location": "L89",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionlabel",
-      "target": "executionstatus",
-      "confidence_score": 1.0
+      "target": "executionstatus"
     },
     {
       "relation": "imports",
@@ -21346,9 +21706,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest",
-      "target": "executionstatus",
-      "confidence_score": 1.0
+      "target": "executionstatus"
     },
     {
       "relation": "calls",
@@ -21357,9 +21717,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "target": "application_legacystatustranslator_legacystatustranslator_normalize",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_normalize"
     },
     {
       "relation": "references",
@@ -21368,9 +21728,9 @@
       "source_location": "L64",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_optional",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_optional"
     },
     {
       "relation": "references",
@@ -21379,9 +21739,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_optional",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_optional"
     },
     {
       "relation": "calls",
@@ -21390,9 +21750,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L74",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "target": "application_legacystatustranslator_legacystatustranslator_normalize",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslator_legacystatustranslator_normalize"
     },
     {
       "relation": "contains",
@@ -24300,9 +24660,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest"
     },
     {
       "relation": "imports",
@@ -24311,9 +24671,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice"
     },
     {
       "relation": "imports",
@@ -24322,9 +24682,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test"
     },
     {
       "relation": "method",
@@ -24332,9 +24692,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_getwithpendingconfirmationreturnspendiente",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_getwithpendingconfirmationreturnspendiente"
     },
     {
       "relation": "method",
@@ -24342,9 +24702,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_legacypendingrowreturnspendiente",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_legacypendingrowreturnspendiente"
     },
     {
       "relation": "method",
@@ -24352,9 +24712,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_postwithpendientepersistspendingconfirmation",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_postwithpendientepersistspendingconfirmation"
     },
     {
       "relation": "method",
@@ -24362,9 +24722,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed"
     },
     {
       "relation": "method",
@@ -24372,9 +24732,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400"
     },
     {
       "relation": "method",
@@ -24382,9 +24742,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus"
     },
     {
       "relation": "method",
@@ -24392,9 +24752,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson"
     },
     {
       "relation": "method",
@@ -24402,9 +24762,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L130",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson"
     },
     {
       "relation": "calls",
@@ -24413,9 +24773,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_postwithpendientepersistspendingconfirmation",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson"
     },
     {
       "relation": "references",
@@ -24424,9 +24784,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_postwithpendientepersistspendingconfirmation",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -24435,9 +24795,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_getwithpendingconfirmationreturnspendiente",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -24446,9 +24806,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_legacypendingrowreturnspendiente",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -24457,9 +24817,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -24468,9 +24828,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test"
     },
     {
       "relation": "calls",
@@ -24479,9 +24839,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_getwithpendingconfirmationreturnspendiente",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus"
     },
     {
       "relation": "calls",
@@ -24490,9 +24850,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus"
     },
     {
       "relation": "calls",
@@ -24501,9 +24861,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson"
     },
     {
       "relation": "calls",
@@ -24512,9 +24872,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus"
     },
     {
       "relation": "calls",
@@ -24523,9 +24883,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson"
     },
     {
       "relation": "calls",
@@ -24534,9 +24894,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_legacypendingrowreturnspendiente",
-      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "confidence_score": 1.0
+      "target": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus"
     },
     {
       "relation": "references",
@@ -24545,9 +24905,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice"
     },
     {
       "relation": "references",
@@ -24556,9 +24916,9 @@
       "source_location": "L88",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string"
     },
     {
       "relation": "references",
@@ -24567,9 +24927,9 @@
       "source_location": "L109",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string"
     },
     {
       "relation": "references",
@@ -24578,9 +24938,9 @@
       "source_location": "L130",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string"
     },
     {
       "relation": "references",
@@ -24589,9 +24949,9 @@
       "source_location": "L130",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice"
     },
     {
       "relation": "contains",
@@ -24897,9 +25257,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest"
     },
     {
       "relation": "imports",
@@ -24908,9 +25268,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request"
     },
     {
       "relation": "imports",
@@ -24919,9 +25279,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "method",
@@ -24929,9 +25289,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente"
     },
     {
       "relation": "method",
@@ -24939,9 +25299,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente"
     },
     {
       "relation": "method",
@@ -24949,9 +25309,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending"
     },
     {
       "relation": "method",
@@ -24959,9 +25319,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400"
     },
     {
       "relation": "method",
@@ -24969,9 +25329,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted"
     },
     {
       "relation": "method",
@@ -24979,9 +25339,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid"
     },
     {
       "relation": "method",
@@ -24989,9 +25349,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus"
     },
     {
       "relation": "method",
@@ -24999,9 +25359,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson"
     },
     {
       "relation": "method",
@@ -25009,9 +25369,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L149",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson"
     },
     {
       "relation": "calls",
@@ -25020,9 +25380,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson"
     },
     {
       "relation": "references",
@@ -25031,9 +25391,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -25042,9 +25402,9 @@
       "source_location": "L47",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -25053,9 +25413,9 @@
       "source_location": "L92",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -25064,9 +25424,9 @@
       "source_location": "L82",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -25075,9 +25435,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "references",
@@ -25086,9 +25446,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test"
     },
     {
       "relation": "calls",
@@ -25097,9 +25457,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus"
     },
     {
       "relation": "calls",
@@ -25108,9 +25468,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus"
     },
     {
       "relation": "calls",
@@ -25119,9 +25479,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson"
     },
     {
       "relation": "calls",
@@ -25130,9 +25490,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus"
     },
     {
       "relation": "calls",
@@ -25141,9 +25501,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L75",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson"
     },
     {
       "relation": "calls",
@@ -25152,9 +25512,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L84",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus"
     },
     {
       "relation": "calls",
@@ -25163,9 +25523,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson"
     },
     {
       "relation": "calls",
@@ -25174,9 +25534,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L94",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente",
-      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "confidence_score": 1.0
+      "target": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus"
     },
     {
       "relation": "references",
@@ -25185,9 +25545,9 @@
       "source_location": "L101",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request"
     },
     {
       "relation": "references",
@@ -25196,9 +25556,9 @@
       "source_location": "L101",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string"
     },
     {
       "relation": "references",
@@ -25207,9 +25567,9 @@
       "source_location": "L125",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string"
     },
     {
       "relation": "references",
@@ -25218,9 +25578,9 @@
       "source_location": "L149",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string"
     },
     {
       "relation": "references",
@@ -25229,9 +25589,9 @@
       "source_location": "L149",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request"
     },
     {
       "relation": "contains",
@@ -25239,9 +25599,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest",
-      "target": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslatortest_legacystatustranslatortest"
     },
     {
       "relation": "imports",
@@ -25250,9 +25610,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test"
     },
     {
       "relation": "method",
@@ -25260,9 +25620,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "target": "application_legacystatustranslatortest_legacystatustranslatortest_executionpendingisinterpretedaspendingconfirmation",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslatortest_legacystatustranslatortest_executionpendingisinterpretedaspendingconfirmation"
     },
     {
       "relation": "method",
@@ -25270,9 +25630,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "target": "application_legacystatustranslatortest_legacystatustranslatortest_invalidwritevaluesthrowvalidationexception",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslatortest_legacystatustranslatortest_invalidwritevaluesthrowvalidationexception"
     },
     {
       "relation": "method",
@@ -25280,9 +25640,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "target": "application_legacystatustranslatortest_legacystatustranslatortest_legacyv1outputusesspanishbycontext",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslatortest_legacystatustranslatortest_legacyv1outputusesspanishbycontext"
     },
     {
       "relation": "method",
@@ -25290,9 +25650,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "target": "application_legacystatustranslatortest_legacystatustranslatortest_requestspanishandcanonicalinputsnormalizetocanonicalpersistence",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslatortest_legacystatustranslatortest_requestspanishandcanonicalinputsnormalizetocanonicalpersistence"
     },
     {
       "relation": "method",
@@ -25300,9 +25660,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "target": "application_legacystatustranslatortest_legacystatustranslatortest_unknownstoredvaluesarereturnedunchangedonread",
-      "confidence_score": 1.0
+      "target": "application_legacystatustranslatortest_legacystatustranslatortest_unknownstoredvaluesarereturnedunchangedonread"
     },
     {
       "relation": "references",
@@ -25311,9 +25671,9 @@
       "source_location": "L12",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest_requestspanishandcanonicalinputsnormalizetocanonicalpersistence",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test"
     },
     {
       "relation": "references",
@@ -25322,9 +25682,9 @@
       "source_location": "L28",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest_executionpendingisinterpretedaspendingconfirmation",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test"
     },
     {
       "relation": "references",
@@ -25333,9 +25693,9 @@
       "source_location": "L55",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest_invalidwritevaluesthrowvalidationexception",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test"
     },
     {
       "relation": "references",
@@ -25344,9 +25704,9 @@
       "source_location": "L38",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest_legacyv1outputusesspanishbycontext",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test"
     },
     {
       "relation": "references",
@@ -25355,9 +25715,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslatortest_legacystatustranslatortest_unknownstoredvaluesarereturnedunchangedonread",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test"
     },
     {
       "relation": "contains",
@@ -25481,6 +25841,366 @@
       "confidence_score": 1.0,
       "source": "readme_pescago_backend",
       "target": "readme_3_ejecuci\u00f3n"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit",
+      "target": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit",
+      "target": "architecture_pescago_v2_backend_implementation_plan",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L307",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_10_criterios_previos_obligatorios_antes_de_crear_v1_initial_schema_sql_ejecutable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L322",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_11_decisi\u00f3n_recomendada_h2_vs_postgresql_vs_testcontainers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L441",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_12_resumen_ejecutivo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_3_relaciones_l\u00f3gicas_sin_fk_f\u00edsica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L199",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_4_hallazgos_de_discrepancias_o_incertidumbres",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L218",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_5_inspecci\u00f3n_de_postgresql_real_estado_previo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L224",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_6_riesgos_espec\u00edficos_de_migrar_desde_ddl_auto_update",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L236",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L271",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_8_orden_recomendado_de_adopci\u00f3n_flyway",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L286",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_9_archivos_que_se_modificar\u00edan_en_la_siguiente_etapa_implementaci\u00f3n",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L335",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_pescago_auditor\u00eda_de_esquema_y_preparaci\u00f3n_flyway_bloque_0d",
+      "target": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
+      "target": "architecture_pescago_flyway_schema_audit_configuraci\u00f3n_hibernate_detallada",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_1_estado_actual_confirmado_de_persistencia",
+      "target": "architecture_pescago_flyway_schema_audit_dependencias_relacionadas_pom_xml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_convenciones_globales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_carriers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_entreprenuers",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_hired_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_receipts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_requests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L69",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_2_inventario_de_entidades_y_esquema_inferido",
+      "target": "architecture_pescago_flyway_schema_audit_tabla_inferida_users",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L238",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
+      "target": "architecture_pescago_flyway_schema_audit_7_1_base_postgresql_nueva_greenfield_escenario_a_6_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L245",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
+      "target": "architecture_pescago_flyway_schema_audit_7_2_base_postgresql_existente_escenario_b_6_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L255",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
+      "target": "architecture_pescago_flyway_schema_audit_7_3_desarrollo_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L263",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_7_estrategia_propuesta_por_escenario",
+      "target": "architecture_pescago_flyway_schema_audit_7_4_pruebas_h2_actuales",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L371",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_columnas_tipos_y_nullabilidad_resumen_por_tabla",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L337",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_conexi\u00f3n_y_m\u00e9todo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L393",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_defaults_sql_real_vs_aplicaci\u00f3n_java",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L415",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_diferencias_confirmadas_bd_real_vs_inventario_jpa_inferido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L347",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_entorno_inspeccionado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L428",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_permite_el_esquema_elaborar_v1_initial_schema_sql",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L404",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_primary_keys_constraints_\u00edndices_y_secuencias",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/PESCAGO_FLYWAY_SCHEMA_AUDIT.md",
+      "source_location": "L355",
+      "weight": 1.0,
+      "source": "architecture_pescago_flyway_schema_audit_verificaci\u00f3n_read_only_del_esquema_postgresql_real",
+      "target": "architecture_pescago_flyway_schema_audit_tablas_base_encontradas",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -26284,5 +27004,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8dab4a69a1616fe8345c37e99fcc5b60b36bb0d9"
+  "built_at_commit": "728f06e170453b7cd20486c26cd8f433377154a3"
 }
