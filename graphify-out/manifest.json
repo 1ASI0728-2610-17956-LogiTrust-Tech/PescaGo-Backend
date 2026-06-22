@@ -240,18 +240,18 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/CreateHiredServiceCommandFromResourceAssembler.java": {
-    "mtime": 1781331700.9648511,
-    "ast_hash": "3392cd49fa0b3581535e149f93c68ad7",
+    "mtime": 1782104340.799246,
+    "ast_hash": "031dc19fbd820faf3bf9410c73451574",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/HiredServiceResourceFromEntityAssembler.java": {
-    "mtime": 1781331700.9648511,
-    "ast_hash": "84caad1f192532a304c6e7c9489dba33",
+    "mtime": 1782104346.6198728,
+    "ast_hash": "f33ff32889d1c618ae96da47fde99610",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/hiredService/interfaces/rest/transform/UpdateHiredServiceCommandFromResourceAssembler.java": {
-    "mtime": 1781331700.9660978,
-    "ast_hash": "e27830416d13f2bb284fa9f5f40f760f",
+    "mtime": 1782104344.0155945,
+    "ast_hash": "1ec1010d96f7c0a0975c818e3b9e625a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/iam/application/internal/commandservices/UserCommandServiceImpl.java": {
@@ -485,18 +485,18 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/CreateRequestCommandFromResourceAssembler.java": {
-    "mtime": 1781331701.003361,
-    "ast_hash": "5165358ab073ef0b4225bfde6306e370",
+    "mtime": 1782104330.4181623,
+    "ast_hash": "484f43c44c8eb25f8c6ae08dac128d81",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/RequestResourceFromEntityAssembler.java": {
-    "mtime": 1781331701.0043936,
-    "ast_hash": "caa4209cede4cc1f294b3126003cccc9",
+    "mtime": 1782104335.3169532,
+    "ast_hash": "a6a6a01a8adfa78e91e6a532a9f89584",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/transform/UpdateRequestCommandFromResourceAssembler.java": {
-    "mtime": 1781331701.0043936,
-    "ast_hash": "d9e40b343a7bd492f221b8bfeae05861",
+    "mtime": 1782104333.3457656,
+    "ast_hash": "479afd60fd43223ef9a5f79635e595f0",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/shared/domain/model/aggregates/AuditableAbstractAggregateRoot.java": {
@@ -650,8 +650,8 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/carrier/interfaces/rest/CarrierV2Controller.java": {
-    "mtime": 1782102732.927347,
-    "ast_hash": "4efd65990f0a68700225285b08d7a933",
+    "mtime": 1782103539.6029575,
+    "ast_hash": "5a54c93c5f57cd45a8f30a0c460eb891",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/shared/infrastructure/security/JwtPropertiesValidator.java": {
@@ -665,13 +665,43 @@
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/carrier/CarrierByUserV2IntegrationTest.java": {
-    "mtime": 1782102743.2211964,
-    "ast_hash": "956c1ec358a3f1695217fd3dc3978804",
+    "mtime": 1782103539.605465,
+    "ast_hash": "36adbe86405b63781b58c134217618f6",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/shared/infrastructure/security/JwtPropertiesValidatorTest.java": {
     "mtime": 1782102281.229562,
     "ast_hash": "721fef8615e525b243abd714e38613fb",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java": {
+    "mtime": 1782104320.9029455,
+    "ast_hash": "836c6416c0a64bd342410e1e0ebf0e07",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/domain/model/enums/ExecutionStatus.java": {
+    "mtime": 1782104314.0412703,
+    "ast_hash": "b314a1c2e6688ac4d03c8c2ff319e24c",
+    "semantic_hash": ""
+  },
+  "src/main/java/pe/upc/pescagobackend/shared/domain/model/enums/RequestStatus.java": {
+    "mtime": 1782104313.64431,
+    "ast_hash": "8899140af537600068c02216129c8d4c",
+    "semantic_hash": ""
+  },
+  "src/test/java/pe/upc/pescagobackend/hiredService/HiredServiceV1StatusIntegrationTest.java": {
+    "mtime": 1782104463.4808598,
+    "ast_hash": "0a863c050d564d6f5fa82e0071fcc441",
+    "semantic_hash": ""
+  },
+  "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java": {
+    "mtime": 1782104458.218057,
+    "ast_hash": "1f08be5dbdfdc27ec101c82a9457638a",
+    "semantic_hash": ""
+  },
+  "src/test/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslatorTest.java": {
+    "mtime": 1782104362.608019,
+    "ast_hash": "f883b27f93a0581078c1f95d1e3e54f7",
     "semantic_hash": ""
   }
 }

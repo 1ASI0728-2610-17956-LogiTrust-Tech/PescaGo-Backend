@@ -1,16 +1,16 @@
-# Graph Report - PescaGo-Backend  (2026-06-21)
+# Graph Report - PescaGo-Backend  (2026-06-22)
 
 ## Corpus Check
-- 135 files · ~19,942 words
+- 141 files · ~21,037 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 933 nodes · 1378 edges · 108 communities (52 shown, 56 thin omitted)
-- Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 49 edges (avg confidence: 0.8)
+- 996 nodes · 1527 edges · 111 communities (55 shown, 56 thin omitted)
+- Extraction: 95% EXTRACTED · 5% INFERRED · 0% AMBIGUOUS · INFERRED: 69 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fd0383f9`
+- Built from commit: `8dab4a69`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -122,18 +122,19 @@
 - [[_COMMUNITY_Community 104|Community 104]]
 - [[_COMMUNITY_Community 105|Community 105]]
 - [[_COMMUNITY_Community 107|Community 107]]
+- [[_COMMUNITY_Community 108|Community 108]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `AuthenticatedUser` - 13 edges
-2. `CarrierByUserV2IntegrationTest` - 10 edges
-3. `AuthV2IntegrationTest` - 10 edges
-4. `SnakeCasePhysicalNamingStrategy` - 9 edges
-5. `8. Roadmap técnico priorizado` - 9 edges
-6. `HiredServiceController` - 8 edges
-7. `RequestController` - 8 edges
-8. `Identifier` - 8 edges
-9. `Test` - 8 edges
-10. `9. Plan de implementación inicial recomendado` - 8 edges
+1. `LegacyStatusTranslator` - 13 edges
+2. `AuthenticatedUser` - 13 edges
+3. `String` - 11 edges
+4. `CarrierByUserV2IntegrationTest` - 10 edges
+5. `AuthV2IntegrationTest` - 10 edges
+6. `RequestV1StatusIntegrationTest` - 10 edges
+7. `SnakeCasePhysicalNamingStrategy` - 9 edges
+8. `HiredServiceV1StatusIntegrationTest` - 9 edges
+9. `8. Roadmap técnico priorizado` - 9 edges
+10. `HiredServiceController` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `CarrierCommandServiceImpl` --implements--> `CarrierCommandService`  [EXTRACTED]
@@ -150,7 +151,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (108 total, 56 thin omitted)
+## Communities (111 total, 56 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.09
@@ -161,24 +162,24 @@ Cohesion: 0.21
 Nodes (14): RequestController, ApiResponses, CreateRequestResource, DeleteMapping, GetMapping, Long, Operation, PostMapping (+6 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.15
-Nodes (11): CarrierData, HiredService, CreateHiredServiceCommand, UpdateHiredServiceCommand, CreateHiredServiceCommand, CreateHiredServiceResource, Long, UpdateHiredServiceCommand (+3 more)
+Cohesion: 0.13
+Nodes (13): CarrierData, HiredService, CreateHiredServiceCommand, UpdateHiredServiceCommand, CreateHiredServiceCommand, CreateHiredServiceResource, String, Long (+5 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.20
 Nodes (16): HiredServiceController, ApiResponses, CreateHiredServiceResource, DeleteMapping, GetMapping, HiredServiceCommandService, HiredServiceQueryService, HiredServiceResource (+8 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.15
-Nodes (11): Dimensions, Request, CreateRequestCommand, UpdateRequestCommand, CreateRequestCommand, CreateRequestResource, Long, UpdateRequestCommand (+3 more)
+Cohesion: 0.12
+Nodes (13): Dimensions, Request, CreateRequestCommand, UpdateRequestCommand, CreateRequestCommand, CreateRequestResource, String, Long (+5 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.45
 Nodes (5): Identifier, JdbcEnvironment, PhysicalNamingStrategy, Override, SnakeCasePhysicalNamingStrategy
 
 ### Community 6 - "Community 6"
-Cohesion: 0.11
-Nodes (22): CarrierQueryService, CarrierQueryServiceImpl, CarrierRepository, CarrierQueryService, Carrier, CarrierRepository, GetCarrierByIdQuery, GetCarrierByUserIdQuery (+14 more)
+Cohesion: 0.16
+Nodes (17): CarrierQueryService, CarrierQueryServiceImpl, CarrierQueryService, Carrier, CarrierRepository, GetCarrierByIdQuery, GetCarrierByUserIdQuery, GetCarriersQuery (+9 more)
 
 ### Community 7 - "Community 7"
 Cohesion: 0.20
@@ -261,20 +262,20 @@ Cohesion: 0.16
 Nodes (17): HiredServiceQueryService, HiredServiceQueryServiceImpl, HiredServiceQueryService, GetHiredServiceByIdQuery, GetHiredServicesByCarrierIdQuery, GetHiredServicesByEntrepreneurIdQuery, HiredService, HiredServiceRepository (+9 more)
 
 ### Community 34 - "Community 34"
-Cohesion: 0.60
-Nodes (3): HiredService, HiredServiceResource, HiredServiceResourceFromEntityAssembler
+Cohesion: 0.12
+Nodes (13): LegacyStatusTranslator, LegacyStatusTranslatorTest, ExecutionStatus, RequestStatus, HiredService, HiredServiceResource, Request, RequestResource (+5 more)
 
 ### Community 36 - "Community 36"
-Cohesion: 0.07
-Nodes (23): Claims, Duration, Environment, FilterChain, OncePerRequestFilter, PostConstruct, JwtAuthenticationFilter, JwtPropertiesValidator (+15 more)
+Cohesion: 0.13
+Nodes (15): Claims, FilterChain, OncePerRequestFilter, JwtAuthenticationFilter, JwtService, SecurityUserDetailsService, HttpServletRequest, HttpServletResponse (+7 more)
 
 ### Community 37 - "Community 37"
 Cohesion: 0.60
 Nodes (3): CreateUserCommand, CreateUserResource, CreateUserCommandFromResourceAssembler
 
 ### Community 38 - "Community 38"
-Cohesion: 0.05
-Nodes (31): RoleCompatibilityMapper, Collection, GrantedAuthority, UserRepository, AuthenticatedUser, SecurityUserDetailsService, Carrier, CarrierResource (+23 more)
+Cohesion: 0.06
+Nodes (26): RoleCompatibilityMapper, Collection, GrantedAuthority, AuthenticatedUser, SecurityUserDetailsService, Carrier, CarrierResource, Entreprenuer (+18 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.47
@@ -297,16 +298,16 @@ Cohesion: 0.16
 Nodes (17): RequestQueryServiceImpl, RequestQueryService, RequestQueryService, GetRequestByIdQuery, GetRequestsByCarrierIdQuery, GetRequestsByEntrepreneurIdQuery, List, Optional (+9 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.50
-Nodes (3): Request, RequestResource, RequestResourceFromEntityAssembler
+Cohesion: 0.12
+Nodes (12): Duration, Environment, PostConstruct, RequestV1StatusIntegrationTest, JwtPropertiesValidator, JwtTtlParser, JwtProperties, String (+4 more)
 
 ### Community 87 - "Community 87"
-Cohesion: 0.08
-Nodes (25): 3.1 Fleet, 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.5 Notification, 3.6 Reputation (soporte) (+17 more)
+Cohesion: 0.13
+Nodes (15): 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.6 Reputation (soporte), 3. Diseño del dominio nuevo, Campos nuevos propuestos (+7 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.29
-Nodes (6): 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma), PescaGo v2 — Plan de implementación backend, Variables de entorno JWT (documentadas, sin valores)
+Cohesion: 0.18
+Nodes (10): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado, 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma) (+2 more)
 
 ### Community 89 - "Community 89"
 Cohesion: 0.20
@@ -325,12 +326,12 @@ Cohesion: 0.29
 Nodes (7): 1.1 Stack y arquitectura, 1.2 Módulos actuales (bounded contexts de facto), 1.3 Endpoints actuales (26, todos públicos), 1.4 Flujo de negocio implementado hoy, 1.5 Limitaciones que impiden matching automático directo, 1.6 Monolito modular actual vs arquitectura objetivo del curso, 1. Estado actual confirmado
 
 ### Community 93 - "Community 93"
-Cohesion: 0.29
-Nodes (7): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.4 Restricciones y auditoría, 6. Persistencia PostgreSQL y migraciones, Configuración propuesta (documental), Escenario A — Base PostgreSQL **nueva** (desarrollo greenfield), Escenario B — Base PostgreSQL **existente** (datos reales / dev con historial)
+Cohesion: 0.17
+Nodes (12): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.3 Cambios a tablas existentes (migraciones futuras), 6.4 Restricciones y auditoría, 6. Persistencia PostgreSQL y migraciones, Configuración propuesta (documental), Escenario A — Base PostgreSQL **nueva** (desarrollo greenfield), Escenario B — Base PostgreSQL **existente** (datos reales / dev con historial) (+4 more)
 
 ### Community 94 - "Community 94"
-Cohesion: 0.40
-Nodes (5): 6.3 Cambios a tablas existentes (migraciones futuras), `hired_services`, `receipts` (deprecación), `requests`, `users`
+Cohesion: 0.19
+Nodes (9): HiredServiceV1StatusIntegrationTest, CarrierRepository, Carrier, List, Long, Optional, HiredService, String (+1 more)
 
 ### Community 95 - "Community 95"
 Cohesion: 0.32
@@ -345,36 +346,40 @@ Cohesion: 0.27
 Nodes (5): AuthV2IntegrationTest, Long, String, Test, User
 
 ### Community 98 - "Community 98"
-Cohesion: 0.14
-Nodes (16): PasswordAuthenticationService, LoginRequest, LoginResponse, LoginProfileResource, AuthController, Optional, PasswordEncoder, String (+8 more)
+Cohesion: 0.10
+Nodes (21): PasswordAuthenticationService, LoginRequest, LoginResponse, UserRepository, LoginProfileResource, AuthController, Optional, PasswordEncoder (+13 more)
 
 ### Community 99 - "Community 99"
-Cohesion: 0.50
-Nodes (4): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado
+Cohesion: 0.33
+Nodes (6): 3.1 Fleet, Agregados y entidades, CarrierAvailability, CarrierLocation, Eventos de dominio futuros (Fleet), FleetVehicle
 
 ### Community 107 - "Community 107"
 Cohesion: 0.47
 Nodes (3): JwtPropertiesValidatorTest, TestConfiguration, Test
 
+### Community 108 - "Community 108"
+Cohesion: 0.50
+Nodes (4): 3.5 Notification, Eventos, Notification, PushToken
+
 ## Knowledge Gaps
-- **172 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+167 more)
+- **176 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+171 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **56 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `CarrierData` connect `Community 2` to `Community 94`?**
+  _High betweenness centrality (0.097) - this node is a cross-community bridge._
+- **Why does `Dimensions` connect `Community 4` to `Community 47`?**
+  _High betweenness centrality (0.096) - this node is a cross-community bridge._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _172 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _176 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.09388335704125178 - nodes in this community are weakly interconnected._
+- **Should `Community 2` be split into smaller, more focused modules?**
+  _Cohesion score 0.12648221343873517 - nodes in this community are weakly interconnected._
 - **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.14619883040935672 - nodes in this community are weakly interconnected._
-- **Should `Community 6` be split into smaller, more focused modules?**
-  _Cohesion score 0.1103448275862069 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.1225296442687747 - nodes in this community are weakly interconnected._
 - **Should `Community 24` be split into smaller, more focused modules?**
   _Cohesion score 0.14333333333333334 - nodes in this community are weakly interconnected._
-- **Should `Community 31` be split into smaller, more focused modules?**
-  _Cohesion score 0.13043478260869565 - nodes in this community are weakly interconnected._
-- **Should `Community 36` be split into smaller, more focused modules?**
-  _Cohesion score 0.07435897435897436 - nodes in this community are weakly interconnected._
