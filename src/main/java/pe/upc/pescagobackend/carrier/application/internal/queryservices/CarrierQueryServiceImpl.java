@@ -3,6 +3,7 @@ package pe.upc.pescagobackend.carrier.application.internal.queryservices;
 import org.springframework.stereotype.Service;
 import pe.upc.pescagobackend.carrier.domain.model.aggregates.Carrier;
 import pe.upc.pescagobackend.carrier.domain.model.queries.GetCarrierByIdQuery;
+import pe.upc.pescagobackend.carrier.domain.model.queries.GetCarrierByUserIdQuery;
 import pe.upc.pescagobackend.carrier.domain.model.queries.GetCarriersQuery;
 import pe.upc.pescagobackend.carrier.domain.services.CarrierQueryService;
 import pe.upc.pescagobackend.carrier.infrastructure.persistence.jpa.repositories.CarrierRepository;
@@ -22,6 +23,12 @@ public class CarrierQueryServiceImpl implements CarrierQueryService {
     public Optional<Carrier> handle(GetCarrierByIdQuery query){
         return carrierRepository.findById(query.id());  // ← Busca por carrier ID, no por user_id
     }
+
+    @Override
+    public Optional<Carrier> handle(GetCarrierByUserIdQuery query) {
+        return carrierRepository.findByUserId(query.userId());
+    }
+
     @Override
     public Optional<List<Carrier>> handle(GetCarriersQuery query) {
         return Optional.of(carrierRepository.findAll());

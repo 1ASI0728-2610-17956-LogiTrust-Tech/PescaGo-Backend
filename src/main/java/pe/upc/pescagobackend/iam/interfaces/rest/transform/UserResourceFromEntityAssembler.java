@@ -9,7 +9,6 @@ public class UserResourceFromEntityAssembler {
             entity.getId(),
             entity.getUsername(),
             entity.getEmail(),
-            entity.getPassword(),
             entity.getRole()
         );
     }

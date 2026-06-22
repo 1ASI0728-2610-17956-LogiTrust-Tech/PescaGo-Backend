@@ -1,7 +1,10 @@
 package pe.upc.pescagobackend.request.interfaces.rest.transform;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.web.server.ResponseStatusException;
 import pe.upc.pescagobackend.request.domain.model.commands.CreateRequestCommand;
 import pe.upc.pescagobackend.request.interfaces.rest.resources.CreateRequestResource;
+import pe.upc.pescagobackend.shared.application.LegacyStatusTranslator;
 
 public class CreateRequestCommandFromResourceAssembler {
     public static CreateRequestCommand toCommandFromResource(CreateRequestResource resource) {
@@ -17,8 +20,16 @@ public class CreateRequestCommandFromResourceAssembler {
             resource.deliveryLocation(),
             resource.pickupDateTime(),
             resource.price(),
-            resource.status(),
+            canonicalizeRequestStatus(resource.status()),
             resource.dimensions()
         );
+    }
+
+    private static String canonicalizeRequestStatus(String status) {
+        try {
+            return LegacyStatusTranslator.canonicalizeRequestStatusForPersistence(status);
+        } catch (IllegalArgumentException ex) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, ex.getMessage());
+        }
     }
 }
