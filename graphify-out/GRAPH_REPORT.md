@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Backend  (2026-06-21)
 
 ## Corpus Check
-- 108 files · ~9,971 words
+- 109 files · ~17,003 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 616 nodes · 894 edges · 87 communities (37 shown, 50 thin omitted)
+- 697 nodes · 974 edges · 95 communities (45 shown, 50 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 12 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `d9829564`
+- Built from commit: `bf64d6dc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -102,18 +102,26 @@
 - [[_COMMUNITY_Community 84|Community 84]]
 - [[_COMMUNITY_Community 85|Community 85]]
 - [[_COMMUNITY_Community 86|Community 86]]
+- [[_COMMUNITY_Community 87|Community 87]]
+- [[_COMMUNITY_Community 88|Community 88]]
+- [[_COMMUNITY_Community 89|Community 89]]
+- [[_COMMUNITY_Community 90|Community 90]]
+- [[_COMMUNITY_Community 91|Community 91]]
+- [[_COMMUNITY_Community 92|Community 92]]
+- [[_COMMUNITY_Community 93|Community 93]]
+- [[_COMMUNITY_Community 94|Community 94]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `SnakeCasePhysicalNamingStrategy` - 9 edges
-2. `HiredServiceController` - 8 edges
-3. `RequestController` - 8 edges
-4. `Identifier` - 8 edges
-5. `Operation` - 7 edges
-6. `ApiResponses` - 7 edges
+2. `8. Roadmap técnico priorizado` - 9 edges
+3. `HiredServiceController` - 8 edges
+4. `RequestController` - 8 edges
+5. `Identifier` - 8 edges
+6. `9. Plan de implementación inicial recomendado` - 8 edges
 7. `Operation` - 7 edges
 8. `ApiResponses` - 7 edges
-9. `CarrierController` - 6 edges
-10. `ResponseEntity` - 6 edges
+9. `Operation` - 7 edges
+10. `ApiResponses` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `CarrierCommandServiceImpl` --implements--> `CarrierCommandService`  [EXTRACTED]
@@ -130,7 +138,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (87 total, 50 thin omitted)
+## Communities (95 total, 50 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.20
@@ -280,19 +288,55 @@ Nodes (17): RequestQueryServiceImpl, RequestQueryService, RequestQueryService, G
 Cohesion: 0.50
 Nodes (3): Request, RequestResource, RequestResourceFromEntityAssembler
 
+### Community 87 - "Community 87"
+Cohesion: 0.08
+Nodes (25): 3.1 Fleet, 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.5 Notification, 3.6 Reputation (soporte) (+17 more)
+
+### Community 88 - "Community 88"
+Cohesion: 0.18
+Nodes (10): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado, 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma) (+2 more)
+
+### Community 89 - "Community 89"
+Cohesion: 0.20
+Nodes (10): 8.1 Testing mínimo Fase 0, 8. Roadmap técnico priorizado, Fase 0 — Estabilización obligatoria del MVP, Fase 1 — Foundation de datos y Fleet, Fase 2 — Pricing + matching básico, Fase 3 — Aceptación rápida + ServiceExecution, Fase 4 — Notification, Fase 5 — Tracking GPS (+2 more)
+
+### Community 90 - "Community 90"
+Cohesion: 0.25
+Nodes (8): 2.1 Mapeo módulos actuales → bounded contexts objetivo, 2.2 Compatibilidad temporal (no romper web Angular actual), 2.3 Nombres con typo que NO deben cambiar aún, 2.4 Principios v2, 2.5 Compatibilidad real entre v1 y v2, 2.6 Transición de roles (datos existentes), 2. Decisiones de arquitectura v2, Tarea frontend futura (roadmap)
+
+### Community 91 - "Community 91"
+Cohesion: 0.25
+Nodes (8): 9. Plan de implementación inicial recomendado, Bloque 0A — Documento y estrategia de migración, Bloque 0B — Autenticación v2 compatible, Bloque 0C — Consultas de perfil y corrección coordinada, Bloque 0D — Flyway preparado, Criterios de aceptación Fase 0 (conjunto 0A–0D), Qué NO hacer en Fase 0, Tests mínimos (transversal Fase 0 / Bloques 0B–0D)
+
+### Community 92 - "Community 92"
+Cohesion: 0.29
+Nodes (7): 1.1 Stack y arquitectura, 1.2 Módulos actuales (bounded contexts de facto), 1.3 Endpoints actuales (26, todos públicos), 1.4 Flujo de negocio implementado hoy, 1.5 Limitaciones que impiden matching automático directo, 1.6 Monolito modular actual vs arquitectura objetivo del curso, 1. Estado actual confirmado
+
+### Community 93 - "Community 93"
+Cohesion: 0.29
+Nodes (7): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.4 Restricciones y auditoría, 6. Persistencia PostgreSQL y migraciones, Configuración propuesta (documental), Escenario A — Base PostgreSQL **nueva** (desarrollo greenfield), Escenario B — Base PostgreSQL **existente** (datos reales / dev con historial)
+
+### Community 94 - "Community 94"
+Cohesion: 0.40
+Nodes (5): 6.3 Cambios a tablas existentes (migraciones futuras), `hired_services`, `receipts` (deprecación), `requests`, `users`
+
 ## Knowledge Gaps
-- **84 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+79 more)
+- **146 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+141 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **50 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
+- **Why does `3. Diseño del dominio nuevo` connect `Community 87` to `Community 88`?**
+  _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _84 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _146 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 4` be split into smaller, more focused modules?**
   _Cohesion score 0.14619883040935672 - nodes in this community are weakly interconnected._
 - **Should `Community 6` be split into smaller, more focused modules?**
   _Cohesion score 0.1164021164021164 - nodes in this community are weakly interconnected._
 - **Should `Community 13` be split into smaller, more focused modules?**
   _Cohesion score 0.12433862433862433 - nodes in this community are weakly interconnected._
+- **Should `Community 87` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._

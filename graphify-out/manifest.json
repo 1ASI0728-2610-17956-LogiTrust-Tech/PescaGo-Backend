@@ -538,5 +538,10 @@
     "mtime": 1781336773.828889,
     "ast_hash": "21719df7cc53e8f15818859d500d1f27",
     "semantic_hash": ""
+  },
+  "docs/architecture/PESCAGO_V2_BACKEND_IMPLEMENTATION_PLAN.md": {
+    "mtime": 1782097991.6544037,
+    "ast_hash": "4f960a31a00c9332a1d824beba81820d",
+    "semantic_hash": ""
   }
 }
