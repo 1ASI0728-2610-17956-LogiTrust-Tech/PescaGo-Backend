@@ -515,8 +515,8 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/shared/infrastructure/web/config/CorsConfig.java": {
-    "mtime": 1782102281.225049,
-    "ast_hash": "22c83dfe99fe87aa73226dd92eaf419b",
+    "mtime": 1782174901.785653,
+    "ast_hash": "fe7b909bc8af2ac389b6c2343b102b08",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/PescagoBackendApplicationTests.java": {
@@ -730,163 +730,168 @@
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/application/internal/commandservices/VehicleCommandServiceImpl.java": {
-    "mtime": 1782163759.2900517,
-    "ast_hash": "3230ac83cf5f7fa5fed7b1df3700926c",
+    "mtime": 1782164603.9622934,
+    "ast_hash": "65cac13fb1ebf01248038a09409a72ab",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/application/internal/persistence/FleetPersistenceConstraintClassifier.java": {
-    "mtime": 1782163660.9827325,
-    "ast_hash": "32184b948cc51b062bd4dffd5b6714f2",
+    "mtime": 1782164603.9632945,
+    "ast_hash": "d0d03cdfbea14f36b6af010d289b3121",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/application/internal/queryservices/VehicleQueryServiceImpl.java": {
-    "mtime": 1782162566.4349961,
-    "ast_hash": "234afbe684eff83786c234105eefa4cb",
+    "mtime": 1782164603.9642935,
+    "ast_hash": "22d062620841e9886edeee77ac47015a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/application/internal/services/FleetCarrierContextResolver.java": {
-    "mtime": 1782162570.5211105,
-    "ast_hash": "b410c0a1f00b712081a53dc5a94d12ed",
+    "mtime": 1782164603.9653451,
+    "ast_hash": "2fb052e267941b9cec675e3d687dd599",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/exceptions/DuplicatePlateException.java": {
-    "mtime": 1782162507.6567252,
-    "ast_hash": "1907f20888f4824be9d6c4a692bdb38c",
+    "mtime": 1782164603.9663503,
+    "ast_hash": "d567c21cbc8c4f1f0e06964c083841c3",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/FleetPlateRules.java": {
-    "mtime": 1782162506.316246,
-    "ast_hash": "7c08194f9295177afd920021e3493232",
+    "mtime": 1782164603.967352,
+    "ast_hash": "cb49d432fb4b54ff5138ac665b1681b9",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/aggregates/Vehicle.java": {
-    "mtime": 1782162542.8048446,
-    "ast_hash": "4289f3f735adf8b490695a40ec5f24bf",
+    "mtime": 1782164603.968349,
+    "ast_hash": "624fde970f0c4f4cf1b3dfa8e23fa627",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/commands/ActivateVehicleCommand.java": {
-    "mtime": 1782162520.7310033,
-    "ast_hash": "929bb3f4aa72fae52407b99ea76d5518",
+    "mtime": 1782164603.969352,
+    "ast_hash": "1f05dd0d4ca976834763e0d54961caef",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/commands/DeactivateVehicleCommand.java": {
-    "mtime": 1782162523.6263213,
-    "ast_hash": "0960285db9c6d8f5f5b0a72fa9ebac76",
+    "mtime": 1782164603.9703572,
+    "ast_hash": "032d30bdd1a2be9d479818b1630709ac",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/commands/RegisterVehicleCommand.java": {
-    "mtime": 1782162512.2298095,
-    "ast_hash": "53c1a9cae733a94e24301f3a26a746a2",
+    "mtime": 1782164603.9703572,
+    "ast_hash": "d6ac552a711c8fa05f2f562fd04c4084",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/commands/UpdateVehicleCommand.java": {
-    "mtime": 1782162518.2910476,
-    "ast_hash": "4e8d5c3b41209da5af11f544c32df9f3",
+    "mtime": 1782164603.9713573,
+    "ast_hash": "b4fe82cbf89dee2fefabc2c0c46af073",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/enums/VehicleAvailabilityStatus.java": {
-    "mtime": 1782162502.7974443,
-    "ast_hash": "c7e8a53a1ebcebd4ca7d8ec25279bc3a",
+    "mtime": 1782164603.9723566,
+    "ast_hash": "ec50e537749d143c48a08849c9d15b9f",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/enums/VehicleType.java": {
-    "mtime": 1782162501.445896,
-    "ast_hash": "0fb37873ab9477d381d57085ab7ba873",
+    "mtime": 1782164603.9723566,
+    "ast_hash": "53e14ae86b4610e13ec31547fb3e5985",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/queries/GetOwnVehicleByIdQuery.java": {
-    "mtime": 1782162528.320514,
-    "ast_hash": "9c3d691eb5085b0ac7c900a7c4ad9649",
+    "mtime": 1782164603.973356,
+    "ast_hash": "437b54b0aecc5b0854be4c8b3ff1f343",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/model/queries/GetOwnVehiclesQuery.java": {
-    "mtime": 1782162525.5257003,
-    "ast_hash": "c38bae14a206fc6309e33cf658f0a1bf",
+    "mtime": 1782164603.9743576,
+    "ast_hash": "e7cebbc87dcc05a0733b5aac73f1d0f7",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/services/VehicleCommandService.java": {
-    "mtime": 1782162546.5560153,
-    "ast_hash": "d8198bd084db09a64f1a014efe032d6c",
+    "mtime": 1782164603.9753563,
+    "ast_hash": "8bce032e92c16bfb4f40c046aa236519",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/domain/services/VehicleQueryService.java": {
-    "mtime": 1782162549.2503116,
-    "ast_hash": "cbc4cdb615d035f89aedcdfd4754d252",
+    "mtime": 1782164603.9753563,
+    "ast_hash": "381acc6f33e954e2689f940b6087b4b7",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/infrastructure/persistence/jpa/repositories/VehicleRepository.java": {
-    "mtime": 1782162552.0920873,
-    "ast_hash": "d9f449e530a6b45e2fe2c3ddb96d09ab",
+    "mtime": 1782164603.9773562,
+    "ast_hash": "7006e664a986f9a46dcd18230a315d3a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/FleetVehicleV2Controller.java": {
-    "mtime": 1782163671.5816607,
-    "ast_hash": "da12e92d00a9f9ab48ebb3fa84e926ef",
+    "mtime": 1782164603.9793575,
+    "ast_hash": "e23eb17e3d9054eeec93484e4eaed39a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/resources/RegisterVehicleResource.java": {
-    "mtime": 1782163664.026898,
-    "ast_hash": "5125e27fd624c51f7970e1b68367e795",
+    "mtime": 1782164603.9793575,
+    "ast_hash": "b79851fe9f094c92c2f7fbefbe783d3a",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/resources/UpdateVehicleResource.java": {
-    "mtime": 1782163667.3808599,
-    "ast_hash": "589cffec254c2521df1a4f4d9a7b587c",
+    "mtime": 1782164603.9803598,
+    "ast_hash": "3f45dadf00ca45473fe4dec5988b5689",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/resources/VehicleResource.java": {
-    "mtime": 1782162585.803287,
-    "ast_hash": "661a89a994be3a1b977e653664a6adfa",
+    "mtime": 1782164603.9813573,
+    "ast_hash": "d7fab568bed6207d8a64379a779e0da7",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/transform/RegisterVehicleCommandFromResourceAssembler.java": {
-    "mtime": 1782162591.7164202,
-    "ast_hash": "3a6ac0bafd8a23e483717d7dda68d695",
+    "mtime": 1782164603.9823587,
+    "ast_hash": "e294b9ca1985b8fa8c5e9f346b4e1ccd",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/transform/UpdateVehicleCommandFromResourceAssembler.java": {
-    "mtime": 1782162594.8142035,
-    "ast_hash": "167abb6717b96c32e471d3bcded4c73b",
+    "mtime": 1782164603.9823587,
+    "ast_hash": "5d03a59a129bf83cfa3e4bae71fb4699",
     "semantic_hash": ""
   },
   "src/main/java/pe/upc/pescagobackend/fleet/interfaces/rest/transform/VehicleResourceFromEntityAssembler.java": {
-    "mtime": 1782162588.6902478,
-    "ast_hash": "4613de3638d2011caf215792fa938e9c",
+    "mtime": 1782164603.9833565,
+    "ast_hash": "c3e3f71cd811bd337430a3a2f719dab3",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/FleetCarrierContextResolverTest.java": {
-    "mtime": 1782162730.630902,
-    "ast_hash": "d763422b26448e24bccd4f300f2d6d62",
+    "mtime": 1782164603.9833565,
+    "ast_hash": "64e28cf7d8bf16145a6514841a3be3ba",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/FleetPersistenceConstraintClassifierTest.java": {
-    "mtime": 1782163678.8561385,
-    "ast_hash": "4c36010452ac8befe8fa1f00938fbeb4",
+    "mtime": 1782164603.9848626,
+    "ast_hash": "941f96b29bf81bf2cc5801b31da317a8",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/FleetPlateRulesTest.java": {
-    "mtime": 1782162642.4797194,
-    "ast_hash": "3627585519d871ebfbf59b1c7542cf17",
+    "mtime": 1782164603.9858677,
+    "ast_hash": "96130f075e9896fd46ccbfb97d86984a",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/FleetVehicleV2IntegrationTest.java": {
-    "mtime": 1782162734.254195,
-    "ast_hash": "ed360a51b4aeabd1de51979262c9911f",
+    "mtime": 1782164603.9858677,
+    "ast_hash": "55edee37a32ec0a7d25a9ff4a3be3275",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/FleetVehicleV2RequestValidationIntegrationTest.java": {
-    "mtime": 1782163722.683407,
-    "ast_hash": "88734e448a8a72fd43198aa314be8237",
+    "mtime": 1782164603.9868708,
+    "ast_hash": "ee38d46f87f53586e9a511e5a7313d5c",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/VehicleAggregateTest.java": {
-    "mtime": 1782162649.7744143,
-    "ast_hash": "3f49732ba93ced6ea30b49e1319d171e",
+    "mtime": 1782164603.9878676,
+    "ast_hash": "fca47bd7618c55896ab014acb9b5ba43",
     "semantic_hash": ""
   },
   "src/test/java/pe/upc/pescagobackend/fleet/VehicleCommandServiceImplIntegrityTest.java": {
-    "mtime": 1782163685.267998,
-    "ast_hash": "60426bdf18555e6d6939a2ed703cfd8b",
+    "mtime": 1782164603.9888685,
+    "ast_hash": "da7110305c7ed58a762ec4530874e807",
+    "semantic_hash": ""
+  },
+  "src/test/java/pe/upc/pescagobackend/fleet/FleetVehicleV2CorsIntegrationTest.java": {
+    "mtime": 1782174904.3790722,
+    "ast_hash": "079b8c3545aa8a4c255b154da92cd8ac",
     "semantic_hash": ""
   }
 }
