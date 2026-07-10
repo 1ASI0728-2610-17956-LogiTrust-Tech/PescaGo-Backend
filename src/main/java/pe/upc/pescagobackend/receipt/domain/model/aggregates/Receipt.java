@@ -3,7 +3,7 @@ package pe.upc.pescagobackend.receipt.domain.model.aggregates;
 import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
-import pe.upc.pescagobackend.carrier.domain.model.commands.CreateCarrierCommand;
+import pe.upc.pescagobackend.receipt.domain.model.ReceiptSensitiveDataSanitizer;
 import pe.upc.pescagobackend.receipt.domain.model.commands.CreateReceiptCommand;
 import pe.upc.pescagobackend.shared.domain.model.aggregates.AuditableAbstractAggregateRoot;
 
@@ -38,9 +38,9 @@ public class Receipt extends AuditableAbstractAggregateRoot<Receipt> {
         }
         this.requestId = command.receiptId();
         this.holderName = command.holderName();
-        this.cardNumber = command.cardNumber();
+        this.cardNumber = ReceiptSensitiveDataSanitizer.sanitizeCardNumber(command.cardNumber());
         this.expiryDate = command.expiryDate();
-        this.cvv = command.cvv();
+        this.cvv = ReceiptSensitiveDataSanitizer.sanitizeCvv(command.cvv());
         this.paymentDate = command.paymentDate();
     }
 }
