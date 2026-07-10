@@ -48,6 +48,8 @@ class ReceiptCommandServiceImplBlockchainTest {
         var result = receiptCommandService.handle(command);
 
         assertThat(result).isPresent();
+        assertThat(result.get().getCardNumber()).isEqualTo("CARD-****-1111");
+        assertThat(result.get().getCvv()).isEqualTo("NOT_STORED");
         verify(blockchainTraceService).recordEvent(
                 BlockchainEventType.PAYMENT_REGISTERED,
                 "request:42|receipt:15",
