@@ -1,16 +1,16 @@
 # Graph Report - PescaGo-Backend  (2026-07-10)
 
 ## Corpus Check
-- 199 files · ~34,763 words
+- 204 files · ~35,812 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1454 nodes · 2343 edges · 143 communities (78 shown, 65 thin omitted)
-- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 155 edges (avg confidence: 0.8)
+- 1498 nodes · 2440 edges · 153 communities (85 shown, 68 thin omitted)
+- Extraction: 93% EXTRACTED · 7% INFERRED · 0% AMBIGUOUS · INFERRED: 172 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `e89565c3`
+- Built from commit: `12a8c760`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -133,6 +133,7 @@
 - [[_COMMUNITY_Community 118|Community 118]]
 - [[_COMMUNITY_Community 119|Community 119]]
 - [[_COMMUNITY_Community 120|Community 120]]
+- [[_COMMUNITY_Community 121|Community 121]]
 - [[_COMMUNITY_Community 122|Community 122]]
 - [[_COMMUNITY_Community 123|Community 123]]
 - [[_COMMUNITY_Community 124|Community 124]]
@@ -148,9 +149,18 @@
 - [[_COMMUNITY_Community 136|Community 136]]
 - [[_COMMUNITY_Community 138|Community 138]]
 - [[_COMMUNITY_Community 139|Community 139]]
+- [[_COMMUNITY_Community 140|Community 140]]
+- [[_COMMUNITY_Community 141|Community 141]]
+- [[_COMMUNITY_Community 142|Community 142]]
+- [[_COMMUNITY_Community 143|Community 143]]
+- [[_COMMUNITY_Community 144|Community 144]]
+- [[_COMMUNITY_Community 145|Community 145]]
+- [[_COMMUNITY_Community 146|Community 146]]
+- [[_COMMUNITY_Community 147|Community 147]]
+- [[_COMMUNITY_Community 148|Community 148]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `IllegalArgumentException` - 22 edges
+1. `IllegalArgumentException` - 24 edges
 2. `FleetVehicleV2IntegrationTest` - 22 edges
 3. `Test` - 16 edges
 4. `FleetVehicleV2Controller` - 14 edges
@@ -176,19 +186,19 @@
 ## Import Cycles
 - None detected.
 
-## Communities (143 total, 65 thin omitted)
+## Communities (153 total, 68 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.10
-Nodes (27): CarrierCommandServiceImpl, CarrierQueryServiceImpl, UserCommandServiceImpl, CarrierController, UserCommandService, Carrier, CarrierResource, CreateCarrierResource (+19 more)
+Cohesion: 0.09
+Nodes (26): UserCommandServiceImpl, UserController, UserCommandService, CreateUserCommand, DeleteUserCommand, Optional, Override, PasswordEncoder (+18 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.21
-Nodes (14): RequestController, ApiResponses, CreateRequestResource, DeleteMapping, GetMapping, Long, Operation, PostMapping (+6 more)
+Cohesion: 0.14
+Nodes (20): RequestPaymentRollbackIntegrationTest, RequestPaymentService, RequestController, ApiResponses, CreateRequestResource, DeleteMapping, GetMapping, Long (+12 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.07
-Nodes (27): CarrierData, HiredService, HIredServiceCommandServiceImplBlockchainTest, Duration, HiredServiceV1StatusIntegrationTest, JwtTtlParser, CreateHiredServiceCommand, UpdateHiredServiceCommand (+19 more)
+Cohesion: 0.09
+Nodes (20): CarrierData, HiredService, HIredServiceCommandServiceImplBlockchainTest, CreateHiredServiceCommand, UpdateHiredServiceCommand, CreateHiredServiceCommand, CreateHiredServiceResource, String (+12 more)
 
 ### Community 3 - "Community 3"
 Cohesion: 0.20
@@ -231,8 +241,8 @@ Cohesion: 0.44
 Nodes (5): HiredServiceRepository, HiredService, List, Long, Optional
 
 ### Community 13 - "Community 13"
-Cohesion: 0.18
-Nodes (14): UserQueryServiceImpl, UserQueryService, GetUserByAuthenticationQuery, GetUserByIdQuery, Optional, Override, PasswordAuthenticationService, User (+6 more)
+Cohesion: 0.10
+Nodes (27): CarrierCommandServiceImpl, CarrierQueryServiceImpl, UserQueryServiceImpl, CarrierController, UserQueryService, Carrier, CarrierResource, CreateCarrierResource (+19 more)
 
 ### Community 14 - "Community 14"
 Cohesion: 0.18
@@ -247,8 +257,8 @@ Cohesion: 0.44
 Nodes (5): RequestRepository, List, Long, Optional, Request
 
 ### Community 17 - "Community 17"
-Cohesion: 0.21
-Nodes (12): UserController, CreateUserResource, DeleteMapping, GetMapping, Long, Operation, PostMapping, ResponseEntity (+4 more)
+Cohesion: 0.19
+Nodes (10): BlockchainEventType, RequestCommandServiceImplBlockchainTest, Duration, JwtTtlParser, String, Long, Request, String (+2 more)
 
 ### Community 18 - "Community 18"
 Cohesion: 0.40
@@ -259,12 +269,12 @@ Cohesion: 0.31
 Nodes (7): CorsConfig, CorsRegistry, Bean, CorsConfigurationSource, Override, String, WebMvcConfigurer
 
 ### Community 21 - "Community 21"
-Cohesion: 0.12
-Nodes (25): DuplicatePlateException, FleetCarrierContextResolverTest, FleetCarrierContextResolver, PatchMapping, CarrierProfileNotFoundException, FleetVehicleV2Controller, RuntimeException, String (+17 more)
+Cohesion: 0.09
+Nodes (32): AccessDeniedException, AccessDeniedHandler, DuplicatePlateException, FleetCarrierContextResolverTest, FleetCarrierContextResolver, PatchMapping, CarrierProfileNotFoundException, FleetVehicleV2Controller (+24 more)
 
 ### Community 24 - "Community 24"
-Cohesion: 0.14
-Nodes (17): AccessDeniedException, AccessDeniedHandler, CarrierV2Controller, RestAccessDeniedHandler, AuthenticatedUser, CarrierQueryService, CarrierResource, ExceptionHandler (+9 more)
+Cohesion: 0.25
+Nodes (10): CarrierV2Controller, AuthenticatedUser, CarrierQueryService, CarrierResource, ExceptionHandler, GetMapping, Long, Operation (+2 more)
 
 ### Community 25 - "Community 25"
 Cohesion: 0.60
@@ -296,7 +306,7 @@ Nodes (17): HiredServiceQueryService, HiredServiceQueryServiceImpl, HiredService
 
 ### Community 34 - "Community 34"
 Cohesion: 0.05
-Nodes (27): Carrier, Entreprenuer, User, Vehicle, LegacyStatusTranslator, LegacyStatusTranslatorTest, VehicleAggregateTest, IllegalArgumentException (+19 more)
+Nodes (33): Carrier, Entreprenuer, User, LegacyStatusTranslator, LegacyStatusTranslatorTest, RequestPaymentService, IllegalArgumentException, FleetPlateRules (+25 more)
 
 ### Community 35 - "Community 35"
 Cohesion: 0.27
@@ -311,12 +321,12 @@ Cohesion: 0.60
 Nodes (3): CreateUserCommand, CreateUserResource, CreateUserCommandFromResourceAssembler
 
 ### Community 38 - "Community 38"
-Cohesion: 0.20
-Nodes (7): Collection, GrantedAuthority, AuthenticatedUser, Long, Override, Role, String
+Cohesion: 0.21
+Nodes (6): Collection, GrantedAuthority, AuthenticatedUser, Override, Role, String
 
 ### Community 39 - "Community 39"
 Cohesion: 0.09
-Nodes (23): VehicleCommandServiceImpl, FleetPersistenceConstraintClassifierTest, FleetPersistenceConstraintClassifier, VehicleCommandService, ActivateVehicleCommand, DeactivateVehicleCommand, Long, Optional (+15 more)
+Nodes (23): Vehicle, VehicleCommandServiceImpl, VehicleAggregateTest, VehicleCommandService, ActivateVehicleCommand, DeactivateVehicleCommand, Long, Optional (+15 more)
 
 ### Community 42 - "Community 42"
 Cohesion: 0.47
@@ -339,16 +349,16 @@ Cohesion: 0.16
 Nodes (17): RequestQueryServiceImpl, RequestQueryService, RequestQueryService, GetRequestByIdQuery, GetRequestsByCarrierIdQuery, GetRequestsByEntrepreneurIdQuery, List, Optional (+9 more)
 
 ### Community 47 - "Community 47"
-Cohesion: 0.14
-Nodes (11): ReceiptSanitizationV1IntegrationTest, CarrierRepository, RequestV1StatusIntegrationTest, Carrier, List, Long, Optional, Test (+3 more)
+Cohesion: 0.10
+Nodes (15): HiredServiceV1StatusIntegrationTest, ReceiptSanitizationV1IntegrationTest, CarrierRepository, RequestPaymentV1IntegrationTest, Carrier, List, Long, Optional (+7 more)
 
 ### Community 87 - "Community 87"
 Cohesion: 0.08
 Nodes (25): 3.1 Fleet, 3.2.1 Estados del dominio y compatibilidad legacy, 3.2.2 Concurrencia en aceptación rápida, 3.2 TransportRequest (ampliación de `Request`), 3.3 ServiceExecution (ampliación de `HiredService`), 3.4 Payment (ampliación), 3.5 Notification, 3.6 Reputation (soporte) (+17 more)
 
 ### Community 88 - "Community 88"
-Cohesion: 0.18
-Nodes (10): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado, 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma) (+2 more)
+Cohesion: 0.29
+Nodes (6): 5. Contrato API propuesto, 7.1 Transición segura de contraseñas, 7. Seguridad y correcciones previas necesarias, Endpoints v1 modificados (comportamiento interno, misma firma), PescaGo v2 — Plan de implementación backend, Variables de entorno JWT (documentadas, sin valores)
 
 ### Community 89 - "Community 89"
 Cohesion: 0.20
@@ -371,28 +381,28 @@ Cohesion: 0.29
 Nodes (7): 6.1 Adopción de Flyway, 6.2 Tablas nuevas propuestas, 6.4 Restricciones y auditoría, 6. Persistencia PostgreSQL y migraciones, Configuración propuesta (documental), Escenario A — Base PostgreSQL **nueva** (desarrollo greenfield), Escenario B — Base PostgreSQL **existente** (datos reales / dev con historial)
 
 ### Community 94 - "Community 94"
-Cohesion: 0.28
-Nodes (7): PasswordAuthenticationService, Optional, PasswordEncoder, String, User, UserRepository, Transactional
+Cohesion: 0.27
+Nodes (5): FleetPersistenceConstraintClassifierTest, FleetPersistenceConstraintClassifier, DataIntegrityViolationException, String, Test
 
 ### Community 95 - "Community 95"
 Cohesion: 0.29
 Nodes (6): CarrierByUserV2IntegrationTest, Carrier, Long, String, Test, User
 
 ### Community 96 - "Community 96"
-Cohesion: 0.19
-Nodes (12): BusinessProfileResource, UserProfileQueryService, Carrier, CarrierQueryService, Entreprenuer, EntreprenuerQueryService, Long, Optional (+4 more)
+Cohesion: 0.12
+Nodes (19): BusinessProfileResource, UserProfileQueryService, ProfileController, Carrier, CarrierQueryService, Entreprenuer, EntreprenuerQueryService, Long (+11 more)
 
 ### Community 97 - "Community 97"
 Cohesion: 0.13
 Nodes (16): AuthenticationEntryPoint, AuthenticationException, HttpSecurity, JwtAuthenticationFilter, RestAccessDeniedHandler, RestAuthenticationEntryPoint, RestAuthenticationEntryPoint, SecurityConfiguration (+8 more)
 
 ### Community 98 - "Community 98"
-Cohesion: 0.27
-Nodes (5): AuthV2IntegrationTest, Long, String, Test, User
+Cohesion: 0.10
+Nodes (17): PasswordAuthenticationService, AuthV2IntegrationTest, UserRepository, Optional, PasswordEncoder, String, Transactional, User (+9 more)
 
 ### Community 99 - "Community 99"
-Cohesion: 0.05
-Nodes (32): Dimensions, Request, BlockchainTraceService, BlockchainTraceServiceTest, MinichainTransactionClient, TransactionPayload, BlockchainEventType, ReceiptCommandServiceImplBlockchainTest (+24 more)
+Cohesion: 0.21
+Nodes (7): BlockchainTraceServiceTest, MinichainTransactionClient, TransactionPayload, String, BlockchainProperties, String, Test
 
 ### Community 107 - "Community 107"
 Cohesion: 0.47
@@ -403,8 +413,8 @@ Cohesion: 0.05
 Nodes (38): 1. Contexto de ejecución, 2. Estado de `flyway_schema_history`, 3. Integridad de tablas legacy, 4. Artefactos de referencia verificados, 5. Configuración vigente tras el baseline, 6. Próximo cambio permitido, 7. Documentos relacionados, Confirmaciones adicionales (+30 more)
 
 ### Community 111 - "Community 111"
-Cohesion: 0.39
-Nodes (5): UserRepository, Long, Optional, String, User
+Cohesion: 0.35
+Nodes (4): RequestV1StatusIntegrationTest, Request, String, Test
 
 ### Community 112 - "Community 112"
 Cohesion: 0.20
@@ -423,8 +433,8 @@ Cohesion: 0.25
 Nodes (8): FilterChain, OncePerRequestFilter, JwtAuthenticationFilter, SecurityUserDetailsService, HttpServletRequest, HttpServletResponse, JwtService, Override
 
 ### Community 117 - "Community 117"
-Cohesion: 0.16
-Nodes (10): RoleCompatibilityMapper, SecurityUserDetailsService, Role, String, Long, Override, String, UserDetails (+2 more)
+Cohesion: 0.25
+Nodes (7): SecurityUserDetailsService, Long, Override, String, UserDetails, UserRepository, UserDetailsService
 
 ### Community 119 - "Community 119"
 Cohesion: 0.38
@@ -433,6 +443,10 @@ Nodes (4): Long, RegisterVehicleCommand, RegisterVehicleResource, RegisterVehicl
 ### Community 120 - "Community 120"
 Cohesion: 0.38
 Nodes (4): Long, UpdateVehicleCommand, UpdateVehicleResource, UpdateVehicleCommandFromResourceAssembler
+
+### Community 121 - "Community 121"
+Cohesion: 0.36
+Nodes (4): Dimensions, Request, CreateRequestCommand, UpdateRequestCommand
 
 ### Community 123 - "Community 123"
 Cohesion: 0.47
@@ -443,32 +457,56 @@ Cohesion: 0.60
 Nodes (3): User, UserResource, UserResourceFromEntityAssembler
 
 ### Community 138 - "Community 138"
-Cohesion: 0.10
-Nodes (18): ProfileController, FleetCarrierContextResolver, Carrier, CarrierResource, Entreprenuer, EntreprenuerResource, AuthenticatedUser, CarrierRepository (+10 more)
+Cohesion: 0.23
+Nodes (7): Carrier, CarrierResource, Entreprenuer, EntreprenuerResource, Long, CarrierResourceFromEntityAssembler, EntreprenuerResourceFromEntityAssembler
 
 ### Community 139 - "Community 139"
 Cohesion: 0.47
 Nodes (3): BlockchainPropertiesTest, TestConfiguration, Test
 
+### Community 140 - "Community 140"
+Cohesion: 0.36
+Nodes (5): FleetCarrierContextResolver, AuthenticatedUser, CarrierRepository, Long, Optional
+
+### Community 141 - "Community 141"
+Cohesion: 0.36
+Nodes (5): Long, String, UpdateRequestCommand, UpdateRequestResource, UpdateRequestCommandFromResourceAssembler
+
+### Community 142 - "Community 142"
+Cohesion: 0.43
+Nodes (4): CreateRequestCommand, CreateRequestResource, String, CreateRequestCommandFromResourceAssembler
+
+### Community 143 - "Community 143"
+Cohesion: 0.40
+Nodes (3): RoleCompatibilityMapper, Role, String
+
+### Community 144 - "Community 144"
+Cohesion: 0.40
+Nodes (3): BlockchainTraceService, MinichainTransactionClient, BlockchainProperties
+
+### Community 145 - "Community 145"
+Cohesion: 0.50
+Nodes (4): 4.1 Flujo objetivo (coexistiendo con manual), 4.2 Coexistencia con flujo manual, 4.3 Bloqueo de otras opciones y concurrencia, 4. Diseño del flujo automatizado
+
 ## Knowledge Gaps
-- **275 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+270 more)
+- **278 isolated node(s):** `pe.upc:pescago-backend`, `String`, `Override`, `Override`, `CreateCarrierCommand` (+273 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **65 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **68 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `IllegalArgumentException` connect `Community 34` to `Community 32`, `Community 0`, `Community 2`, `Community 7`, `Community 8`, `Community 9`, `Community 10`, `Community 44`, `Community 13`, `Community 14`, `Community 17`, `Community 21`?**
-  _High betweenness centrality (0.277) - this node is a cross-community bridge._
-- **Are the 21 inferred relationships involving `IllegalArgumentException` (e.g. with `.Carrier()` and `.Entreprenuer()`) actually correct?**
-  _`IllegalArgumentException` has 21 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `IllegalArgumentException` connect `Community 34` to `Community 32`, `Community 0`, `Community 39`, `Community 7`, `Community 9`, `Community 10`, `Community 8`, `Community 44`, `Community 13`, `Community 14`, `Community 17`, `Community 21`?**
+  _High betweenness centrality (0.267) - this node is a cross-community bridge._
+- **Why does `AccessDeniedException` connect `Community 21` to `Community 24`?**
+  _High betweenness centrality (0.027) - this node is a cross-community bridge._
+- **Are the 23 inferred relationships involving `IllegalArgumentException` (e.g. with `.Carrier()` and `.Entreprenuer()`) actually correct?**
+  _`IllegalArgumentException` has 23 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `pe.upc:pescago-backend`, `String`, `Override` to the rest of the system?**
-  _275 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _278 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.09716599190283401 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.0945945945945946 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.14112903225806453 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
-  _Cohesion score 0.06558441558441558 - nodes in this community are weakly interconnected._
-- **Should `Community 4` be split into smaller, more focused modules?**
-  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._
-- **Should `Community 21` be split into smaller, more focused modules?**
-  _Cohesion score 0.11733615221987315 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.09309309309309309 - nodes in this community are weakly interconnected._

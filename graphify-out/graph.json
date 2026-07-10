@@ -703,7 +703,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rest_carriercontroller",
-      "community": 0,
+      "community": 13,
       "norm_label": "carriercontroller.java"
     },
     {
@@ -713,7 +713,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller",
-      "community": 0,
+      "community": 13,
       "norm_label": "carriercontroller"
     },
     {
@@ -723,7 +723,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller_carriercontroller",
-      "community": 0,
+      "community": 13,
       "norm_label": ".carriercontroller()"
     },
     {
@@ -733,7 +733,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "carriercommandserviceimpl",
-      "community": 0,
+      "community": 13,
       "norm_label": "carriercommandserviceimpl"
     },
     {
@@ -743,7 +743,7 @@
       "source_location": "L42",
       "_origin": "ast",
       "id": "carrierqueryserviceimpl",
-      "community": 0,
+      "community": 13,
       "norm_label": "carrierqueryserviceimpl"
     },
     {
@@ -753,7 +753,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller_createcarrier",
-      "community": 0,
+      "community": 13,
       "norm_label": ".createcarrier()"
     },
     {
@@ -763,7 +763,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_createcarrierresource",
-      "community": 0,
+      "community": 13,
       "norm_label": "createcarrierresource"
     },
     {
@@ -773,7 +773,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_responseentity",
-      "community": 0,
+      "community": 13,
       "norm_label": "responseentity"
     },
     {
@@ -783,7 +783,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_carrier",
-      "community": 0,
+      "community": 13,
       "norm_label": "carrier"
     },
     {
@@ -793,7 +793,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_postmapping",
-      "community": 0,
+      "community": 13,
       "norm_label": "postmapping"
     },
     {
@@ -803,7 +803,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_operation",
-      "community": 0,
+      "community": 13,
       "norm_label": "operation"
     },
     {
@@ -813,7 +813,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller_deletecarrier",
-      "community": 0,
+      "community": 13,
       "norm_label": ".deletecarrier()"
     },
     {
@@ -823,7 +823,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_long",
-      "community": 0,
+      "community": 13,
       "norm_label": "long"
     },
     {
@@ -833,7 +833,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_deletemapping",
-      "community": 0,
+      "community": 13,
       "norm_label": "deletemapping"
     },
     {
@@ -843,7 +843,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller_getallcarriers",
-      "community": 0,
+      "community": 13,
       "norm_label": ".getallcarriers()"
     },
     {
@@ -853,7 +853,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_list",
-      "community": 0,
+      "community": 13,
       "norm_label": "list"
     },
     {
@@ -863,7 +863,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_carrierresource",
-      "community": 0,
+      "community": 13,
       "norm_label": "carrierresource"
     },
     {
@@ -873,7 +873,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_interfaces_rest_carriercontroller_java_getmapping",
-      "community": 0,
+      "community": 13,
       "norm_label": "getmapping"
     },
     {
@@ -883,7 +883,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller_getcarrierbyuserid",
-      "community": 0,
+      "community": 13,
       "norm_label": ".getcarrierbyuserid()"
     },
     {
@@ -893,7 +893,7 @@
       "source_location": "L93",
       "_origin": "ast",
       "id": "rest_carriercontroller_carriercontroller_getcarrierbyid",
-      "community": 0,
+      "community": 13,
       "norm_label": ".getcarrierbyid()"
     },
     {
@@ -2143,7 +2143,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "persistence_fleetpersistenceconstraintclassifier",
-      "community": 39,
+      "community": 94,
       "norm_label": "fleetpersistenceconstraintclassifier.java"
     },
     {
@@ -2153,7 +2153,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "persistence_fleetpersistenceconstraintclassifier_fleetpersistenceconstraintclassifier",
-      "community": 39,
+      "community": 94,
       "norm_label": "fleetpersistenceconstraintclassifier"
     },
     {
@@ -2163,7 +2163,7 @@
       "source_location": "L13",
       "_origin": "ast",
       "id": "persistence_fleetpersistenceconstraintclassifier_fleetpersistenceconstraintclassifier_fleetpersistenceconstraintclassifier",
-      "community": 39,
+      "community": 94,
       "norm_label": ".fleetpersistenceconstraintclassifier()"
     },
     {
@@ -2173,7 +2173,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "persistence_fleetpersistenceconstraintclassifier_fleetpersistenceconstraintclassifier_isuniqueplateviolation",
-      "community": 39,
+      "community": 94,
       "norm_label": ".isuniqueplateviolation()"
     },
     {
@@ -2183,7 +2183,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_application_internal_persistence_fleetpersistenceconstraintclassifier_java_dataintegrityviolationexception",
-      "community": 39,
+      "community": 94,
       "norm_label": "dataintegrityviolationexception"
     },
     {
@@ -2193,7 +2193,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "persistence_fleetpersistenceconstraintclassifier_fleetpersistenceconstraintclassifier_rethrowifnotuniqueplate",
-      "community": 39,
+      "community": 94,
       "norm_label": ".rethrowifnotuniqueplate()"
     },
     {
@@ -2203,7 +2203,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_application_internal_persistence_fleetpersistenceconstraintclassifier_java_string",
-      "community": 39,
+      "community": 94,
       "norm_label": "string"
     },
     {
@@ -2213,7 +2213,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "persistence_fleetpersistenceconstraintclassifier_fleetpersistenceconstraintclassifier_mentionsuniqueplateconstraint",
-      "community": 39,
+      "community": 94,
       "norm_label": ".mentionsuniqueplateconstraint()"
     },
     {
@@ -2333,7 +2333,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "services_fleetcarriercontextresolver",
-      "community": 138,
+      "community": 140,
       "norm_label": "fleetcarriercontextresolver.java"
     },
     {
@@ -2343,7 +2343,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "services_fleetcarriercontextresolver_fleetcarriercontextresolver",
-      "community": 138,
+      "community": 140,
       "norm_label": "fleetcarriercontextresolver"
     },
     {
@@ -2353,7 +2353,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "services_fleetcarriercontextresolver_fleetcarriercontextresolver_fleetcarriercontextresolver",
-      "community": 138,
+      "community": 140,
       "norm_label": ".fleetcarriercontextresolver()"
     },
     {
@@ -2363,7 +2363,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_application_internal_services_fleetcarriercontextresolver_java_carrierrepository",
-      "community": 138,
+      "community": 140,
       "norm_label": "carrierrepository"
     },
     {
@@ -2373,7 +2373,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "services_fleetcarriercontextresolver_fleetcarriercontextresolver_resolvecarrierid",
-      "community": 138,
+      "community": 140,
       "norm_label": ".resolvecarrierid()"
     },
     {
@@ -2383,7 +2383,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_application_internal_services_fleetcarriercontextresolver_java_authenticateduser",
-      "community": 138,
+      "community": 140,
       "norm_label": "authenticateduser"
     },
     {
@@ -2393,7 +2393,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_application_internal_services_fleetcarriercontextresolver_java_optional",
-      "community": 138,
+      "community": 140,
       "norm_label": "optional"
     },
     {
@@ -2403,7 +2403,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_application_internal_services_fleetcarriercontextresolver_java_long",
-      "community": 138,
+      "community": 140,
       "norm_label": "long"
     },
     {
@@ -2513,7 +2513,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_vehicle",
-      "community": 34,
+      "community": 39,
       "norm_label": "vehicle.java"
     },
     {
@@ -2523,7 +2523,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle",
-      "community": 34,
+      "community": 39,
       "norm_label": "vehicle"
     },
     {
@@ -2533,7 +2533,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_vehicle",
-      "community": 34,
+      "community": 39,
       "norm_label": ".vehicle()"
     },
     {
@@ -2543,7 +2543,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_domain_model_aggregates_vehicle_java_registervehiclecommand",
-      "community": 34,
+      "community": 39,
       "norm_label": "registervehiclecommand"
     },
     {
@@ -2553,7 +2553,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_update",
-      "community": 34,
+      "community": 39,
       "norm_label": ".update()"
     },
     {
@@ -2563,7 +2563,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_domain_model_aggregates_vehicle_java_updatevehiclecommand",
-      "community": 34,
+      "community": 39,
       "norm_label": "updatevehiclecommand"
     },
     {
@@ -2573,7 +2573,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_activate",
-      "community": 34,
+      "community": 39,
       "norm_label": ".activate()"
     },
     {
@@ -2583,7 +2583,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_deactivate",
-      "community": 34,
+      "community": 39,
       "norm_label": ".deactivate()"
     },
     {
@@ -4833,7 +4833,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "authenticationservices_passwordauthenticationservice",
-      "community": 94,
+      "community": 98,
       "norm_label": "passwordauthenticationservice.java"
     },
     {
@@ -4843,7 +4843,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice",
-      "community": 94,
+      "community": 98,
       "norm_label": "passwordauthenticationservice"
     },
     {
@@ -4853,7 +4853,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice_passwordauthenticationservice",
-      "community": 94,
+      "community": 98,
       "norm_label": ".passwordauthenticationservice()"
     },
     {
@@ -4863,7 +4863,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_userrepository",
-      "community": 94,
+      "community": 98,
       "norm_label": "userrepository"
     },
     {
@@ -4873,7 +4873,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_passwordencoder",
-      "community": 94,
+      "community": 98,
       "norm_label": "passwordencoder"
     },
     {
@@ -4883,7 +4883,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice_authenticate",
-      "community": 94,
+      "community": 98,
       "norm_label": ".authenticate()"
     },
     {
@@ -4893,7 +4893,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_string",
-      "community": 94,
+      "community": 98,
       "norm_label": "string"
     },
     {
@@ -4903,7 +4903,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_optional",
-      "community": 94,
+      "community": 98,
       "norm_label": "optional"
     },
     {
@@ -4913,7 +4913,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_user",
-      "community": 94,
+      "community": 98,
       "norm_label": "user"
     },
     {
@@ -4922,8 +4922,8 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java",
       "source_location": "L22",
       "_origin": "ast",
-      "id": "transactional",
-      "community": 94,
+      "id": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_transactional",
+      "community": 98,
       "norm_label": "transactional"
     },
     {
@@ -4933,7 +4933,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice_verifyandupgradepassword",
-      "community": 94,
+      "community": 98,
       "norm_label": ".verifyandupgradepassword()"
     },
     {
@@ -4943,7 +4943,7 @@
       "source_location": "L48",
       "_origin": "ast",
       "id": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice_isbcrypthash",
-      "community": 94,
+      "community": 98,
       "norm_label": ".isbcrypthash()"
     },
     {
@@ -5643,7 +5643,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "repositories_userrepository",
-      "community": 111,
+      "community": 98,
       "norm_label": "userrepository.java"
     },
     {
@@ -5653,7 +5653,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "repositories_userrepository_userrepository",
-      "community": 111,
+      "community": 98,
       "norm_label": "userrepository"
     },
     {
@@ -5663,7 +5663,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "repositories_userrepository_userrepository_findbyid",
-      "community": 111,
+      "community": 98,
       "norm_label": ".findbyid()"
     },
     {
@@ -5673,7 +5673,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_infrastructure_persistence_jpa_repositories_userrepository_java_long",
-      "community": 111,
+      "community": 98,
       "norm_label": "long"
     },
     {
@@ -5683,7 +5683,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_infrastructure_persistence_jpa_repositories_userrepository_java_optional",
-      "community": 111,
+      "community": 98,
       "norm_label": "optional"
     },
     {
@@ -5693,7 +5693,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_infrastructure_persistence_jpa_repositories_userrepository_java_user",
-      "community": 111,
+      "community": 98,
       "norm_label": "user"
     },
     {
@@ -5703,7 +5703,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "repositories_userrepository_userrepository_findbyemail",
-      "community": 111,
+      "community": 98,
       "norm_label": ".findbyemail()"
     },
     {
@@ -5713,7 +5713,7 @@
       "source_location": "L11",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_infrastructure_persistence_jpa_repositories_userrepository_java_string",
-      "community": 111,
+      "community": 98,
       "norm_label": "string"
     },
     {
@@ -5833,7 +5833,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rest_profilecontroller",
-      "community": 138,
+      "community": 96,
       "norm_label": "profilecontroller.java"
     },
     {
@@ -5843,7 +5843,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "rest_profilecontroller_profilecontroller",
-      "community": 138,
+      "community": 96,
       "norm_label": "profilecontroller"
     },
     {
@@ -5853,7 +5853,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "rest_profilecontroller_profilecontroller_profilecontroller",
-      "community": 138,
+      "community": 96,
       "norm_label": ".profilecontroller()"
     },
     {
@@ -5863,7 +5863,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "userprofilequeryservice",
-      "community": 138,
+      "community": 96,
       "norm_label": "userprofilequeryservice"
     },
     {
@@ -5873,7 +5873,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "rest_profilecontroller_profilecontroller_getcurrentprofile",
-      "community": 138,
+      "community": 96,
       "norm_label": ".getcurrentprofile()"
     },
     {
@@ -5883,7 +5883,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_profilecontroller_java_authenticateduser",
-      "community": 138,
+      "community": 96,
       "norm_label": "authenticateduser"
     },
     {
@@ -5893,7 +5893,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_profilecontroller_java_responseentity",
-      "community": 138,
+      "community": 96,
       "norm_label": "responseentity"
     },
     {
@@ -5903,7 +5903,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_profilecontroller_java_sessionprofileresource",
-      "community": 138,
+      "community": 96,
       "norm_label": "sessionprofileresource"
     },
     {
@@ -5913,7 +5913,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_profilecontroller_java_getmapping",
-      "community": 138,
+      "community": 96,
       "norm_label": "getmapping"
     },
     {
@@ -5923,7 +5923,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_profilecontroller_java_operation",
-      "community": 138,
+      "community": 96,
       "norm_label": "operation"
     },
     {
@@ -5933,7 +5933,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rest_usercontroller",
-      "community": 17,
+      "community": 0,
       "norm_label": "usercontroller.java"
     },
     {
@@ -5943,7 +5943,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "rest_usercontroller_usercontroller",
-      "community": 17,
+      "community": 0,
       "norm_label": "usercontroller"
     },
     {
@@ -5953,7 +5953,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "rest_usercontroller_usercontroller_usercontroller",
-      "community": 17,
+      "community": 0,
       "norm_label": ".usercontroller()"
     },
     {
@@ -5963,7 +5963,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_usercommandservice",
-      "community": 17,
+      "community": 0,
       "norm_label": "usercommandservice"
     },
     {
@@ -5973,7 +5973,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_userqueryservice",
-      "community": 17,
+      "community": 0,
       "norm_label": "userqueryservice"
     },
     {
@@ -5983,7 +5983,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "rest_usercontroller_usercontroller_createuser",
-      "community": 17,
+      "community": 0,
       "norm_label": ".createuser()"
     },
     {
@@ -5993,7 +5993,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_createuserresource",
-      "community": 17,
+      "community": 0,
       "norm_label": "createuserresource"
     },
     {
@@ -6003,7 +6003,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_responseentity",
-      "community": 17,
+      "community": 0,
       "norm_label": "responseentity"
     },
     {
@@ -6013,7 +6013,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_userresource",
-      "community": 17,
+      "community": 0,
       "norm_label": "userresource"
     },
     {
@@ -6023,7 +6023,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_postmapping",
-      "community": 17,
+      "community": 0,
       "norm_label": "postmapping"
     },
     {
@@ -6033,7 +6033,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_operation",
-      "community": 17,
+      "community": 0,
       "norm_label": "operation"
     },
     {
@@ -6043,7 +6043,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "rest_usercontroller_usercontroller_deleteuser",
-      "community": 17,
+      "community": 0,
       "norm_label": ".deleteuser()"
     },
     {
@@ -6053,7 +6053,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_long",
-      "community": 17,
+      "community": 0,
       "norm_label": "long"
     },
     {
@@ -6063,7 +6063,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_deletemapping",
-      "community": 17,
+      "community": 0,
       "norm_label": "deletemapping"
     },
     {
@@ -6073,7 +6073,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "rest_usercontroller_usercontroller_getuser",
-      "community": 17,
+      "community": 0,
       "norm_label": ".getuser()"
     },
     {
@@ -6083,7 +6083,7 @@
       "source_location": "L52",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_getmapping",
-      "community": 17,
+      "community": 0,
       "norm_label": "getmapping"
     },
     {
@@ -6093,7 +6093,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "rest_usercontroller_usercontroller_getuserbyauthentication",
-      "community": 17,
+      "community": 0,
       "norm_label": ".getuserbyauthentication()"
     },
     {
@@ -6103,7 +6103,7 @@
       "source_location": "L64",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_usercontroller_java_string",
-      "community": 17,
+      "community": 0,
       "norm_label": "string"
     },
     {
@@ -7327,6 +7327,166 @@
       "norm_label": "request"
     },
     {
+      "label": "RequestPaymentService.java",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "commandservices_requestpaymentservice",
+      "community": 34,
+      "norm_label": "requestpaymentservice.java"
+    },
+    {
+      "label": "RequestPaymentService",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L25",
+      "_origin": "ast",
+      "id": "commandservices_requestpaymentservice_requestpaymentservice",
+      "community": 34,
+      "norm_label": "requestpaymentservice"
+    },
+    {
+      "label": ".RequestPaymentService()",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "commandservices_requestpaymentservice_requestpaymentservice_requestpaymentservice",
+      "community": 34,
+      "norm_label": ".requestpaymentservice()"
+    },
+    {
+      "label": "RequestRepository",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_requestrepository",
+      "community": 34,
+      "norm_label": "requestrepository"
+    },
+    {
+      "label": "ReceiptRepository",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_receiptrepository",
+      "community": 34,
+      "norm_label": "receiptrepository"
+    },
+    {
+      "label": "HiredServiceRepository",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_hiredservicerepository",
+      "community": 34,
+      "norm_label": "hiredservicerepository"
+    },
+    {
+      "label": "BlockchainTraceService",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_blockchaintraceservice",
+      "community": 34,
+      "norm_label": "blockchaintraceservice"
+    },
+    {
+      "label": ".pay()",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "community": 34,
+      "norm_label": ".pay()"
+    },
+    {
+      "label": "Long",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_long",
+      "community": 34,
+      "norm_label": "long"
+    },
+    {
+      "label": "PayRequestResource",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_payrequestresource",
+      "community": 34,
+      "norm_label": "payrequestresource"
+    },
+    {
+      "label": "PayRequestResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_payrequestresponse",
+      "community": 34,
+      "norm_label": "payrequestresponse"
+    },
+    {
+      "label": "Transactional",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_transactional",
+      "community": 34,
+      "norm_label": "transactional"
+    },
+    {
+      "label": ".validatePayable()",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L112",
+      "_origin": "ast",
+      "id": "commandservices_requestpaymentservice_requestpaymentservice_validatepayable",
+      "community": 34,
+      "norm_label": ".validatepayable()"
+    },
+    {
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L112",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_request",
+      "community": 34,
+      "norm_label": "request"
+    },
+    {
+      "label": ".resolvePaymentDate()",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "commandservices_requestpaymentservice_requestpaymentservice_resolvepaymentdate",
+      "community": 34,
+      "norm_label": ".resolvepaymentdate()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L133",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_string",
+      "community": 34,
+      "norm_label": "string"
+    },
+    {
       "label": "RequestQueryServiceImpl.java",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/queryservices/RequestQueryServiceImpl.java",
@@ -7453,7 +7613,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_dimensions",
-      "community": 99,
+      "community": 121,
       "norm_label": "dimensions.java"
     },
     {
@@ -7463,7 +7623,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "aggregates_dimensions_dimensions",
-      "community": 99,
+      "community": 121,
       "norm_label": "dimensions"
     },
     {
@@ -7473,7 +7633,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_request",
-      "community": 99,
+      "community": 121,
       "norm_label": "request.java"
     },
     {
@@ -7483,7 +7643,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "aggregates_request_request",
-      "community": 99,
+      "community": 121,
       "norm_label": "request"
     },
     {
@@ -7493,7 +7653,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "aggregates_request_request_request",
-      "community": 99,
+      "community": 121,
       "norm_label": ".request()"
     },
     {
@@ -7503,7 +7663,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_domain_model_aggregates_request_java_createrequestcommand",
-      "community": 99,
+      "community": 121,
       "norm_label": "createrequestcommand"
     },
     {
@@ -7513,7 +7673,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "aggregates_request_request_updaterequest",
-      "community": 99,
+      "community": 121,
       "norm_label": ".updaterequest()"
     },
     {
@@ -7523,7 +7683,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_domain_model_aggregates_request_java_updaterequestcommand",
-      "community": 99,
+      "community": 121,
       "norm_label": "updaterequestcommand"
     },
     {
@@ -7920,7 +8080,7 @@
       "label": "RequestController",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L24",
+      "source_location": "L27",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller",
       "community": 1,
@@ -7930,7 +8090,7 @@
       "label": ".RequestController()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_requestcontroller",
       "community": 1,
@@ -7940,7 +8100,7 @@
       "label": "RequestCommandService",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_requestcommandservice",
       "community": 1,
@@ -7950,17 +8110,27 @@
       "label": "RequestQueryService",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L31",
+      "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_requestqueryservice",
       "community": 1,
       "norm_label": "requestqueryservice"
     },
     {
+      "label": "RequestPaymentService",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L35",
+      "_origin": "ast",
+      "id": "requestpaymentservice",
+      "community": 1,
+      "norm_label": "requestpaymentservice"
+    },
+    {
       "label": ".createRequest()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L37",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_createrequest",
       "community": 1,
@@ -7970,7 +8140,7 @@
       "label": "CreateRequestResource",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L37",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_createrequestresource",
       "community": 1,
@@ -7980,7 +8150,7 @@
       "label": "PostMapping",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L37",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_postmapping",
       "community": 1,
@@ -7990,7 +8160,7 @@
       "label": "Operation",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L37",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_operation",
       "community": 1,
@@ -8000,7 +8170,7 @@
       "label": "ApiResponses",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L37",
+      "source_location": "L46",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_apiresponses",
       "community": 1,
@@ -8010,7 +8180,7 @@
       "label": ".getRequestById()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L48",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_getrequestbyid",
       "community": 1,
@@ -8020,7 +8190,7 @@
       "label": "Long",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L48",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_long",
       "community": 1,
@@ -8030,7 +8200,7 @@
       "label": "ResponseEntity",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L48",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_responseentity",
       "community": 1,
@@ -8040,7 +8210,7 @@
       "label": "RequestResource",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L48",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_requestresource",
       "community": 1,
@@ -8050,7 +8220,7 @@
       "label": "GetMapping",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L48",
+      "source_location": "L57",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_getmapping",
       "community": 1,
@@ -8060,7 +8230,7 @@
       "label": ".deleteRequestById()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L63",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_deleterequestbyid",
       "community": 1,
@@ -8070,7 +8240,7 @@
       "label": "DeleteMapping",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L63",
+      "source_location": "L72",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_deletemapping",
       "community": 1,
@@ -8080,7 +8250,7 @@
       "label": ".updateRequestById()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L75",
+      "source_location": "L84",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_updaterequestbyid",
       "community": 1,
@@ -8090,7 +8260,7 @@
       "label": "UpdateRequestResource",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L75",
+      "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_updaterequestresource",
       "community": 1,
@@ -8100,17 +8270,47 @@
       "label": "PutMapping",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L75",
+      "source_location": "L84",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_putmapping",
       "community": 1,
       "norm_label": "putmapping"
     },
     {
+      "label": ".payRequest()",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "rest_requestcontroller_requestcontroller_payrequest",
+      "community": 1,
+      "norm_label": ".payrequest()"
+    },
+    {
+      "label": "PayRequestResource",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_payrequestresource",
+      "community": 1,
+      "norm_label": "payrequestresource"
+    },
+    {
+      "label": "PayRequestResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "_origin": "ast",
+      "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_payrequestresponse",
+      "community": 1,
+      "norm_label": "payrequestresponse"
+    },
+    {
       "label": ".getRequestsByEntrepreneurId()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L88",
+      "source_location": "L122",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_getrequestsbyentrepreneurid",
       "community": 1,
@@ -8120,7 +8320,7 @@
       "label": ".getRequestsByCarrierId()",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
-      "source_location": "L103",
+      "source_location": "L137",
       "_origin": "ast",
       "id": "rest_requestcontroller_requestcontroller_getrequestsbycarrierid",
       "community": 1,
@@ -8145,6 +8345,46 @@
       "id": "resources_createrequestresource_createrequestresource",
       "community": 77,
       "norm_label": "createrequestresource"
+    },
+    {
+      "label": "PayRequestResource.java",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/PayRequestResource.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "resources_payrequestresource",
+      "community": 147,
+      "norm_label": "payrequestresource.java"
+    },
+    {
+      "label": "PayRequestResource",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/PayRequestResource.java",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "resources_payrequestresource_payrequestresource",
+      "community": 147,
+      "norm_label": "payrequestresource"
+    },
+    {
+      "label": "PayRequestResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/PayRequestResponse.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "resources_payrequestresponse",
+      "community": 148,
+      "norm_label": "payrequestresponse.java"
+    },
+    {
+      "label": "PayRequestResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/PayRequestResponse.java",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "resources_payrequestresponse_payrequestresponse",
+      "community": 148,
+      "norm_label": "payrequestresponse"
     },
     {
       "label": "RequestResource.java",
@@ -8193,7 +8433,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler",
-      "community": 99,
+      "community": 142,
       "norm_label": "createrequestcommandfromresourceassembler.java"
     },
     {
@@ -8203,7 +8443,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler",
-      "community": 99,
+      "community": 142,
       "norm_label": "createrequestcommandfromresourceassembler"
     },
     {
@@ -8213,7 +8453,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_tocommandfromresource",
-      "community": 99,
+      "community": 142,
       "norm_label": ".tocommandfromresource()"
     },
     {
@@ -8223,7 +8463,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_createrequestresource",
-      "community": 99,
+      "community": 142,
       "norm_label": "createrequestresource"
     },
     {
@@ -8233,7 +8473,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_createrequestcommand",
-      "community": 99,
+      "community": 142,
       "norm_label": "createrequestcommand"
     },
     {
@@ -8243,7 +8483,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "community": 99,
+      "community": 142,
       "norm_label": ".canonicalizerequeststatus()"
     },
     {
@@ -8253,7 +8493,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_string",
-      "community": 99,
+      "community": 142,
       "norm_label": "string"
     },
     {
@@ -8313,7 +8553,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler",
-      "community": 99,
+      "community": 141,
       "norm_label": "updaterequestcommandfromresourceassembler.java"
     },
     {
@@ -8323,7 +8563,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler",
-      "community": 99,
+      "community": 141,
       "norm_label": "updaterequestcommandfromresourceassembler"
     },
     {
@@ -8333,7 +8573,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_tocommandfromresource",
-      "community": 99,
+      "community": 141,
       "norm_label": ".tocommandfromresource()"
     },
     {
@@ -8343,7 +8583,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_long",
-      "community": 99,
+      "community": 141,
       "norm_label": "long"
     },
     {
@@ -8353,7 +8593,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_updaterequestresource",
-      "community": 99,
+      "community": 141,
       "norm_label": "updaterequestresource"
     },
     {
@@ -8363,7 +8603,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_updaterequestcommand",
-      "community": 99,
+      "community": 141,
       "norm_label": "updaterequestcommand"
     },
     {
@@ -8373,7 +8613,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "community": 99,
+      "community": 141,
       "norm_label": ".canonicalizerequeststatus()"
     },
     {
@@ -8383,7 +8623,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_string",
-      "community": 99,
+      "community": 141,
       "norm_label": "string"
     },
     {
@@ -8573,7 +8813,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper",
-      "community": 117,
+      "community": 143,
       "norm_label": "rolecompatibilitymapper.java"
     },
     {
@@ -8583,7 +8823,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper_rolecompatibilitymapper",
-      "community": 117,
+      "community": 143,
       "norm_label": "rolecompatibilitymapper"
     },
     {
@@ -8593,7 +8833,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper_rolecompatibilitymapper_rolecompatibilitymapper",
-      "community": 117,
+      "community": 143,
       "norm_label": ".rolecompatibilitymapper()"
     },
     {
@@ -8603,7 +8843,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper_rolecompatibilitymapper_tocanonicalrole",
-      "community": 117,
+      "community": 143,
       "norm_label": ".tocanonicalrole()"
     },
     {
@@ -8613,7 +8853,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_application_rolecompatibilitymapper_java_string",
-      "community": 117,
+      "community": 143,
       "norm_label": "string"
     },
     {
@@ -8623,7 +8863,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_application_rolecompatibilitymapper_java_role",
-      "community": 117,
+      "community": 143,
       "norm_label": "role"
     },
     {
@@ -8943,7 +9183,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blockchain_blockchaintraceservice",
-      "community": 99,
+      "community": 144,
       "norm_label": "blockchaintraceservice.java"
     },
     {
@@ -8953,7 +9193,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "blockchain_blockchaintraceservice_blockchaintraceservice",
-      "community": 99,
+      "community": 144,
       "norm_label": "blockchaintraceservice"
     },
     {
@@ -8963,7 +9203,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "blockchain_blockchaintraceservice_blockchaintraceservice_blockchaintraceservice",
-      "community": 99,
+      "community": 144,
       "norm_label": ".blockchaintraceservice()"
     },
     {
@@ -8973,7 +9213,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaintraceservice_java_blockchainproperties",
-      "community": 99,
+      "community": 144,
       "norm_label": "blockchainproperties"
     },
     {
@@ -8983,7 +9223,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "minichaintransactionclient",
-      "community": 99,
+      "community": 144,
       "norm_label": "minichaintransactionclient"
     },
     {
@@ -9003,7 +9243,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "blockchaineventtype",
-      "community": 99,
+      "community": 17,
       "norm_label": "blockchaineventtype"
     },
     {
@@ -9253,7 +9493,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_authenticateduser_java_long",
-      "community": 38,
+      "community": 138,
       "norm_label": "long"
     },
     {
@@ -9773,7 +10013,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "security_jwtttlparser",
-      "community": 2,
+      "community": 17,
       "norm_label": "jwtttlparser.java"
     },
     {
@@ -9783,7 +10023,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "security_jwtttlparser_jwtttlparser",
-      "community": 2,
+      "community": 17,
       "norm_label": "jwtttlparser"
     },
     {
@@ -9793,7 +10033,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "security_jwtttlparser_jwtttlparser_jwtttlparser",
-      "community": 2,
+      "community": 17,
       "norm_label": ".jwtttlparser()"
     },
     {
@@ -9803,7 +10043,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "security_jwtttlparser_jwtttlparser_parse",
-      "community": 2,
+      "community": 17,
       "norm_label": ".parse()"
     },
     {
@@ -9813,7 +10053,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_jwtttlparser_java_string",
-      "community": 2,
+      "community": 17,
       "norm_label": "string"
     },
     {
@@ -9823,7 +10063,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "duration",
-      "community": 2,
+      "community": 17,
       "norm_label": "duration"
     },
     {
@@ -9833,7 +10073,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": "restaccessdeniedhandler.java"
     },
     {
@@ -9843,7 +10083,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler_restaccessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": "restaccessdeniedhandler"
     },
     {
@@ -9853,7 +10093,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "accessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": "accessdeniedhandler"
     },
     {
@@ -9863,7 +10103,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler_restaccessdeniedhandler_restaccessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": ".restaccessdeniedhandler()"
     },
     {
@@ -9873,7 +10113,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_objectmapper",
-      "community": 24,
+      "community": 21,
       "norm_label": "objectmapper"
     },
     {
@@ -9883,7 +10123,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler_restaccessdeniedhandler_handle",
-      "community": 24,
+      "community": 21,
       "norm_label": ".handle()"
     },
     {
@@ -9893,7 +10133,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_httpservletrequest",
-      "community": 24,
+      "community": 21,
       "norm_label": "httpservletrequest"
     },
     {
@@ -9903,7 +10143,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_httpservletresponse",
-      "community": 24,
+      "community": 21,
       "norm_label": "httpservletresponse"
     },
     {
@@ -9913,7 +10153,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "accessdeniedexception",
-      "community": 24,
+      "community": 21,
       "norm_label": "accessdeniedexception"
     },
     {
@@ -9923,7 +10163,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_override",
-      "community": 24,
+      "community": 21,
       "norm_label": "override"
     },
     {
@@ -10663,7 +10903,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "fleet_fleetpersistenceconstraintclassifiertest",
-      "community": 39,
+      "community": 94,
       "norm_label": "fleetpersistenceconstraintclassifiertest.java"
     },
     {
@@ -10673,7 +10913,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "fleet_fleetpersistenceconstraintclassifiertest_fleetpersistenceconstraintclassifiertest",
-      "community": 39,
+      "community": 94,
       "norm_label": "fleetpersistenceconstraintclassifiertest"
     },
     {
@@ -10683,7 +10923,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "fleet_fleetpersistenceconstraintclassifiertest_fleetpersistenceconstraintclassifiertest_recognizesuniqueplateconstraintfromhibernateconstraintviolation",
-      "community": 39,
+      "community": 94,
       "norm_label": ".recognizesuniqueplateconstraintfromhibernateconstraintviolation()"
     },
     {
@@ -10693,7 +10933,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_fleet_fleetpersistenceconstraintclassifiertest_java_test",
-      "community": 39,
+      "community": 94,
       "norm_label": "test"
     },
     {
@@ -10703,7 +10943,7 @@
       "source_location": "L34",
       "_origin": "ast",
       "id": "fleet_fleetpersistenceconstraintclassifiertest_fleetpersistenceconstraintclassifiertest_recognizesuniqueplateconstraintfromsqlstateandmessage",
-      "community": 39,
+      "community": 94,
       "norm_label": ".recognizesuniqueplateconstraintfromsqlstateandmessage()"
     },
     {
@@ -10713,7 +10953,7 @@
       "source_location": "L45",
       "_origin": "ast",
       "id": "fleet_fleetpersistenceconstraintclassifiertest_fleetpersistenceconstraintclassifiertest_doesnottreatforeignkeyviolationasduplicateplate",
-      "community": 39,
+      "community": 94,
       "norm_label": ".doesnottreatforeignkeyviolationasduplicateplate()"
     },
     {
@@ -11313,7 +11553,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "fleet_vehicleaggregatetest",
-      "community": 34,
+      "community": 39,
       "norm_label": "vehicleaggregatetest.java"
     },
     {
@@ -11323,7 +11563,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "fleet_vehicleaggregatetest_vehicleaggregatetest",
-      "community": 34,
+      "community": 39,
       "norm_label": "vehicleaggregatetest"
     },
     {
@@ -11333,7 +11573,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "fleet_vehicleaggregatetest_vehicleaggregatetest_updatereplacesmutablefieldswithoutchangingactive",
-      "community": 34,
+      "community": 39,
       "norm_label": ".updatereplacesmutablefieldswithoutchangingactive()"
     },
     {
@@ -11343,7 +11583,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_fleet_vehicleaggregatetest_java_test",
-      "community": 34,
+      "community": 39,
       "norm_label": "test"
     },
     {
@@ -11463,7 +11703,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest",
-      "community": 2,
+      "community": 47,
       "norm_label": "hiredservicev1statusintegrationtest.java"
     },
     {
@@ -11473,7 +11713,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest",
-      "community": 2,
+      "community": 47,
       "norm_label": "hiredservicev1statusintegrationtest"
     },
     {
@@ -11483,7 +11723,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_postwithpendientepersistspendingconfirmation",
-      "community": 2,
+      "community": 47,
       "norm_label": ".postwithpendientepersistspendingconfirmation()"
     },
     {
@@ -11493,7 +11733,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_test",
-      "community": 2,
+      "community": 47,
       "norm_label": "test"
     },
     {
@@ -11503,7 +11743,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_getwithpendingconfirmationreturnspendiente",
-      "community": 2,
+      "community": 47,
       "norm_label": ".getwithpendingconfirmationreturnspendiente()"
     },
     {
@@ -11513,7 +11753,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithconfirmadopersistsconfirmed",
-      "community": 2,
+      "community": 47,
       "norm_label": ".putwithconfirmadopersistsconfirmed()"
     },
     {
@@ -11523,7 +11763,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_putwithcotizadoreturns400",
-      "community": 2,
+      "community": 47,
       "norm_label": ".putwithcotizadoreturns400()"
     },
     {
@@ -11533,7 +11773,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_legacypendingrowreturnspendiente",
-      "community": 2,
+      "community": 47,
       "norm_label": ".legacypendingrowreturnspendiente()"
     },
     {
@@ -11543,7 +11783,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
-      "community": 2,
+      "community": 47,
       "norm_label": ".savehiredservicewithstatus()"
     },
     {
@@ -11553,7 +11793,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_string",
-      "community": 2,
+      "community": 47,
       "norm_label": "string"
     },
     {
@@ -11563,7 +11803,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_hiredservice_hiredservicev1statusintegrationtest_java_hiredservice",
-      "community": 2,
+      "community": 47,
       "norm_label": "hiredservice"
     },
     {
@@ -11573,7 +11813,7 @@
       "source_location": "L109",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validcreatehiredservicejson",
-      "community": 2,
+      "community": 47,
       "norm_label": ".validcreatehiredservicejson()"
     },
     {
@@ -11583,7 +11823,7 @@
       "source_location": "L130",
       "_origin": "ast",
       "id": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_validupdatehiredservicejson",
-      "community": 2,
+      "community": 47,
       "norm_label": ".validupdatehiredservicejson()"
     },
     {
@@ -11793,7 +12033,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_legacypasswordisrehashedtobcryptaftersuccessfullogin",
-      "community": 94,
+      "community": 98,
       "norm_label": ".legacypasswordisrehashedtobcryptaftersuccessfullogin()"
     },
     {
@@ -11943,7 +12183,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "commandservices_receiptcommandserviceimplblockchaintest",
-      "community": 99,
+      "community": 146,
       "norm_label": "receiptcommandserviceimplblockchaintest.java"
     },
     {
@@ -11953,7 +12193,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest",
-      "community": 99,
+      "community": 146,
       "norm_label": "receiptcommandserviceimplblockchaintest"
     },
     {
@@ -11963,7 +12203,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest_createreceiptrecordspaymentregisteredwithoutsensitivedata",
-      "community": 99,
+      "community": 146,
       "norm_label": ".createreceiptrecordspaymentregisteredwithoutsensitivedata()"
     },
     {
@@ -11973,7 +12213,7 @@
       "source_location": "L31",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimplblockchaintest_java_test",
-      "community": 99,
+      "community": 146,
       "norm_label": "test"
     },
     {
@@ -12047,13 +12287,213 @@
       "norm_label": ".sanitizecardnumberkeepsalreadymaskedvalues()"
     },
     {
+      "label": "RequestPaymentRollbackIntegrationTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "request_requestpaymentrollbackintegrationtest",
+      "community": 1,
+      "norm_label": "requestpaymentrollbackintegrationtest.java"
+    },
+    {
+      "label": "RequestPaymentRollbackIntegrationTest",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest",
+      "community": 1,
+      "norm_label": "requestpaymentrollbackintegrationtest"
+    },
+    {
+      "label": ".whenHiredServiceSaveFailsNoPartialPaymentStateRemains()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_whenhiredservicesavefailsnopartialpaymentstateremains",
+      "community": 1,
+      "norm_label": ".whenhiredservicesavefailsnopartialpaymentstateremains()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L38",
+      "_origin": "ast",
+      "id": "src_test_java_pe_upc_pescagobackend_request_requestpaymentrollbackintegrationtest_java_test",
+      "community": 1,
+      "norm_label": "test"
+    },
+    {
+      "label": ".saveQuotedRequest()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_savequotedrequest",
+      "community": 1,
+      "norm_label": ".savequotedrequest()"
+    },
+    {
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L64",
+      "_origin": "ast",
+      "id": "src_test_java_pe_upc_pescagobackend_request_requestpaymentrollbackintegrationtest_java_request",
+      "community": 1,
+      "norm_label": "request"
+    },
+    {
+      "label": "RequestPaymentV1IntegrationTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest",
+      "community": 47,
+      "norm_label": "requestpaymentv1integrationtest.java"
+    },
+    {
+      "label": "RequestPaymentV1IntegrationTest",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "community": 47,
+      "norm_label": "requestpaymentv1integrationtest"
+    },
+    {
+      "label": ".payQuotedRequestCreatesSanitizedReceiptPaidRequestAndPendingHiredService()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payquotedrequestcreatessanitizedreceiptpaidrequestandpendinghiredservice",
+      "community": 47,
+      "norm_label": ".payquotedrequestcreatessanitizedreceiptpaidrequestandpendinghiredservice()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L39",
+      "_origin": "ast",
+      "id": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "community": 47,
+      "norm_label": "test"
+    },
+    {
+      "label": ".payWalletYapePreservesWalletTokenAndNotStoredCvv()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L83",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletyapepreserveswallettokenandnotstoredcvv",
+      "community": 47,
+      "norm_label": ".paywalletyapepreserveswallettokenandnotstoredcvv()"
+    },
+    {
+      "label": ".payWalletPlinPreservesWalletToken()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletplinpreserveswallettoken",
+      "community": 47,
+      "norm_label": ".paywalletplinpreserveswallettoken()"
+    },
+    {
+      "label": ".payRejectsWhenRequestIsNotQuoted()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L135",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenrequestisnotquoted",
+      "community": 47,
+      "norm_label": ".payrejectswhenrequestisnotquoted()"
+    },
+    {
+      "label": ".payRejectsWhenQuotedPriceIsMissing()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L152",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenquotedpriceismissing",
+      "community": 47,
+      "norm_label": ".payrejectswhenquotedpriceismissing()"
+    },
+    {
+      "label": ".payReturns404WhenRequestDoesNotExist()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L166",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payreturns404whenrequestdoesnotexist",
+      "community": 47,
+      "norm_label": ".payreturns404whenrequestdoesnotexist()"
+    },
+    {
+      "label": ".saveQuotedRequest()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "community": 47,
+      "norm_label": ".savequotedrequest()"
+    },
+    {
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L174",
+      "_origin": "ast",
+      "id": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_request",
+      "community": 47,
+      "norm_label": "request"
+    },
+    {
+      "label": ".saveRequest()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L178",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "community": 47,
+      "norm_label": ".saverequest()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L178",
+      "_origin": "ast",
+      "id": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_string",
+      "community": 47,
+      "norm_label": "string"
+    },
+    {
+      "label": ".validPayJson()",
+      "file_type": "code",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L202",
+      "_origin": "ast",
+      "id": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_validpayjson",
+      "community": 47,
+      "norm_label": ".validpayjson()"
+    },
+    {
       "label": "RequestV1StatusIntegrationTest.java",
       "file_type": "code",
       "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestV1StatusIntegrationTest.java",
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest",
-      "community": 47,
+      "community": 111,
       "norm_label": "requestv1statusintegrationtest.java"
     },
     {
@@ -12063,7 +12503,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "community": 47,
+      "community": 111,
       "norm_label": "requestv1statusintegrationtest"
     },
     {
@@ -12073,7 +12513,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending",
-      "community": 47,
+      "community": 111,
       "norm_label": ".postwithpendientepersistspending()"
     },
     {
@@ -12083,7 +12523,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "community": 47,
+      "community": 111,
       "norm_label": "test"
     },
     {
@@ -12093,7 +12533,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente",
-      "community": 47,
+      "community": 111,
       "norm_label": ".getrequestwithpendingreturnspendiente()"
     },
     {
@@ -12103,7 +12543,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "community": 47,
+      "community": 111,
       "norm_label": ".putwithcotizadopersistsquoted()"
     },
     {
@@ -12113,7 +12553,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "community": 47,
+      "community": 111,
       "norm_label": ".putwithpagadopersistspaid()"
     },
     {
@@ -12123,7 +12563,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "community": 47,
+      "community": 111,
       "norm_label": ".putwithconfirmadoreturns400()"
     },
     {
@@ -12133,7 +12573,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente",
-      "community": 47,
+      "community": 111,
       "norm_label": ".legacyspanishrowstillreturnspendiente()"
     },
     {
@@ -12143,7 +12583,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "community": 47,
+      "community": 111,
       "norm_label": ".saverequestwithstatus()"
     },
     {
@@ -12153,7 +12593,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string",
-      "community": 47,
+      "community": 111,
       "norm_label": "string"
     },
     {
@@ -12163,7 +12603,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request",
-      "community": 47,
+      "community": 111,
       "norm_label": "request"
     },
     {
@@ -12173,7 +12613,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson",
-      "community": 47,
+      "community": 111,
       "norm_label": ".validcreaterequestjson()"
     },
     {
@@ -12183,7 +12623,7 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "community": 47,
+      "community": 111,
       "norm_label": ".validupdaterequestjson()"
     },
     {
@@ -12193,7 +12633,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "commandservices_requestcommandserviceimplblockchaintest",
-      "community": 99,
+      "community": 17,
       "norm_label": "requestcommandserviceimplblockchaintest.java"
     },
     {
@@ -12203,7 +12643,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest",
-      "community": 99,
+      "community": 17,
       "norm_label": "requestcommandserviceimplblockchaintest"
     },
     {
@@ -12213,7 +12653,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestrecordsquotedeventwhenstatusisquoted",
-      "community": 99,
+      "community": 17,
       "norm_label": ".updaterequestrecordsquotedeventwhenstatusisquoted()"
     },
     {
@@ -12223,7 +12663,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test",
-      "community": 99,
+      "community": 17,
       "norm_label": "test"
     },
     {
@@ -12233,7 +12673,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestdoesnotrecordquotedeventfornonquotedstatus",
-      "community": 99,
+      "community": 17,
       "norm_label": ".updaterequestdoesnotrecordquotedeventfornonquotedstatus()"
     },
     {
@@ -12243,7 +12683,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "community": 99,
+      "community": 17,
       "norm_label": ".requestwithid()"
     },
     {
@@ -12253,7 +12693,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_long",
-      "community": 99,
+      "community": 17,
       "norm_label": "long"
     },
     {
@@ -12263,7 +12703,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_string",
-      "community": 99,
+      "community": 17,
       "norm_label": "string"
     },
     {
@@ -12273,7 +12713,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_request",
-      "community": 99,
+      "community": 17,
       "norm_label": "request"
     },
     {
@@ -12283,7 +12723,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "community": 99,
+      "community": 17,
       "norm_label": ".updatecommand()"
     },
     {
@@ -12293,7 +12733,7 @@
       "source_location": "L88",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_updaterequestcommand",
-      "community": 99,
+      "community": 17,
       "norm_label": "updaterequestcommand"
     },
     {
@@ -13881,7 +14321,7 @@
       "source_location": "L521",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_dise\u00f1o_del_flujo_automatizado",
-      "community": 88,
+      "community": 145,
       "norm_label": "4. diseno del flujo automatizado"
     },
     {
@@ -13891,7 +14331,7 @@
       "source_location": "L523",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_1_flujo_objetivo_coexistiendo_con_manual",
-      "community": 88,
+      "community": 145,
       "norm_label": "4.1 flujo objetivo (coexistiendo con manual)"
     },
     {
@@ -13901,7 +14341,7 @@
       "source_location": "L552",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_2_coexistencia_con_flujo_manual",
-      "community": 88,
+      "community": 145,
       "norm_label": "4.2 coexistencia con flujo manual"
     },
     {
@@ -13911,7 +14351,7 @@
       "source_location": "L565",
       "_origin": "ast",
       "id": "architecture_pescago_v2_backend_implementation_plan_4_3_bloqueo_de_otras_opciones_y_concurrencia",
-      "community": 88,
+      "community": 145,
       "norm_label": "4.3 bloqueo de otras opciones y concurrencia"
     },
     {
@@ -15529,6 +15969,39 @@
       "confidence_score": 1.0,
       "source": "repositories_carrierrepository_carrierrepository_findall",
       "target": "src_main_java_pe_upc_pescagobackend_carrier_infrastructure_persistence_jpa_repositories_carrierrepository_java_list"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payquotedrequestcreatessanitizedreceiptpaidrequestandpendinghiredservice",
+      "target": "repositories_carrierrepository_carrierrepository_findall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L127",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletplinpreserveswallettoken",
+      "target": "repositories_carrierrepository_carrierrepository_findall"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletyapepreserveswallettokenandnotstoredcvv",
+      "target": "repositories_carrierrepository_carrierrepository_findall"
     },
     {
       "relation": "calls",
@@ -20649,6 +21122,28 @@
       "context": "call",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "illegalargumentexception"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_validatepayable",
+      "target": "illegalargumentexception"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
       "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/commandservices/UserCommandServiceImpl.java",
       "source_location": "L31",
       "weight": 1.0,
@@ -21576,6 +22071,17 @@
       "source_location": "L116",
       "weight": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
+      "target": "aggregates_carrierdata_carrierdata"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
       "target": "aggregates_carrierdata_carrierdata"
     },
     {
@@ -23207,6 +23713,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "authenticationservices_passwordauthenticationservice",
+      "target": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java",
       "source_location": "L6",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -23223,17 +23740,6 @@
       "confidence_score": 1.0,
       "source": "authenticationservices_passwordauthenticationservice",
       "target": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_userrepository"
-    },
-    {
-      "relation": "imports",
-      "context": "import",
-      "confidence": "EXTRACTED",
-      "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java",
-      "source_location": "L5",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "authenticationservices_passwordauthenticationservice",
-      "target": "transactional"
     },
     {
       "relation": "method",
@@ -23347,10 +23853,10 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java",
       "source_location": "L22",
       "weight": 1.0,
-      "context": "generic_arg",
-      "confidence_score": 1.0,
+      "context": "attribute",
       "source": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice_authenticate",
-      "target": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_user"
+      "target": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_transactional",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -23358,10 +23864,10 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/iam/application/internal/authenticationservices/PasswordAuthenticationService.java",
       "source_location": "L22",
       "weight": 1.0,
-      "context": "attribute",
+      "context": "generic_arg",
       "confidence_score": 1.0,
       "source": "authenticationservices_passwordauthenticationservice_passwordauthenticationservice_authenticate",
-      "target": "transactional"
+      "target": "src_main_java_pe_upc_pescagobackend_iam_application_internal_authenticationservices_passwordauthenticationservice_java_user"
     },
     {
       "relation": "calls",
@@ -26197,9 +26703,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizer.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizer",
-      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer"
     },
     {
       "relation": "method",
@@ -26207,9 +26713,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizer.java",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer",
-      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer"
     },
     {
       "relation": "method",
@@ -26217,9 +26723,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizer.java",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer",
-      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_sanitizecardnumber",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_sanitizecardnumber"
     },
     {
       "relation": "method",
@@ -26227,9 +26733,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizer.java",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer",
-      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_sanitizecvv",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_sanitizecvv"
     },
     {
       "relation": "calls",
@@ -26249,9 +26755,9 @@
       "source_location": "L18",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_sanitizecvv",
-      "target": "src_main_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizer_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizer_java_string"
     },
     {
       "relation": "calls",
@@ -26282,9 +26788,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizer_receiptsensitivedatasanitizer_sanitizecardnumber",
-      "target": "src_main_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizer_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizer_java_string"
     },
     {
       "relation": "calls",
@@ -27426,6 +27932,364 @@
       "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimpl_java_updaterequestcommand"
     },
     {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "blockchaineventtype",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_blockchaintraceservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_hiredservicerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_payrequestresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_payrequestresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_receiptrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_requestrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_requestpaymentservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_resolvepaymentdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_validatepayable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_blockchaintraceservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_hiredservicerepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_receiptrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_requestpaymentservice",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_requestrepository",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L107",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "application_legacystatustranslator_legacystatustranslator_tolegacyrequeststatus"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L99",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_hiredservicecreated"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_paymentregistered"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "blockchain_blockchaintraceservice_blockchaintraceservice_recordevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_resolvepaymentdate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_validatepayable",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_long",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_payrequestresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "return_type",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_payrequestresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_pay",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_transactional",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_whenhiredservicesavefailsnopartialpaymentstateremains",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_pay"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "commandservices_requestpaymentservice_requestpaymentservice_pay"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_validatepayable",
+      "target": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_validatepayable",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestPaymentService.java",
+      "source_location": "L133",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "commandservices_requestpaymentservice_requestpaymentservice_resolvepaymentdate",
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestpaymentservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/queryservices/RequestQueryServiceImpl.java",
@@ -27714,6 +28578,28 @@
       "source_location": "L103",
       "weight": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
+      "target": "aggregates_dimensions_dimensions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_savequotedrequest",
+      "target": "aggregates_dimensions_dimensions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
       "target": "aggregates_dimensions_dimensions"
     },
     {
@@ -28353,6 +29239,17 @@
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "rest_requestcontroller",
+      "target": "requestpaymentservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
       "source_location": "L14",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -28401,6 +29298,28 @@
       "confidence_score": 1.0,
       "source": "rest_requestcontroller",
       "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_operation"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "rest_requestcontroller",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_payrequestresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "rest_requestcontroller",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_payrequestresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -28511,6 +29430,16 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "rest_requestcontroller_requestcontroller",
+      "target": "rest_requestcontroller_requestcontroller_payrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
       "source_location": "L31",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -28526,6 +29455,17 @@
       "confidence_score": 1.0,
       "source": "rest_requestcontroller_requestcontroller",
       "target": "rest_requestcontroller_requestcontroller_updaterequestbyid"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "rest_requestcontroller_requestcontroller_requestcontroller",
+      "target": "requestpaymentservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -28548,6 +29488,17 @@
       "confidence_score": 1.0,
       "source": "rest_requestcontroller_requestcontroller_requestcontroller",
       "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_requestqueryservice"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest",
+      "target": "requestpaymentservice",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -28597,6 +29548,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
       "source_location": "L63",
       "weight": 1.0,
       "context": "attribute",
@@ -28636,6 +29598,17 @@
       "confidence_score": 1.0,
       "source": "rest_requestcontroller_requestcontroller_getrequestsbyentrepreneurid",
       "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_operation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_operation",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -28691,6 +29664,17 @@
       "confidence_score": 1.0,
       "source": "rest_requestcontroller_requestcontroller_getrequestsbyentrepreneurid",
       "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_apiresponses"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_apiresponses",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -28784,6 +29768,17 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_long",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
       "source_location": "L75",
       "weight": 1.0,
       "context": "parameter_type",
@@ -28823,6 +29818,17 @@
       "confidence_score": 1.0,
       "source": "rest_requestcontroller_requestcontroller_getrequestsbyentrepreneurid",
       "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_responseentity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_responseentity",
+      "confidence_score": 1.0
     },
     {
       "relation": "references",
@@ -28891,6 +29897,28 @@
       "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_updaterequestresource"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_payrequestresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/RequestController.java",
+      "source_location": "L97",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "rest_requestcontroller_requestcontroller_payrequest",
+      "target": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_requestcontroller_java_payrequestresponse",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/CreateRequestResource.java",
@@ -28899,6 +29927,26 @@
       "confidence_score": 1.0,
       "source": "resources_createrequestresource",
       "target": "resources_createrequestresource_createrequestresource"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/PayRequestResource.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "resources_payrequestresource",
+      "target": "resources_payrequestresource_payrequestresource",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/pe/upc/pescagobackend/request/interfaces/rest/resources/PayRequestResponse.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "resources_payrequestresponse",
+      "target": "resources_payrequestresponse_payrequestresponse",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -32119,6 +33167,28 @@
       "source_location": "L96",
       "weight": 1.0,
       "source": "hiredservice_hiredservicev1statusintegrationtest_hiredservicev1statusintegrationtest_savehiredservicewithstatus",
+      "target": "security_jwtttlparser_jwtttlparser_parse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_savequotedrequest",
+      "target": "security_jwtttlparser_jwtttlparser_parse"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
       "target": "security_jwtttlparser_jwtttlparser_parse"
     },
     {
@@ -36552,9 +37622,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/ReceiptSanitizationV1IntegrationTest.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest",
-      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest",
-      "confidence_score": 1.0
+      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest"
     },
     {
       "relation": "imports",
@@ -36563,9 +37633,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/ReceiptSanitizationV1IntegrationTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test"
     },
     {
       "relation": "method",
@@ -36573,9 +37643,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/ReceiptSanitizationV1IntegrationTest.java",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest",
-      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_createcardreceiptpersistsmaskedpanandnotstoredcvv",
-      "confidence_score": 1.0
+      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_createcardreceiptpersistsmaskedpanandnotstoredcvv"
     },
     {
       "relation": "method",
@@ -36583,9 +37653,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/ReceiptSanitizationV1IntegrationTest.java",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest",
-      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_createwalletreceiptpreserveswallettokenandnotstoredcvv",
-      "confidence_score": 1.0
+      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_createwalletreceiptpreserveswallettokenandnotstoredcvv"
     },
     {
       "relation": "method",
@@ -36593,9 +37663,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/ReceiptSanitizationV1IntegrationTest.java",
       "source_location": "L92",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest",
-      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_getlegacyreceiptwithsensitivedatareturnssanitizedresponse",
-      "confidence_score": 1.0
+      "target": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_getlegacyreceiptwithsensitivedatareturnssanitizedresponse"
     },
     {
       "relation": "references",
@@ -36604,9 +37674,9 @@
       "source_location": "L29",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_createcardreceiptpersistsmaskedpanandnotstoredcvv",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test"
     },
     {
       "relation": "references",
@@ -36615,9 +37685,9 @@
       "source_location": "L57",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_createwalletreceiptpreserveswallettokenandnotstoredcvv",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test"
     },
     {
       "relation": "references",
@@ -36626,9 +37696,9 @@
       "source_location": "L92",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "receipt_receiptsanitizationv1integrationtest_receiptsanitizationv1integrationtest_getlegacyreceiptwithsensitivedatareturnssanitizedresponse",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_receiptsanitizationv1integrationtest_java_test"
     },
     {
       "relation": "contains",
@@ -36678,9 +37748,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizerTest.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest",
-      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest"
     },
     {
       "relation": "imports",
@@ -36689,9 +37759,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizerTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test"
     },
     {
       "relation": "method",
@@ -36699,9 +37769,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizerTest.java",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest",
-      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumberkeepsalreadymaskedvalues",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumberkeepsalreadymaskedvalues"
     },
     {
       "relation": "method",
@@ -36709,9 +37779,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizerTest.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest",
-      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumbermasksfullpankeepinglastfour",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumbermasksfullpankeepinglastfour"
     },
     {
       "relation": "method",
@@ -36719,9 +37789,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizerTest.java",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest",
-      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumberpreserveswallettokens",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumberpreserveswallettokens"
     },
     {
       "relation": "method",
@@ -36729,9 +37799,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/domain/model/ReceiptSensitiveDataSanitizerTest.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest",
-      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecvvalwaysreturnsnotstored",
-      "confidence_score": 1.0
+      "target": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecvvalwaysreturnsnotstored"
     },
     {
       "relation": "references",
@@ -36740,9 +37810,9 @@
       "source_location": "L9",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecvvalwaysreturnsnotstored",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test"
     },
     {
       "relation": "references",
@@ -36751,9 +37821,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumberkeepsalreadymaskedvalues",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test"
     },
     {
       "relation": "references",
@@ -36762,9 +37832,9 @@
       "source_location": "L19",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumbermasksfullpankeepinglastfour",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test"
     },
     {
       "relation": "references",
@@ -36773,8 +37843,424 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "model_receiptsensitivedatasanitizertest_receiptsensitivedatasanitizertest_sanitizecardnumberpreserveswallettokens",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test",
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_domain_model_receiptsensitivedatasanitizertest_java_test"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest",
+      "target": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentrollbackintegrationtest_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentrollbackintegrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest",
+      "target": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_savequotedrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest",
+      "target": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_whenhiredservicesavefailsnopartialpaymentstateremains",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_whenhiredservicesavefailsnopartialpaymentstateremains",
+      "target": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_savequotedrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_whenhiredservicesavefailsnopartialpaymentstateremains",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentrollbackintegrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentRollbackIntegrationTest.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "request_requestpaymentrollbackintegrationtest_requestpaymentrollbackintegrationtest_savequotedrequest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentrollbackintegrationtest_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payquotedrequestcreatessanitizedreceiptpaidrequestandpendinghiredservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenquotedpriceismissing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L135",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenrequestisnotquoted",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payreturns404whenrequestdoesnotexist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletplinpreserveswallettoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletyapepreserveswallettokenandnotstoredcvv",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_validpayjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payquotedrequestcreatessanitizedreceiptpaidrequestandpendinghiredservice",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L39",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payquotedrequestcreatessanitizedreceiptpaidrequestandpendinghiredservice",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L152",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenquotedpriceismissing",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L135",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenrequestisnotquoted",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L166",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payreturns404whenrequestdoesnotexist",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L110",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletplinpreserveswallettoken",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L83",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletyapepreserveswallettokenandnotstoredcvv",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletyapepreserveswallettokenandnotstoredcvv",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_paywalletplinpreserveswallettoken",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L137",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenrequestisnotquoted",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenrequestisnotquoted",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_validpayjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenquotedpriceismissing",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L159",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payrejectswhenquotedpriceismissing",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_validpayjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_payreturns404whenrequestdoesnotexist",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_validpayjson",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L175",
+      "weight": 1.0,
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "target": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L174",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_savequotedrequest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L178",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L178",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_saverequest",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/pe/upc/pescagobackend/request/RequestPaymentV1IntegrationTest.java",
+      "source_location": "L202",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "request_requestpaymentv1integrationtest_requestpaymentv1integrationtest_validpayjson",
+      "target": "src_test_java_pe_upc_pescagobackend_request_requestpaymentv1integrationtest_java_string",
       "confidence_score": 1.0
     },
     {
@@ -39556,5 +41042,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "e89565c359552b5ae9ad954ca97506724e80fdd0"
+  "built_at_commit": "12a8c760aaf9d5741f086252ff086e92bb38cb77"
 }
