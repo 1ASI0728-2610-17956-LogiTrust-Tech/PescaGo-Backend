@@ -953,5 +953,30 @@
     "mtime": 1783660493.2292962,
     "ast_hash": "c83f07f2284760f75abd5580e49f969e",
     "semantic_hash": ""
+  },
+  "scripts/blockchain/check-minichain.ps1": {
+    "mtime": 1783664339.7350113,
+    "ast_hash": "365fc373d9cc7f4c2be2ac3adb9afb34",
+    "semantic_hash": ""
+  },
+  "scripts/blockchain/register-minichain-nodes.ps1": {
+    "mtime": 1783664335.7112758,
+    "ast_hash": "c8fdc7c0bd778b68e9a2caaf6986d679",
+    "semantic_hash": ""
+  },
+  "scripts/blockchain/start-backend-blockchain-local.ps1": {
+    "mtime": 1783664344.5508301,
+    "ast_hash": "308710e0615e74d2c2b36699f22716d0",
+    "semantic_hash": ""
+  },
+  "scripts/blockchain/start-minichain-nodes.ps1": {
+    "mtime": 1783664332.3001769,
+    "ast_hash": "82ad844587e214eb740b6cabdd636a2c",
+    "semantic_hash": ""
+  },
+  "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md": {
+    "mtime": 1783664329.7381399,
+    "ast_hash": "d94e1e3b5ffb383cc7335503175a3d58",
+    "semantic_hash": ""
   }
 }

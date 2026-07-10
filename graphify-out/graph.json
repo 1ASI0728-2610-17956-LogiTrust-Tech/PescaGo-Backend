@@ -17,6 +17,46 @@
       "norm_label": "pe.upc:pescago-backend"
     },
     {
+      "label": "check-minichain.ps1",
+      "file_type": "code",
+      "source_file": "scripts/blockchain/check-minichain.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "blockchain_check_minichain",
+      "community": 155,
+      "norm_label": "check-minichain.ps1"
+    },
+    {
+      "label": "register-minichain-nodes.ps1",
+      "file_type": "code",
+      "source_file": "scripts/blockchain/register-minichain-nodes.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "blockchain_register_minichain_nodes",
+      "community": 156,
+      "norm_label": "register-minichain-nodes.ps1"
+    },
+    {
+      "label": "start-backend-blockchain-local.ps1",
+      "file_type": "code",
+      "source_file": "scripts/blockchain/start-backend-blockchain-local.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "blockchain_start_backend_blockchain_local",
+      "community": 157,
+      "norm_label": "start-backend-blockchain-local.ps1"
+    },
+    {
+      "label": "start-minichain-nodes.ps1",
+      "file_type": "code",
+      "source_file": "scripts/blockchain/start-minichain-nodes.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "blockchain_start_minichain_nodes",
+      "community": 158,
+      "norm_label": "start-minichain-nodes.ps1"
+    },
+    {
       "label": "PescagoBackendApplication.java",
       "file_type": "code",
       "source_file": "src/main/java/pe/upc/pescagobackend/PescagoBackendApplication.java",
@@ -283,7 +323,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_carrier",
-      "community": 34,
+      "community": 152,
       "norm_label": "carrier.java"
     },
     {
@@ -293,7 +333,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "aggregates_carrier_carrier",
-      "community": 34,
+      "community": 152,
       "norm_label": "carrier"
     },
     {
@@ -303,7 +343,7 @@
       "source_location": "L19",
       "_origin": "ast",
       "id": "aggregates_carrier_carrier_carrier",
-      "community": 34,
+      "community": 152,
       "norm_label": ".carrier()"
     },
     {
@@ -313,7 +353,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_carrier_domain_model_aggregates_carrier_java_createcarriercommand",
-      "community": 34,
+      "community": 152,
       "norm_label": "createcarriercommand"
     },
     {
@@ -1333,7 +1373,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_entreprenuer",
-      "community": 34,
+      "community": 140,
       "norm_label": "entreprenuer.java"
     },
     {
@@ -1343,7 +1383,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "aggregates_entreprenuer_entreprenuer",
-      "community": 34,
+      "community": 140,
       "norm_label": "entreprenuer"
     },
     {
@@ -1353,7 +1393,7 @@
       "source_location": "L17",
       "_origin": "ast",
       "id": "aggregates_entreprenuer_entreprenuer_entreprenuer",
-      "community": 34,
+      "community": 140,
       "norm_label": ".entreprenuer()"
     },
     {
@@ -1363,7 +1403,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_entrepreneur_domain_model_aggregates_entreprenuer_java_createentreprenuercommand",
-      "community": 34,
+      "community": 140,
       "norm_label": "createentreprenuercommand"
     },
     {
@@ -2413,7 +2453,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "model_fleetplaterules",
-      "community": 34,
+      "community": 140,
       "norm_label": "fleetplaterules.java"
     },
     {
@@ -2423,7 +2463,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "model_fleetplaterules_fleetplaterules",
-      "community": 34,
+      "community": 140,
       "norm_label": "fleetplaterules"
     },
     {
@@ -2433,7 +2473,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "model_fleetplaterules_fleetplaterules_fleetplaterules",
-      "community": 34,
+      "community": 140,
       "norm_label": ".fleetplaterules()"
     },
     {
@@ -2443,7 +2483,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "model_fleetplaterules_fleetplaterules_normalize",
-      "community": 34,
+      "community": 140,
       "norm_label": ".normalize()"
     },
     {
@@ -2453,7 +2493,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_domain_model_fleetplaterules_java_string",
-      "community": 34,
+      "community": 140,
       "norm_label": "string"
     },
     {
@@ -2463,7 +2503,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_vehicle",
-      "community": 39,
+      "community": 111,
       "norm_label": "vehicle.java"
     },
     {
@@ -2473,7 +2513,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle",
-      "community": 39,
+      "community": 111,
       "norm_label": "vehicle"
     },
     {
@@ -2483,7 +2523,7 @@
       "source_location": "L57",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_vehicle",
-      "community": 39,
+      "community": 111,
       "norm_label": ".vehicle()"
     },
     {
@@ -2493,7 +2533,7 @@
       "source_location": "L60",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_domain_model_aggregates_vehicle_java_registervehiclecommand",
-      "community": 39,
+      "community": 111,
       "norm_label": "registervehiclecommand"
     },
     {
@@ -2503,7 +2543,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_update",
-      "community": 39,
+      "community": 111,
       "norm_label": ".update()"
     },
     {
@@ -2513,7 +2553,7 @@
       "source_location": "L74",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_fleet_domain_model_aggregates_vehicle_java_updatevehiclecommand",
-      "community": 39,
+      "community": 111,
       "norm_label": "updatevehiclecommand"
     },
     {
@@ -2523,7 +2563,7 @@
       "source_location": "L86",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_activate",
-      "community": 39,
+      "community": 111,
       "norm_label": ".activate()"
     },
     {
@@ -2533,7 +2573,7 @@
       "source_location": "L90",
       "_origin": "ast",
       "id": "aggregates_vehicle_vehicle_deactivate",
-      "community": 39,
+      "community": 111,
       "norm_label": ".deactivate()"
     },
     {
@@ -3293,7 +3333,7 @@
       "source_location": "L198",
       "_origin": "ast",
       "id": "illegalargumentexception",
-      "community": 34,
+      "community": 140,
       "norm_label": "illegalargumentexception"
     },
     {
@@ -3823,7 +3863,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_carrierdata",
-      "community": 2,
+      "community": 141,
       "norm_label": "carrierdata.java"
     },
     {
@@ -3833,7 +3873,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "aggregates_carrierdata_carrierdata",
-      "community": 2,
+      "community": 141,
       "norm_label": "carrierdata"
     },
     {
@@ -3843,7 +3883,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_hiredservice",
-      "community": 2,
+      "community": 141,
       "norm_label": "hiredservice.java"
     },
     {
@@ -3853,7 +3893,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "aggregates_hiredservice_hiredservice",
-      "community": 2,
+      "community": 141,
       "norm_label": "hiredservice"
     },
     {
@@ -3863,7 +3903,7 @@
       "source_location": "L39",
       "_origin": "ast",
       "id": "aggregates_hiredservice_hiredservice_hiredservice",
-      "community": 2,
+      "community": 141,
       "norm_label": ".hiredservice()"
     },
     {
@@ -3873,7 +3913,7 @@
       "source_location": "L53",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_domain_model_aggregates_hiredservice_java_createhiredservicecommand",
-      "community": 2,
+      "community": 141,
       "norm_label": "createhiredservicecommand"
     },
     {
@@ -3883,7 +3923,7 @@
       "source_location": "L67",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_domain_model_aggregates_hiredservice_java_updatehiredservicecommand",
-      "community": 2,
+      "community": 141,
       "norm_label": "updatehiredservicecommand"
     },
     {
@@ -3893,7 +3933,7 @@
       "source_location": "L81",
       "_origin": "ast",
       "id": "aggregates_hiredservice_hiredservice_updatehiredservice",
-      "community": 2,
+      "community": 141,
       "norm_label": ".updatehiredservice()"
     },
     {
@@ -4583,7 +4623,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_createhiredservicecommandfromresourceassembler",
-      "community": 2,
+      "community": 148,
       "norm_label": "createhiredservicecommandfromresourceassembler.java"
     },
     {
@@ -4593,7 +4633,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler",
-      "community": 2,
+      "community": 148,
       "norm_label": "createhiredservicecommandfromresourceassembler"
     },
     {
@@ -4603,7 +4643,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_tocommandfromresource",
-      "community": 2,
+      "community": 148,
       "norm_label": ".tocommandfromresource()"
     },
     {
@@ -4613,7 +4653,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_createhiredservicecommandfromresourceassembler_java_createhiredserviceresource",
-      "community": 2,
+      "community": 148,
       "norm_label": "createhiredserviceresource"
     },
     {
@@ -4623,7 +4663,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_createhiredservicecommandfromresourceassembler_java_createhiredservicecommand",
-      "community": 2,
+      "community": 148,
       "norm_label": "createhiredservicecommand"
     },
     {
@@ -4633,7 +4673,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "transform_createhiredservicecommandfromresourceassembler_createhiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "community": 2,
+      "community": 148,
       "norm_label": ".canonicalizeexecutionstatus()"
     },
     {
@@ -4643,7 +4683,7 @@
       "source_location": "L25",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_createhiredservicecommandfromresourceassembler_java_string",
-      "community": 2,
+      "community": 148,
       "norm_label": "string"
     },
     {
@@ -4653,7 +4693,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_hiredserviceresourcefromentityassembler",
-      "community": 34,
+      "community": 150,
       "norm_label": "hiredserviceresourcefromentityassembler.java"
     },
     {
@@ -4663,7 +4703,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "transform_hiredserviceresourcefromentityassembler_hiredserviceresourcefromentityassembler",
-      "community": 34,
+      "community": 150,
       "norm_label": "hiredserviceresourcefromentityassembler"
     },
     {
@@ -4673,7 +4713,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "transform_hiredserviceresourcefromentityassembler_hiredserviceresourcefromentityassembler_toresourcefromentity",
-      "community": 34,
+      "community": 150,
       "norm_label": ".toresourcefromentity()"
     },
     {
@@ -4683,7 +4723,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_hiredserviceresourcefromentityassembler_java_hiredservice",
-      "community": 34,
+      "community": 150,
       "norm_label": "hiredservice"
     },
     {
@@ -4693,7 +4733,7 @@
       "source_location": "L8",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_hiredserviceresourcefromentityassembler_java_hiredserviceresource",
-      "community": 34,
+      "community": 150,
       "norm_label": "hiredserviceresource"
     },
     {
@@ -4703,7 +4743,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_updatehiredservicecommandfromresourceassembler",
-      "community": 2,
+      "community": 147,
       "norm_label": "updatehiredservicecommandfromresourceassembler.java"
     },
     {
@@ -4713,7 +4753,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler",
-      "community": 2,
+      "community": 147,
       "norm_label": "updatehiredservicecommandfromresourceassembler"
     },
     {
@@ -4723,7 +4763,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_tocommandfromresource",
-      "community": 2,
+      "community": 147,
       "norm_label": ".tocommandfromresource()"
     },
     {
@@ -4733,7 +4773,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_updatehiredservicecommandfromresourceassembler_java_long",
-      "community": 2,
+      "community": 147,
       "norm_label": "long"
     },
     {
@@ -4743,7 +4783,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_updatehiredservicecommandfromresourceassembler_java_updatehiredserviceresource",
-      "community": 2,
+      "community": 147,
       "norm_label": "updatehiredserviceresource"
     },
     {
@@ -4753,7 +4793,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_updatehiredservicecommandfromresourceassembler_java_updatehiredservicecommand",
-      "community": 2,
+      "community": 147,
       "norm_label": "updatehiredservicecommand"
     },
     {
@@ -4763,7 +4803,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "transform_updatehiredservicecommandfromresourceassembler_updatehiredservicecommandfromresourceassembler_canonicalizeexecutionstatus",
-      "community": 2,
+      "community": 147,
       "norm_label": ".canonicalizeexecutionstatus()"
     },
     {
@@ -4773,7 +4813,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_hiredservice_interfaces_rest_transform_updatehiredservicecommandfromresourceassembler_java_string",
-      "community": 2,
+      "community": 147,
       "norm_label": "string"
     },
     {
@@ -5323,7 +5363,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_user",
-      "community": 34,
+      "community": 154,
       "norm_label": "user.java"
     },
     {
@@ -5333,7 +5373,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "aggregates_user_user",
-      "community": 34,
+      "community": 154,
       "norm_label": "user"
     },
     {
@@ -5343,7 +5383,7 @@
       "source_location": "L21",
       "_origin": "ast",
       "id": "aggregates_user_user_user",
-      "community": 34,
+      "community": 154,
       "norm_label": ".user()"
     },
     {
@@ -5353,7 +5393,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_domain_model_aggregates_user_java_createusercommand",
-      "community": 34,
+      "community": 154,
       "norm_label": "createusercommand"
     },
     {
@@ -5673,7 +5713,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "rest_authcontroller",
-      "community": 111,
+      "community": 98,
       "norm_label": "authcontroller.java"
     },
     {
@@ -5683,7 +5723,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "rest_authcontroller_authcontroller",
-      "community": 111,
+      "community": 98,
       "norm_label": "authcontroller"
     },
     {
@@ -5693,7 +5733,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "rest_authcontroller_authcontroller_authcontroller",
-      "community": 111,
+      "community": 98,
       "norm_label": ".authcontroller()"
     },
     {
@@ -5703,7 +5743,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_authcontroller_java_passwordauthenticationservice",
-      "community": 111,
+      "community": 98,
       "norm_label": "passwordauthenticationservice"
     },
     {
@@ -5713,7 +5753,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_authcontroller_java_jwtservice",
-      "community": 111,
+      "community": 98,
       "norm_label": "jwtservice"
     },
     {
@@ -5723,7 +5763,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "rest_authcontroller_authcontroller_login",
-      "community": 111,
+      "community": 98,
       "norm_label": ".login()"
     },
     {
@@ -5733,7 +5773,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "loginrequest",
-      "community": 111,
+      "community": 98,
       "norm_label": "loginrequest"
     },
     {
@@ -5743,7 +5783,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_authcontroller_java_responseentity",
-      "community": 111,
+      "community": 98,
       "norm_label": "responseentity"
     },
     {
@@ -5753,7 +5793,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "loginresponse",
-      "community": 111,
+      "community": 98,
       "norm_label": "loginresponse"
     },
     {
@@ -5763,7 +5803,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_authcontroller_java_postmapping",
-      "community": 111,
+      "community": 98,
       "norm_label": "postmapping"
     },
     {
@@ -5773,7 +5813,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_iam_interfaces_rest_authcontroller_java_operation",
-      "community": 111,
+      "community": 98,
       "norm_label": "operation"
     },
     {
@@ -6103,7 +6143,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "resources_loginprofileresource",
-      "community": 111,
+      "community": 98,
       "norm_label": "loginprofileresource.java"
     },
     {
@@ -6113,7 +6153,7 @@
       "source_location": "L3",
       "_origin": "ast",
       "id": "resources_loginprofileresource_loginprofileresource",
-      "community": 111,
+      "community": 98,
       "norm_label": "loginprofileresource"
     },
     {
@@ -6503,7 +6543,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_receipt",
-      "community": 34,
+      "community": 153,
       "norm_label": "receipt.java"
     },
     {
@@ -6513,7 +6553,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "aggregates_receipt_receipt",
-      "community": 34,
+      "community": 153,
       "norm_label": "receipt"
     },
     {
@@ -6523,7 +6563,7 @@
       "source_location": "L26",
       "_origin": "ast",
       "id": "aggregates_receipt_receipt_receipt",
-      "community": 34,
+      "community": 153,
       "norm_label": ".receipt()"
     },
     {
@@ -6533,7 +6573,7 @@
       "source_location": "L35",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_receipt_domain_model_aggregates_receipt_java_createreceiptcommand",
-      "community": 34,
+      "community": 153,
       "norm_label": "createreceiptcommand"
     },
     {
@@ -7343,7 +7383,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_dimensions",
-      "community": 4,
+      "community": 99,
       "norm_label": "dimensions.java"
     },
     {
@@ -7353,7 +7393,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "aggregates_dimensions_dimensions",
-      "community": 4,
+      "community": 99,
       "norm_label": "dimensions"
     },
     {
@@ -7363,7 +7403,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "aggregates_request",
-      "community": 4,
+      "community": 99,
       "norm_label": "request.java"
     },
     {
@@ -7373,7 +7413,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "aggregates_request_request",
-      "community": 4,
+      "community": 99,
       "norm_label": "request"
     },
     {
@@ -7383,7 +7423,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "aggregates_request_request_request",
-      "community": 4,
+      "community": 99,
       "norm_label": ".request()"
     },
     {
@@ -7393,7 +7433,7 @@
       "source_location": "L63",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_domain_model_aggregates_request_java_createrequestcommand",
-      "community": 4,
+      "community": 99,
       "norm_label": "createrequestcommand"
     },
     {
@@ -7403,7 +7443,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "aggregates_request_request_updaterequest",
-      "community": 4,
+      "community": 99,
       "norm_label": ".updaterequest()"
     },
     {
@@ -7413,7 +7453,7 @@
       "source_location": "L80",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_domain_model_aggregates_request_java_updaterequestcommand",
-      "community": 4,
+      "community": 99,
       "norm_label": "updaterequestcommand"
     },
     {
@@ -8083,7 +8123,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler",
-      "community": 141,
+      "community": 99,
       "norm_label": "createrequestcommandfromresourceassembler.java"
     },
     {
@@ -8093,7 +8133,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler",
-      "community": 141,
+      "community": 99,
       "norm_label": "createrequestcommandfromresourceassembler"
     },
     {
@@ -8103,7 +8143,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_tocommandfromresource",
-      "community": 141,
+      "community": 99,
       "norm_label": ".tocommandfromresource()"
     },
     {
@@ -8113,7 +8153,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_createrequestresource",
-      "community": 141,
+      "community": 99,
       "norm_label": "createrequestresource"
     },
     {
@@ -8123,7 +8163,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_createrequestcommand",
-      "community": 141,
+      "community": 99,
       "norm_label": "createrequestcommand"
     },
     {
@@ -8133,7 +8173,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "transform_createrequestcommandfromresourceassembler_createrequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "community": 141,
+      "community": 99,
       "norm_label": ".canonicalizerequeststatus()"
     },
     {
@@ -8143,7 +8183,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_createrequestcommandfromresourceassembler_java_string",
-      "community": 141,
+      "community": 99,
       "norm_label": "string"
     },
     {
@@ -8153,7 +8193,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_requestresourcefromentityassembler",
-      "community": 34,
+      "community": 151,
       "norm_label": "requestresourcefromentityassembler.java"
     },
     {
@@ -8163,7 +8203,7 @@
       "source_location": "L6",
       "_origin": "ast",
       "id": "transform_requestresourcefromentityassembler_requestresourcefromentityassembler",
-      "community": 34,
+      "community": 151,
       "norm_label": "requestresourcefromentityassembler"
     },
     {
@@ -8173,7 +8213,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "transform_requestresourcefromentityassembler_requestresourcefromentityassembler_toresourcefromentity",
-      "community": 34,
+      "community": 151,
       "norm_label": ".toresourcefromentity()"
     },
     {
@@ -8183,7 +8223,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_requestresourcefromentityassembler_java_request",
-      "community": 34,
+      "community": 151,
       "norm_label": "request"
     },
     {
@@ -8193,7 +8233,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_requestresourcefromentityassembler_java_requestresource",
-      "community": 34,
+      "community": 151,
       "norm_label": "requestresource"
     },
     {
@@ -8203,7 +8243,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler",
-      "community": 140,
+      "community": 99,
       "norm_label": "updaterequestcommandfromresourceassembler.java"
     },
     {
@@ -8213,7 +8253,7 @@
       "source_location": "L9",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler",
-      "community": 140,
+      "community": 99,
       "norm_label": "updaterequestcommandfromresourceassembler"
     },
     {
@@ -8223,7 +8263,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_tocommandfromresource",
-      "community": 140,
+      "community": 99,
       "norm_label": ".tocommandfromresource()"
     },
     {
@@ -8233,7 +8273,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_long",
-      "community": 140,
+      "community": 99,
       "norm_label": "long"
     },
     {
@@ -8243,7 +8283,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_updaterequestresource",
-      "community": 140,
+      "community": 99,
       "norm_label": "updaterequestresource"
     },
     {
@@ -8253,7 +8293,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_updaterequestcommand",
-      "community": 140,
+      "community": 99,
       "norm_label": "updaterequestcommand"
     },
     {
@@ -8263,7 +8303,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "transform_updaterequestcommandfromresourceassembler_updaterequestcommandfromresourceassembler_canonicalizerequeststatus",
-      "community": 140,
+      "community": 99,
       "norm_label": ".canonicalizerequeststatus()"
     },
     {
@@ -8273,7 +8313,7 @@
       "source_location": "L29",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_request_interfaces_rest_transform_updaterequestcommandfromresourceassembler_java_string",
-      "community": 140,
+      "community": 99,
       "norm_label": "string"
     },
     {
@@ -8463,7 +8503,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper",
-      "community": 117,
+      "community": 149,
       "norm_label": "rolecompatibilitymapper.java"
     },
     {
@@ -8473,7 +8513,7 @@
       "source_location": "L5",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper_rolecompatibilitymapper",
-      "community": 117,
+      "community": 149,
       "norm_label": "rolecompatibilitymapper"
     },
     {
@@ -8483,7 +8523,7 @@
       "source_location": "L7",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper_rolecompatibilitymapper_rolecompatibilitymapper",
-      "community": 117,
+      "community": 149,
       "norm_label": ".rolecompatibilitymapper()"
     },
     {
@@ -8493,7 +8533,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "application_rolecompatibilitymapper_rolecompatibilitymapper_tocanonicalrole",
-      "community": 117,
+      "community": 149,
       "norm_label": ".tocanonicalrole()"
     },
     {
@@ -8503,7 +8543,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_application_rolecompatibilitymapper_java_string",
-      "community": 117,
+      "community": 149,
       "norm_label": "string"
     },
     {
@@ -8513,7 +8553,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_application_rolecompatibilitymapper_java_role",
-      "community": 117,
+      "community": 149,
       "norm_label": "role"
     },
     {
@@ -8893,7 +8933,7 @@
       "source_location": "L23",
       "_origin": "ast",
       "id": "blockchaineventtype",
-      "community": 99,
+      "community": 145,
       "norm_label": "blockchaineventtype"
     },
     {
@@ -8913,7 +8953,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "blockchain_minichaintransactionclient",
-      "community": 121,
+      "community": 45,
       "norm_label": "minichaintransactionclient.java"
     },
     {
@@ -8923,7 +8963,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "blockchain_minichaintransactionclient_minichaintransactionclient",
-      "community": 121,
+      "community": 45,
       "norm_label": "minichaintransactionclient"
     },
     {
@@ -8933,7 +8973,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "blockchain_minichaintransactionclient_minichaintransactionclient_minichaintransactionclient",
-      "community": 121,
+      "community": 45,
       "norm_label": ".minichaintransactionclient()"
     },
     {
@@ -8943,7 +8983,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_minichaintransactionclient_java_blockchainproperties",
-      "community": 121,
+      "community": 45,
       "norm_label": "blockchainproperties"
     },
     {
@@ -8973,7 +9013,7 @@
       "source_location": "L36",
       "_origin": "ast",
       "id": "blockchain_minichaintransactionclient_transactionpayload",
-      "community": 121,
+      "community": 45,
       "norm_label": "transactionpayload"
     },
     {
@@ -9143,7 +9183,7 @@
       "source_location": "L18",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_authenticateduser_java_long",
-      "community": 38,
+      "community": 138,
       "norm_label": "long"
     },
     {
@@ -9693,7 +9733,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "security_jwtttlparser_jwtttlparser_parse",
-      "community": 99,
+      "community": 2,
       "norm_label": ".parse()"
     },
     {
@@ -9703,7 +9743,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_jwtttlparser_java_string",
-      "community": 99,
+      "community": 2,
       "norm_label": "string"
     },
     {
@@ -9723,7 +9763,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": "restaccessdeniedhandler.java"
     },
     {
@@ -9733,7 +9773,7 @@
       "source_location": "L15",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler_restaccessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": "restaccessdeniedhandler"
     },
     {
@@ -9743,7 +9783,7 @@
       "source_location": "",
       "_origin": "ast",
       "id": "accessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": "accessdeniedhandler"
     },
     {
@@ -9753,7 +9793,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler_restaccessdeniedhandler_restaccessdeniedhandler",
-      "community": 24,
+      "community": 21,
       "norm_label": ".restaccessdeniedhandler()"
     },
     {
@@ -9763,7 +9803,7 @@
       "source_location": "L20",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_objectmapper",
-      "community": 24,
+      "community": 21,
       "norm_label": "objectmapper"
     },
     {
@@ -9773,7 +9813,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "security_restaccessdeniedhandler_restaccessdeniedhandler_handle",
-      "community": 24,
+      "community": 21,
       "norm_label": ".handle()"
     },
     {
@@ -9783,7 +9823,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_httpservletrequest",
-      "community": 24,
+      "community": 21,
       "norm_label": "httpservletrequest"
     },
     {
@@ -9793,7 +9833,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_httpservletresponse",
-      "community": 24,
+      "community": 21,
       "norm_label": "httpservletresponse"
     },
     {
@@ -9803,7 +9843,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "accessdeniedexception",
-      "community": 24,
+      "community": 21,
       "norm_label": "accessdeniedexception"
     },
     {
@@ -9813,7 +9853,7 @@
       "source_location": "L24",
       "_origin": "ast",
       "id": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_security_restaccessdeniedhandler_java_override",
-      "community": 24,
+      "community": 21,
       "norm_label": "override"
     },
     {
@@ -11173,7 +11213,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "fleet_vehicleaggregatetest",
-      "community": 39,
+      "community": 111,
       "norm_label": "vehicleaggregatetest.java"
     },
     {
@@ -11183,7 +11223,7 @@
       "source_location": "L14",
       "_origin": "ast",
       "id": "fleet_vehicleaggregatetest_vehicleaggregatetest",
-      "community": 39,
+      "community": 111,
       "norm_label": "vehicleaggregatetest"
     },
     {
@@ -11193,7 +11233,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "fleet_vehicleaggregatetest_vehicleaggregatetest_updatereplacesmutablefieldswithoutchangingactive",
-      "community": 39,
+      "community": 111,
       "norm_label": ".updatereplacesmutablefieldswithoutchangingactive()"
     },
     {
@@ -11203,7 +11243,7 @@
       "source_location": "L16",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_fleet_vehicleaggregatetest_java_test",
-      "community": 39,
+      "community": 111,
       "norm_label": "test"
     },
     {
@@ -11593,7 +11633,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "iam_authv2integrationtest",
-      "community": 98,
+      "community": 94,
       "norm_label": "authv2integrationtest.java"
     },
     {
@@ -11603,7 +11643,7 @@
       "source_location": "L27",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest",
-      "community": 98,
+      "community": 94,
       "norm_label": "authv2integrationtest"
     },
     {
@@ -11613,7 +11653,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_loginv2succeedswithbcryptpassword",
-      "community": 98,
+      "community": 94,
       "norm_label": ".loginv2succeedswithbcryptpassword()"
     },
     {
@@ -11623,7 +11663,7 @@
       "source_location": "L46",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_iam_authv2integrationtest_java_test",
-      "community": 98,
+      "community": 94,
       "norm_label": "test"
     },
     {
@@ -11633,7 +11673,7 @@
       "source_location": "L79",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_loginv2withinvalidcredentialsreturns401",
-      "community": 98,
+      "community": 94,
       "norm_label": ".loginv2withinvalidcredentialsreturns401()"
     },
     {
@@ -11643,7 +11683,7 @@
       "source_location": "L91",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_legacyv1authenticationstillworks",
-      "community": 98,
+      "community": 94,
       "norm_label": ".legacyv1authenticationstillworks()"
     },
     {
@@ -11653,7 +11693,7 @@
       "source_location": "L104",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_legacypasswordisrehashedtobcryptaftersuccessfullogin",
-      "community": 98,
+      "community": 94,
       "norm_label": ".legacypasswordisrehashedtobcryptaftersuccessfullogin()"
     },
     {
@@ -11663,7 +11703,7 @@
       "source_location": "L118",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_profilewithouttokenreturns401",
-      "community": 98,
+      "community": 94,
       "norm_label": ".profilewithouttokenreturns401()"
     },
     {
@@ -11673,7 +11713,7 @@
       "source_location": "L124",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_v2preflightallowsauthorizationheaderfromfrontendorigin",
-      "community": 98,
+      "community": 94,
       "norm_label": ".v2preflightallowsauthorizationheaderfromfrontendorigin()"
     },
     {
@@ -11683,7 +11723,7 @@
       "source_location": "L137",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_v1endpointsremainaccessiblewithoutjwt",
-      "community": 98,
+      "community": 94,
       "norm_label": ".v1endpointsremainaccessiblewithoutjwt()"
     },
     {
@@ -11693,7 +11733,7 @@
       "source_location": "L143",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_saveuser",
-      "community": 98,
+      "community": 94,
       "norm_label": ".saveuser()"
     },
     {
@@ -11703,7 +11743,7 @@
       "source_location": "L143",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_iam_authv2integrationtest_java_string",
-      "community": 98,
+      "community": 94,
       "norm_label": "string"
     },
     {
@@ -11713,7 +11753,7 @@
       "source_location": "L143",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_iam_authv2integrationtest_java_user",
-      "community": 98,
+      "community": 94,
       "norm_label": "user"
     },
     {
@@ -11723,7 +11763,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "iam_authv2integrationtest_authv2integrationtest_savecarrier",
-      "community": 98,
+      "community": 94,
       "norm_label": ".savecarrier()"
     },
     {
@@ -11733,7 +11773,7 @@
       "source_location": "L152",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_iam_authv2integrationtest_java_long",
-      "community": 98,
+      "community": 94,
       "norm_label": "long"
     },
     {
@@ -11783,7 +11823,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest",
-      "community": 94,
+      "community": 47,
       "norm_label": "requestv1statusintegrationtest.java"
     },
     {
@@ -11793,7 +11833,7 @@
       "source_location": "L22",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest",
-      "community": 94,
+      "community": 47,
       "norm_label": "requestv1statusintegrationtest"
     },
     {
@@ -11803,7 +11843,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_postwithpendientepersistspending",
-      "community": 94,
+      "community": 47,
       "norm_label": ".postwithpendientepersistspending()"
     },
     {
@@ -11813,7 +11853,7 @@
       "source_location": "L32",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_test",
-      "community": 94,
+      "community": 47,
       "norm_label": "test"
     },
     {
@@ -11823,7 +11863,7 @@
       "source_location": "L47",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_getrequestwithpendingreturnspendiente",
-      "community": 94,
+      "community": 47,
       "norm_label": ".getrequestwithpendingreturnspendiente()"
     },
     {
@@ -11833,7 +11873,7 @@
       "source_location": "L56",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithcotizadopersistsquoted",
-      "community": 94,
+      "community": 47,
       "norm_label": ".putwithcotizadopersistsquoted()"
     },
     {
@@ -11843,7 +11883,7 @@
       "source_location": "L69",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithpagadopersistspaid",
-      "community": 94,
+      "community": 47,
       "norm_label": ".putwithpagadopersistspaid()"
     },
     {
@@ -11853,7 +11893,7 @@
       "source_location": "L82",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_putwithconfirmadoreturns400",
-      "community": 94,
+      "community": 47,
       "norm_label": ".putwithconfirmadoreturns400()"
     },
     {
@@ -11863,7 +11903,7 @@
       "source_location": "L92",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_legacyspanishrowstillreturnspendiente",
-      "community": 94,
+      "community": 47,
       "norm_label": ".legacyspanishrowstillreturnspendiente()"
     },
     {
@@ -11873,7 +11913,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_saverequestwithstatus",
-      "community": 94,
+      "community": 47,
       "norm_label": ".saverequestwithstatus()"
     },
     {
@@ -11883,7 +11923,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_string",
-      "community": 94,
+      "community": 47,
       "norm_label": "string"
     },
     {
@@ -11893,7 +11933,7 @@
       "source_location": "L101",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_request_requestv1statusintegrationtest_java_request",
-      "community": 94,
+      "community": 47,
       "norm_label": "request"
     },
     {
@@ -11903,7 +11943,7 @@
       "source_location": "L125",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validcreaterequestjson",
-      "community": 94,
+      "community": 47,
       "norm_label": ".validcreaterequestjson()"
     },
     {
@@ -11913,7 +11953,7 @@
       "source_location": "L149",
       "_origin": "ast",
       "id": "request_requestv1statusintegrationtest_requestv1statusintegrationtest_validupdaterequestjson",
-      "community": 94,
+      "community": 47,
       "norm_label": ".validupdaterequestjson()"
     },
     {
@@ -12033,7 +12073,7 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest",
-      "community": 34,
+      "community": 146,
       "norm_label": "legacystatustranslatortest.java"
     },
     {
@@ -12043,7 +12083,7 @@
       "source_location": "L10",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest_legacystatustranslatortest",
-      "community": 34,
+      "community": 146,
       "norm_label": "legacystatustranslatortest"
     },
     {
@@ -12053,7 +12093,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest_legacystatustranslatortest_requestspanishandcanonicalinputsnormalizetocanonicalpersistence",
-      "community": 34,
+      "community": 146,
       "norm_label": ".requestspanishandcanonicalinputsnormalizetocanonicalpersistence()"
     },
     {
@@ -12063,7 +12103,7 @@
       "source_location": "L12",
       "_origin": "ast",
       "id": "src_test_java_pe_upc_pescagobackend_shared_application_legacystatustranslatortest_java_test",
-      "community": 34,
+      "community": 146,
       "norm_label": "test"
     },
     {
@@ -12073,7 +12113,7 @@
       "source_location": "L28",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest_legacystatustranslatortest_executionpendingisinterpretedaspendingconfirmation",
-      "community": 34,
+      "community": 146,
       "norm_label": ".executionpendingisinterpretedaspendingconfirmation()"
     },
     {
@@ -12083,7 +12123,7 @@
       "source_location": "L38",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest_legacystatustranslatortest_legacyv1outputusesspanishbycontext",
-      "community": 34,
+      "community": 146,
       "norm_label": ".legacyv1outputusesspanishbycontext()"
     },
     {
@@ -12093,7 +12133,7 @@
       "source_location": "L49",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest_legacystatustranslatortest_unknownstoredvaluesarereturnedunchangedonread",
-      "community": 34,
+      "community": 146,
       "norm_label": ".unknownstoredvaluesarereturnedunchangedonread()"
     },
     {
@@ -12103,7 +12143,7 @@
       "source_location": "L55",
       "_origin": "ast",
       "id": "application_legacystatustranslatortest_legacystatustranslatortest_invalidwritevaluesthrowvalidationexception",
-      "community": 34,
+      "community": 146,
       "norm_label": ".invalidwritevaluesthrowvalidationexception()"
     },
     {
@@ -13993,6 +14033,176 @@
       "id": "architecture_pescago_v2_backend_implementation_plan_qu\u00e9_no_hacer_en_fase_0",
       "community": 91,
       "norm_label": "que no hacer en fase 0"
+    },
+    {
+      "label": "BLOCKCHAIN_DEMO_GUIDE.md",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide",
+      "community": 4,
+      "norm_label": "blockchain_demo_guide.md"
+    },
+    {
+      "label": "PescaGo Blockchain Demo Guide",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "community": 4,
+      "norm_label": "pescago blockchain demo guide"
+    },
+    {
+      "label": "1. Contexto acad\u00e9mico",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L7",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_1_contexto_acad\u00e9mico",
+      "community": 4,
+      "norm_label": "1. contexto academico"
+    },
+    {
+      "label": "2. Arquitectura de la demo",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_2_arquitectura_de_la_demo",
+      "community": 4,
+      "norm_label": "2. arquitectura de la demo"
+    },
+    {
+      "label": "3. Eventos registrados",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_3_eventos_registrados",
+      "community": 4,
+      "norm_label": "3. eventos registrados"
+    },
+    {
+      "label": "4. Variables de entorno (demo local)",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L56",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_4_variables_de_entorno_demo_local",
+      "community": 4,
+      "norm_label": "4. variables de entorno (demo local)"
+    },
+    {
+      "label": "5. Pasos de la demo",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L76",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "community": 4,
+      "norm_label": "5. pasos de la demo"
+    },
+    {
+      "label": "Paso 1 \u2014 Levantar tres nodos minichain",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L78",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_paso_1_levantar_tres_nodos_minichain",
+      "community": 4,
+      "norm_label": "paso 1 \u2014 levantar tres nodos minichain"
+    },
+    {
+      "label": "Paso 2 \u2014 Registrar nodos entre s\u00ed",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L88",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_paso_2_registrar_nodos_entre_s\u00ed",
+      "community": 4,
+      "norm_label": "paso 2 \u2014 registrar nodos entre si"
+    },
+    {
+      "label": "Paso 3 \u2014 Verificar minichain",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_paso_3_verificar_minichain",
+      "community": 4,
+      "norm_label": "paso 3 \u2014 verificar minichain"
+    },
+    {
+      "label": "Paso 4 \u2014 Levantar backend con blockchain activo",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L100",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_paso_4_levantar_backend_con_blockchain_activo",
+      "community": 4,
+      "norm_label": "paso 4 \u2014 levantar backend con blockchain activo"
+    },
+    {
+      "label": "Paso 5 \u2014 Ejecutar flujo V1",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L110",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_paso_5_ejecutar_flujo_v1",
+      "community": 4,
+      "norm_label": "paso 5 \u2014 ejecutar flujo v1"
+    },
+    {
+      "label": "Paso 6 \u2014 Consultar trazabilidad en minichain",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L120",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_paso_6_consultar_trazabilidad_en_minichain",
+      "community": 4,
+      "norm_label": "paso 6 \u2014 consultar trazabilidad en minichain"
+    },
+    {
+      "label": "6. Resultado esperado",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L136",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_6_resultado_esperado",
+      "community": 4,
+      "norm_label": "6. resultado esperado"
+    },
+    {
+      "label": "7. Mensaje para exposici\u00f3n en clase",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L150",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_7_mensaje_para_exposici\u00f3n_en_clase",
+      "community": 4,
+      "norm_label": "7. mensaje para exposicion en clase"
+    },
+    {
+      "label": "8. Scripts incluidos",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L158",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_8_scripts_incluidos",
+      "community": 4,
+      "norm_label": "8. scripts incluidos"
+    },
+    {
+      "label": "9. Limitaciones (mencionar en defensa)",
+      "file_type": "document",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L169",
+      "_origin": "ast",
+      "id": "blockchain_blockchain_demo_guide_9_limitaciones_mencionar_en_defensa",
+      "community": 4,
+      "norm_label": "9. limitaciones (mencionar en defensa)"
     },
     {
       "label": "CarrierCommandService",
@@ -20464,9 +20674,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImpl.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimpl",
-      "target": "blockchaineventtype",
-      "confidence_score": 1.0
+      "target": "blockchaineventtype"
     },
     {
       "relation": "contains",
@@ -20507,9 +20717,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImpl.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimpl",
-      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimpl_java_blockchaintraceservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimpl_java_blockchaintraceservice"
     },
     {
       "relation": "imports",
@@ -20624,9 +20834,9 @@
       "source_location": "L23",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimpl_hiredservicecommandserviceimpl_hiredservicecommandserviceimpl",
-      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimpl_java_blockchaintraceservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimpl_java_blockchaintraceservice"
     },
     {
       "relation": "references",
@@ -25263,9 +25473,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImpl.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimpl",
-      "target": "blockchaineventtype",
-      "confidence_score": 1.0
+      "target": "blockchaineventtype"
     },
     {
       "relation": "contains",
@@ -25306,9 +25516,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImpl.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimpl",
-      "target": "src_main_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimpl_java_blockchaintraceservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimpl_java_blockchaintraceservice"
     },
     {
       "relation": "imports",
@@ -25412,9 +25622,9 @@
       "source_location": "L20",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimpl_receiptcommandserviceimpl_receiptcommandserviceimpl",
-      "target": "src_main_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimpl_java_blockchaintraceservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimpl_java_blockchaintraceservice"
     },
     {
       "relation": "references",
@@ -26506,9 +26716,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImpl.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimpl",
-      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimpl_java_blockchaintraceservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimpl_java_blockchaintraceservice"
     },
     {
       "relation": "imports",
@@ -26623,9 +26833,9 @@
       "source_location": "L22",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimpl_requestcommandserviceimpl_requestcommandserviceimpl",
-      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimpl_java_blockchaintraceservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimpl_java_blockchaintraceservice"
     },
     {
       "relation": "references",
@@ -28560,9 +28770,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus"
     },
     {
       "relation": "imports",
@@ -28582,9 +28792,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/application/LegacyStatusTranslator.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus"
     },
     {
       "relation": "method",
@@ -28955,9 +29165,9 @@
       "source_location": "L42",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parserequeststatusforwrite",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus"
     },
     {
       "relation": "calls",
@@ -28988,9 +29198,9 @@
       "source_location": "L64",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolverequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus"
     },
     {
       "relation": "references",
@@ -28999,9 +29209,9 @@
       "source_location": "L81",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyrequestlabel",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_requeststatus"
     },
     {
       "relation": "calls",
@@ -29021,9 +29231,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_parseexecutionstatusforwrite",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus"
     },
     {
       "relation": "calls",
@@ -29054,9 +29264,9 @@
       "source_location": "L73",
       "weight": 1.0,
       "context": "generic_arg",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_resolveexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus"
     },
     {
       "relation": "references",
@@ -29065,9 +29275,9 @@
       "source_location": "L89",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "application_legacystatustranslator_legacystatustranslator_tolegacyexecutionlabel",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_application_legacystatustranslator_java_executionstatus"
     },
     {
       "relation": "calls",
@@ -29255,9 +29465,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys"
     },
     {
       "relation": "imports",
@@ -29266,9 +29476,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_executionstatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_executionstatus"
     },
     {
       "relation": "imports",
@@ -29277,9 +29487,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice"
     },
     {
       "relation": "imports",
@@ -29288,9 +29498,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_receipt",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_receipt"
     },
     {
       "relation": "imports",
@@ -29299,9 +29509,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request"
     },
     {
       "relation": "imports",
@@ -29310,9 +29520,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_requeststatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_requeststatus"
     },
     {
       "relation": "method",
@@ -29320,9 +29530,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_blockchaineventkeys",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_blockchaineventkeys"
     },
     {
       "relation": "method",
@@ -29330,9 +29540,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_hiredservicecreated",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_hiredservicecreated"
     },
     {
       "relation": "method",
@@ -29340,9 +29550,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_isconfirmedhiredservice",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_isconfirmedhiredservice"
     },
     {
       "relation": "method",
@@ -29350,9 +29560,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_isquotedrequest",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_isquotedrequest"
     },
     {
       "relation": "method",
@@ -29360,9 +29570,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_paymentregistered",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_paymentregistered"
     },
     {
       "relation": "method",
@@ -29370,9 +29580,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_requestcreated",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_requestcreated"
     },
     {
       "relation": "method",
@@ -29380,9 +29590,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_requestquoted",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_requestquoted"
     },
     {
       "relation": "method",
@@ -29390,9 +29600,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolveexecutionstatus",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolveexecutionstatus"
     },
     {
       "relation": "method",
@@ -29400,9 +29610,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolverequeststatus",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolverequeststatus"
     },
     {
       "relation": "method",
@@ -29410,9 +29620,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_serviceconfirmed",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_serviceconfirmed"
     },
     {
       "relation": "references",
@@ -29421,9 +29631,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_requestcreated",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request"
     },
     {
       "relation": "references",
@@ -29432,9 +29642,9 @@
       "source_location": "L15",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_requestcreated",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29443,9 +29653,9 @@
       "source_location": "L45",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_isquotedrequest",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request"
     },
     {
       "relation": "references",
@@ -29454,9 +29664,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_requestquoted",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_request"
     },
     {
       "relation": "references",
@@ -29465,9 +29675,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_hiredservicecreated",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29476,9 +29686,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_paymentregistered",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29487,9 +29697,9 @@
       "source_location": "L21",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_requestquoted",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29498,9 +29708,9 @@
       "source_location": "L61",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_resolveexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29509,9 +29719,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_resolverequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29520,9 +29730,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_serviceconfirmed",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_string"
     },
     {
       "relation": "references",
@@ -29531,9 +29741,9 @@
       "source_location": "L27",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_paymentregistered",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_receipt",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_receipt"
     },
     {
       "relation": "calls",
@@ -29553,9 +29763,9 @@
       "source_location": "L32",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_hiredservicecreated",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice"
     },
     {
       "relation": "references",
@@ -29564,9 +29774,9 @@
       "source_location": "L49",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_isconfirmedhiredservice",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice"
     },
     {
       "relation": "references",
@@ -29575,9 +29785,9 @@
       "source_location": "L39",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_serviceconfirmed",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_hiredservice"
     },
     {
       "relation": "calls",
@@ -29586,9 +29796,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_isquotedrequest",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolverequeststatus",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolverequeststatus"
     },
     {
       "relation": "calls",
@@ -29608,9 +29818,9 @@
       "source_file": "src/main/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeys.java",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_isconfirmedhiredservice",
-      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolveexecutionstatus",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeys_blockchaineventkeys_resolveexecutionstatus"
     },
     {
       "relation": "calls",
@@ -29630,9 +29840,9 @@
       "source_location": "L53",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_resolverequeststatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_requeststatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_requeststatus"
     },
     {
       "relation": "references",
@@ -29641,9 +29851,9 @@
       "source_location": "L61",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeys_blockchaineventkeys_resolveexecutionstatus",
-      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_executionstatus",
-      "confidence_score": 1.0
+      "target": "src_main_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeys_java_executionstatus"
     },
     {
       "relation": "contains",
@@ -29824,9 +30034,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest",
-      "target": "blockchaineventtype",
-      "confidence_score": 1.0
+      "target": "blockchaineventtype"
     },
     {
       "relation": "imports",
@@ -29835,9 +30045,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImplBlockchainTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimplblockchaintest",
-      "target": "blockchaineventtype",
-      "confidence_score": 1.0
+      "target": "blockchaineventtype"
     },
     {
       "relation": "imports",
@@ -29846,9 +30056,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest",
-      "target": "blockchaineventtype",
-      "confidence_score": 1.0
+      "target": "blockchaineventtype"
     },
     {
       "relation": "contains",
@@ -35180,9 +35390,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest"
     },
     {
       "relation": "imports",
@@ -35191,9 +35401,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_createhiredservicecommand",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_createhiredservicecommand"
     },
     {
       "relation": "imports",
@@ -35202,9 +35412,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_hiredservice"
     },
     {
       "relation": "imports",
@@ -35213,9 +35423,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "imports",
@@ -35224,9 +35434,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_updatehiredservicecommand",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_updatehiredservicecommand"
     },
     {
       "relation": "method",
@@ -35234,9 +35444,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createcommand",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createcommand"
     },
     {
       "relation": "method",
@@ -35244,9 +35454,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createhiredservicerecordshiredservicecreatedevent",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createhiredservicerecordshiredservicecreatedevent"
     },
     {
       "relation": "method",
@@ -35254,9 +35464,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid"
     },
     {
       "relation": "method",
@@ -35264,9 +35474,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand"
     },
     {
       "relation": "method",
@@ -35274,9 +35484,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicedoesnotrecordserviceconfirmedforpendingstatus",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicedoesnotrecordserviceconfirmedforpendingstatus"
     },
     {
       "relation": "method",
@@ -35284,9 +35494,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicerecordsserviceconfirmedwhenstatusisconfirmed",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicerecordsserviceconfirmedwhenstatusisconfirmed"
     },
     {
       "relation": "calls",
@@ -35295,9 +35505,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createhiredservicerecordshiredservicecreatedevent",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createcommand",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createcommand"
     },
     {
       "relation": "references",
@@ -35306,9 +35516,9 @@
       "source_location": "L36",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createhiredservicerecordshiredservicecreatedevent",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "references",
@@ -35317,9 +35527,9 @@
       "source_location": "L76",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicedoesnotrecordserviceconfirmedforpendingstatus",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "references",
@@ -35328,9 +35538,9 @@
       "source_location": "L55",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicerecordsserviceconfirmedwhenstatusisconfirmed",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "calls",
@@ -35339,9 +35549,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicerecordsserviceconfirmedwhenstatusisconfirmed",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid"
     },
     {
       "relation": "calls",
@@ -35350,9 +35560,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicerecordsserviceconfirmedwhenstatusisconfirmed",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand"
     },
     {
       "relation": "calls",
@@ -35361,9 +35571,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicedoesnotrecordserviceconfirmedforpendingstatus",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid"
     },
     {
       "relation": "calls",
@@ -35372,9 +35582,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatehiredservicedoesnotrecordserviceconfirmedforpendingstatus",
-      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
-      "confidence_score": 1.0
+      "target": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand"
     },
     {
       "relation": "references",
@@ -35383,9 +35593,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createcommand",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_createhiredservicecommand",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_createhiredservicecommand"
     },
     {
       "relation": "references",
@@ -35394,9 +35604,9 @@
       "source_location": "L89",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_createcommand",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_string"
     },
     {
       "relation": "references",
@@ -35405,9 +35615,9 @@
       "source_location": "L120",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_string"
     },
     {
       "relation": "references",
@@ -35416,9 +35626,9 @@
       "source_location": "L104",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_string"
     },
     {
       "relation": "references",
@@ -35427,9 +35637,9 @@
       "source_location": "L104",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_long",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_long"
     },
     {
       "relation": "references",
@@ -35438,9 +35648,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L104",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_updatecommand",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_updatehiredservicecommand",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_updatehiredservicecommand"
     },
     {
       "relation": "references",
@@ -35449,9 +35659,9 @@
       "source_location": "L120",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_long",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_long"
     },
     {
       "relation": "references",
@@ -35460,9 +35670,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/hiredService/application/internal/commandservices/HIredServiceCommandServiceImplBlockchainTest.java",
       "source_location": "L120",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_hiredservicecommandserviceimplblockchaintest_hiredservicecommandserviceimplblockchaintest_hiredservicewithid",
-      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_hiredservice",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_hiredservice_application_internal_commandservices_hiredservicecommandserviceimplblockchaintest_java_hiredservice"
     },
     {
       "relation": "contains",
@@ -35768,9 +35978,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImplBlockchainTest.java",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimplblockchaintest",
-      "target": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest",
-      "confidence_score": 1.0
+      "target": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest"
     },
     {
       "relation": "imports",
@@ -35779,9 +35989,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImplBlockchainTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "method",
@@ -35789,9 +35999,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/receipt/application/internal/commandservices/ReceiptCommandServiceImplBlockchainTest.java",
       "source_location": "L31",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest",
-      "target": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest_createreceiptrecordspaymentregisteredwithoutsensitivedata",
-      "confidence_score": 1.0
+      "target": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest_createreceiptrecordspaymentregisteredwithoutsensitivedata"
     },
     {
       "relation": "references",
@@ -35800,9 +36010,9 @@
       "source_location": "L31",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "commandservices_receiptcommandserviceimplblockchaintest_receiptcommandserviceimplblockchaintest_createreceiptrecordspaymentregisteredwithoutsensitivedata",
-      "target": "src_test_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_receipt_application_internal_commandservices_receiptcommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "contains",
@@ -36152,9 +36362,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest"
     },
     {
       "relation": "imports",
@@ -36163,9 +36373,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_request",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_request"
     },
     {
       "relation": "imports",
@@ -36174,9 +36384,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "imports",
@@ -36185,9 +36395,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_updaterequestcommand",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_updaterequestcommand"
     },
     {
       "relation": "method",
@@ -36195,9 +36405,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L69",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid"
     },
     {
       "relation": "method",
@@ -36205,9 +36415,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand"
     },
     {
       "relation": "method",
@@ -36215,9 +36425,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestdoesnotrecordquotedeventfornonquotedstatus",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestdoesnotrecordquotedeventfornonquotedstatus"
     },
     {
       "relation": "method",
@@ -36225,9 +36435,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestrecordsquotedeventwhenstatusisquoted",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestrecordsquotedeventwhenstatusisquoted"
     },
     {
       "relation": "calls",
@@ -36236,9 +36446,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestrecordsquotedeventwhenstatusisquoted",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid"
     },
     {
       "relation": "calls",
@@ -36247,9 +36457,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestrecordsquotedeventwhenstatusisquoted",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand"
     },
     {
       "relation": "references",
@@ -36258,9 +36468,9 @@
       "source_location": "L35",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestrecordsquotedeventwhenstatusisquoted",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "references",
@@ -36269,9 +36479,9 @@
       "source_location": "L56",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestdoesnotrecordquotedeventfornonquotedstatus",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_test"
     },
     {
       "relation": "calls",
@@ -36280,9 +36490,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestdoesnotrecordquotedeventfornonquotedstatus",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid"
     },
     {
       "relation": "calls",
@@ -36291,9 +36501,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updaterequestdoesnotrecordquotedeventfornonquotedstatus",
-      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "confidence_score": 1.0
+      "target": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand"
     },
     {
       "relation": "references",
@@ -36302,9 +36512,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_long",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_long"
     },
     {
       "relation": "references",
@@ -36313,9 +36523,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "return_type",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_request",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_request"
     },
     {
       "relation": "references",
@@ -36324,9 +36534,9 @@
       "source_location": "L69",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_requestwithid",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_string"
     },
     {
       "relation": "references",
@@ -36335,9 +36545,9 @@
       "source_location": "L88",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_long",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_long"
     },
     {
       "relation": "references",
@@ -36346,9 +36556,9 @@
       "source_location": "L88",
       "weight": 1.0,
       "context": "parameter_type",
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_string",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_string"
     },
     {
       "relation": "references",
@@ -36357,9 +36567,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/request/application/internal/commandservices/RequestCommandServiceImplBlockchainTest.java",
       "source_location": "L88",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "commandservices_requestcommandserviceimplblockchaintest_requestcommandserviceimplblockchaintest_updatecommand",
-      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_updaterequestcommand",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_request_application_internal_commandservices_requestcommandserviceimplblockchaintest_java_updaterequestcommand"
     },
     {
       "relation": "contains",
@@ -36493,9 +36703,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeysTest.java",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest",
-      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest"
     },
     {
       "relation": "imports",
@@ -36504,9 +36714,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeysTest.java",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test"
     },
     {
       "relation": "method",
@@ -36514,9 +36724,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeysTest.java",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest_blockchaineventkeystest",
-      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest_buildspaymentregisteredkeywithoutsensitivefields",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest_buildspaymentregisteredkeywithoutsensitivefields"
     },
     {
       "relation": "method",
@@ -36524,9 +36734,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeysTest.java",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest_blockchaineventkeystest",
-      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest_detectsconfirmedhiredservicefromcanonicalandlegacystatus",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest_detectsconfirmedhiredservicefromcanonicalandlegacystatus"
     },
     {
       "relation": "method",
@@ -36534,9 +36744,9 @@
       "source_file": "src/test/java/pe/upc/pescagobackend/shared/infrastructure/blockchain/BlockchainEventKeysTest.java",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest_blockchaineventkeystest",
-      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest_detectsquotedrequestfromcanonicalandlegacystatus",
-      "confidence_score": 1.0
+      "target": "blockchain_blockchaineventkeystest_blockchaineventkeystest_detectsquotedrequestfromcanonicalandlegacystatus"
     },
     {
       "relation": "references",
@@ -36545,9 +36755,9 @@
       "source_location": "L13",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest_blockchaineventkeystest_detectsquotedrequestfromcanonicalandlegacystatus",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test"
     },
     {
       "relation": "references",
@@ -36556,9 +36766,9 @@
       "source_location": "L37",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest_blockchaineventkeystest_buildspaymentregisteredkeywithoutsensitivefields",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test"
     },
     {
       "relation": "references",
@@ -36567,9 +36777,9 @@
       "source_location": "L25",
       "weight": 1.0,
       "context": "attribute",
+      "confidence_score": 1.0,
       "source": "blockchain_blockchaineventkeystest_blockchaineventkeystest_detectsconfirmedhiredservicefromcanonicalandlegacystatus",
-      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test",
-      "confidence_score": 1.0
+      "target": "src_test_java_pe_upc_pescagobackend_shared_infrastructure_blockchain_blockchaineventkeystest_java_test"
     },
     {
       "relation": "contains",
@@ -38420,8 +38630,168 @@
       "confidence_score": 1.0,
       "source": "architecture_pescago_v2_backend_implementation_plan_9_plan_de_implementaci\u00f3n_inicial_recomendado",
       "target": "architecture_pescago_v2_backend_implementation_plan_tests_m\u00ednimos_transversal_fase_0_bloques_0b_0d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_1_contexto_acad\u00e9mico",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_2_arquitectura_de_la_demo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_3_eventos_registrados",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_4_variables_de_entorno_demo_local",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_6_resultado_esperado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L150",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_7_mensaje_para_exposici\u00f3n_en_clase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L158",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_8_scripts_incluidos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_pescago_blockchain_demo_guide",
+      "target": "blockchain_blockchain_demo_guide_9_limitaciones_mencionar_en_defensa",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "target": "blockchain_blockchain_demo_guide_paso_1_levantar_tres_nodos_minichain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "target": "blockchain_blockchain_demo_guide_paso_2_registrar_nodos_entre_s\u00ed",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "target": "blockchain_blockchain_demo_guide_paso_3_verificar_minichain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "target": "blockchain_blockchain_demo_guide_paso_4_levantar_backend_con_blockchain_activo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "target": "blockchain_blockchain_demo_guide_paso_5_ejecutar_flujo_v1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/blockchain/BLOCKCHAIN_DEMO_GUIDE.md",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "blockchain_blockchain_demo_guide_5_pasos_de_la_demo",
+      "target": "blockchain_blockchain_demo_guide_paso_6_consultar_trazabilidad_en_minichain",
+      "confidence_score": 1.0
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9ab1ef9cb6395f92e4c0bfce97899e1b256d515d"
+  "built_at_commit": "20343d7b2a7293c7f88dfc85b5e554ef77cc276b"
 }
