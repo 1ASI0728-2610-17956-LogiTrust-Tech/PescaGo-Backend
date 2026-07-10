@@ -6,6 +6,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import pe.upc.pescagobackend.request.application.internal.commandservices.RequestPaymentService;
 import pe.upc.pescagobackend.request.domain.model.commands.DeleteRequestCommand;
 import pe.upc.pescagobackend.request.domain.model.queries.GetRequestByIdQuery;
 import pe.upc.pescagobackend.request.domain.model.queries.GetRequestsByCarrierIdQuery;
@@ -13,6 +14,8 @@ import pe.upc.pescagobackend.request.domain.model.queries.GetRequestsByEntrepren
 import pe.upc.pescagobackend.request.domain.services.RequestCommandService;
 import pe.upc.pescagobackend.request.domain.services.RequestQueryService;
 import pe.upc.pescagobackend.request.interfaces.rest.resources.CreateRequestResource;
+import pe.upc.pescagobackend.request.interfaces.rest.resources.PayRequestResource;
+import pe.upc.pescagobackend.request.interfaces.rest.resources.PayRequestResponse;
 import pe.upc.pescagobackend.request.interfaces.rest.resources.RequestResource;
 import pe.upc.pescagobackend.request.interfaces.rest.resources.UpdateRequestResource;
 import pe.upc.pescagobackend.request.interfaces.rest.transform.CreateRequestCommandFromResourceAssembler;
@@ -27,10 +30,16 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 public class RequestController {
     private final RequestCommandService requestCommandService;
     private final RequestQueryService requestQueryService;
+    private final RequestPaymentService requestPaymentService;
 
-    public RequestController(RequestCommandService requestCommandService, RequestQueryService requestQueryService) {
+    public RequestController(
+            RequestCommandService requestCommandService,
+            RequestQueryService requestQueryService,
+            RequestPaymentService requestPaymentService
+    ) {
         this.requestCommandService = requestCommandService;
         this.requestQueryService = requestQueryService;
+        this.requestPaymentService = requestPaymentService;
     }
 
 
@@ -83,6 +92,31 @@ public class RequestController {
         var updateRequestCommand = UpdateRequestCommandFromResourceAssembler.toCommandFromResource(id, resource);
         requestCommandService.handle(updateRequestCommand);
         return ResponseEntity.ok().build();
+    }
+
+    @PostMapping("/{id}/pay")
+    @Operation(
+            summary = "Pay a quoted request",
+            description = "Atomically creates a sanitized receipt, marks the request as paid, and creates a pending hired service"
+    )
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "201", description = "Payment completed"),
+            @ApiResponse(responseCode = "400", description = "Invalid payment or request not payable"),
+            @ApiResponse(responseCode = "404", description = "Request not found")
+    })
+    public ResponseEntity<PayRequestResponse> payRequest(
+            @PathVariable Long id,
+            @RequestBody PayRequestResource resource
+    ) {
+        try {
+            var response = requestPaymentService.pay(id, resource);
+            return ResponseEntity.status(201).body(response);
+        } catch (IllegalArgumentException ex) {
+            if (ex.getMessage() != null && ex.getMessage().startsWith("Request not found")) {
+                return ResponseEntity.notFound().build();
+            }
+            return ResponseEntity.badRequest().build();
+        }
     }
 
     @GetMapping("/entrepreneur/{entrepreneurId}")
