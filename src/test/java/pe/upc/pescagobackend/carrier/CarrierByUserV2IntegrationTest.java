@@ -113,6 +113,40 @@ class CarrierByUserV2IntegrationTest {
                 .andExpect(jsonPath("$.password").doesNotExist());
     }
 
+    @Test
+    void legacyV1CarrierByUserIdReturnsCarrierWithoutJwt() throws Exception {
+        var carrierUser = saveUser("legacy-by-user@example.com", "secret123", "carrier");
+        var carrier = saveCarrier(carrierUser.getId(), "Legacy By User Carrier");
+
+        mockMvc.perform(get("/api/v1/carriers/by-user/{userId}", carrierUser.getId()))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(carrier.getId()))
+                .andExpect(jsonPath("$.userId").value(carrierUser.getId()))
+                .andExpect(jsonPath("$.name").value("Legacy By User Carrier"))
+                .andExpect(jsonPath("$.password").doesNotExist());
+    }
+
+    @Test
+    void legacyV1CarrierByUserIdReturns404WhenUserHasNoCarrierProfile() throws Exception {
+        var entrepreneur = saveUser("legacy-no-carrier@example.com", "secret123", "entrepreneur");
+
+        mockMvc.perform(get("/api/v1/carriers/by-user/{userId}", entrepreneur.getId()))
+                .andExpect(status().isNotFound());
+    }
+
+    @Test
+    void legacyV1CarrierByUserIdDoesNotTreatUserIdAsCarrierId() throws Exception {
+        var carrierUser = saveUser("legacy-mismatch@example.com", "secret123", "carrier");
+        var carrier = saveCarrier(carrierUser.getId(), "Mismatch Carrier");
+
+        mockMvc.perform(get("/api/v1/carriers/{id}", carrierUser.getId()))
+                .andExpect(status().isNotFound());
+
+        mockMvc.perform(get("/api/v1/carriers/by-user/{userId}", carrierUser.getId()))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id").value(carrier.getId()));
+    }
+
     private String loginAndGetToken(String email, String password) throws Exception {
         var response = mockMvc.perform(post("/api/v2/auth/login")
                         .contentType(MediaType.APPLICATION_JSON)

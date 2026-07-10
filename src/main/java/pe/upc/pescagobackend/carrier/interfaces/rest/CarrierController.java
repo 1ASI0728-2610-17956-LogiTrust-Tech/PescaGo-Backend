@@ -10,6 +10,7 @@ import pe.upc.pescagobackend.carrier.application.internal.queryservices.CarrierQ
 import pe.upc.pescagobackend.carrier.domain.model.aggregates.Carrier;
 import pe.upc.pescagobackend.carrier.domain.model.commands.DeleteCarrierCommand;
 import pe.upc.pescagobackend.carrier.domain.model.queries.GetCarrierByIdQuery;
+import pe.upc.pescagobackend.carrier.domain.model.queries.GetCarrierByUserIdQuery;
 import pe.upc.pescagobackend.carrier.domain.model.queries.GetCarriersQuery;
 import pe.upc.pescagobackend.carrier.interfaces.rest.resources.CarrierResource;
 import pe.upc.pescagobackend.carrier.interfaces.rest.resources.CreateCarrierResource;
@@ -75,6 +76,18 @@ public class CarrierController {
                 .map(CarrierResourceFromEntityAssembler::toResourceFromEntity)
                 .collect(Collectors.toList());
         return ResponseEntity.ok(carrierResources);
+    }
+
+    @GetMapping("by-user/{userId}")
+    @Operation(summary = "Get Carrier by user id", description = "Get Carrier linked to the given user id")
+    public ResponseEntity<CarrierResource> getCarrierByUserId(@PathVariable Long userId) {
+        var query = new GetCarrierByUserIdQuery(userId);
+        var carrierOptional = carrierQueryService.handle(query);
+        if (carrierOptional.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+        var carrierResource = CarrierResourceFromEntityAssembler.toResourceFromEntity(carrierOptional.get());
+        return ResponseEntity.ok(carrierResource);
     }
 
     @GetMapping("{id}")
