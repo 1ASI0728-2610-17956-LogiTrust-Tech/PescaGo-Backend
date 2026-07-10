@@ -7,6 +7,8 @@ import pe.upc.pescagobackend.request.domain.model.commands.DeleteRequestCommand;
 import pe.upc.pescagobackend.request.domain.model.commands.UpdateRequestCommand;
 import pe.upc.pescagobackend.request.domain.services.RequestCommandService;
 import pe.upc.pescagobackend.request.infrastructure.persistence.jpa.repositories.RequestRepository;
+import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainEventType;
+import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainTraceService;
 
 import java.util.Optional;
 
@@ -14,16 +16,28 @@ import java.util.Optional;
 public class RequestCommandServiceImpl implements RequestCommandService {
 
     private final RequestRepository repository;
+    private final BlockchainTraceService blockchainTraceService;
 
-    public RequestCommandServiceImpl(RequestRepository repository) {
+    public RequestCommandServiceImpl(
+            RequestRepository repository,
+            BlockchainTraceService blockchainTraceService
+    ) {
         this.repository = repository;
+        this.blockchainTraceService = blockchainTraceService;
     }
 
     @Override
     public void handle(CreateRequestCommand command) {
         var request = new Request(command);
         try {
-            repository.save(request);
+            var savedRequest = repository.save(request);
+            blockchainTraceService.recordEvent(
+                    BlockchainEventType.REQUEST_CREATED,
+                    "request:" + savedRequest.getId()
+                            + "|carrier:" + savedRequest.getCarrierId()
+                            + "|entrepreneur:" + savedRequest.getEntrepreneurId(),
+                    savedRequest.getId()
+            );
         } catch (Exception e) {
             throw new IllegalArgumentException("Error saving the request: %s".formatted(e.getMessage()));
         }
