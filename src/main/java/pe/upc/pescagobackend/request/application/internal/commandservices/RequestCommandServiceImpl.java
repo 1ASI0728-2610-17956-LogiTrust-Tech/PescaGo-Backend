@@ -7,6 +7,7 @@ import pe.upc.pescagobackend.request.domain.model.commands.DeleteRequestCommand;
 import pe.upc.pescagobackend.request.domain.model.commands.UpdateRequestCommand;
 import pe.upc.pescagobackend.request.domain.services.RequestCommandService;
 import pe.upc.pescagobackend.request.infrastructure.persistence.jpa.repositories.RequestRepository;
+import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainEventKeys;
 import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainEventType;
 import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainTraceService;
 
@@ -33,9 +34,7 @@ public class RequestCommandServiceImpl implements RequestCommandService {
             var savedRequest = repository.save(request);
             blockchainTraceService.recordEvent(
                     BlockchainEventType.REQUEST_CREATED,
-                    "request:" + savedRequest.getId()
-                            + "|carrier:" + savedRequest.getCarrierId()
-                            + "|entrepreneur:" + savedRequest.getEntrepreneurId(),
+                    BlockchainEventKeys.requestCreated(savedRequest),
                     savedRequest.getId()
             );
         } catch (Exception e) {
@@ -65,10 +64,17 @@ public class RequestCommandServiceImpl implements RequestCommandService {
         var request = requestOptional.get();
         request.UpdateRequest(command);
         try {
-            repository.save(request);
+            var savedRequest = repository.save(request);
+            if (BlockchainEventKeys.isQuotedRequest(savedRequest)) {
+                blockchainTraceService.recordEvent(
+                        BlockchainEventType.REQUEST_QUOTED,
+                        BlockchainEventKeys.requestQuoted(savedRequest),
+                        savedRequest.getId()
+                );
+            }
+            return Optional.of(savedRequest);
         } catch (Exception e) {
             throw new IllegalArgumentException("Error updating the request: %s".formatted(e.getMessage()));
         }
-        return Optional.of(request);
     }
 }
