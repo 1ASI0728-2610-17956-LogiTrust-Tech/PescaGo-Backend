@@ -6,23 +6,36 @@ import pe.upc.pescagobackend.receipt.domain.model.commands.CreateReceiptCommand;
 import pe.upc.pescagobackend.receipt.domain.model.commands.DeleteReceiptCommand;
 import pe.upc.pescagobackend.receipt.domain.services.ReceiptCommandService;
 import pe.upc.pescagobackend.receipt.infrastructure.persistence.jpa.repositories.ReceiptRepository;
+import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainEventKeys;
+import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainEventType;
+import pe.upc.pescagobackend.shared.infrastructure.blockchain.BlockchainTraceService;
 
 import java.util.Optional;
 
 @Service
 public class ReceiptCommandServiceImpl implements ReceiptCommandService {
     private final ReceiptRepository receiptRepository;
+    private final BlockchainTraceService blockchainTraceService;
 
-    public ReceiptCommandServiceImpl(ReceiptRepository receiptRepository) {
+    public ReceiptCommandServiceImpl(
+            ReceiptRepository receiptRepository,
+            BlockchainTraceService blockchainTraceService
+    ) {
         this.receiptRepository = receiptRepository;
+        this.blockchainTraceService = blockchainTraceService;
     }
 
     @Override
     public Optional<Receipt> handle(CreateReceiptCommand command) {
         var receipt = new Receipt(command);
         try {
-            receiptRepository.save(receipt);
-            return Optional.of(receipt);
+            var savedReceipt = receiptRepository.save(receipt);
+            blockchainTraceService.recordEvent(
+                    BlockchainEventType.PAYMENT_REGISTERED,
+                    BlockchainEventKeys.paymentRegistered(savedReceipt),
+                    savedReceipt.getRequestId()
+            );
+            return Optional.of(savedReceipt);
         } catch (Exception e) {
             throw new IllegalArgumentException("Error saving the receipt: %s".formatted(e.getMessage()));
         }
